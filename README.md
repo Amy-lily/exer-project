@@ -1,4 +1,3 @@
 # exer-project
-```HTML
-https://amy-lily.github.io/exer-project/pc-page/travel/index.html
-```
+### pc端效果演示
+* 旅游网：https://amy-lily.github.io/exer-project/pc-page/travel/index.html
