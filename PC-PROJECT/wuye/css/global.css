@@ -1,0 +1,248 @@
+div,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.popUps {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.w1200 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+/* loading */
+
+.cover{
+    width: 100%;
+    height: 100%;
+    background: #171412;
+    position: fixed;
+    z-index: 999999999;
+}
+.cover-xian {
+    width: 363px;
+    height: 363px;
+    background: url(../images/cover-xian.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 288px;
+    left: 400px;
+}
+.cover-sd {
+    width: 30px;
+    height: 47px;
+    background: url(../images/cover-sd.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 288px;
+    left: 748px;
+}
+
+
+/*TQ*/
+
+.tq {
+    width: 142px;
+    height: auto;
+    position: fixed;
+    top: 300px;
+    right: 80px;
+    z-index: 999;
+}
+.tq-top{
+    width: 100%;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
+    background: url(../images/tq-logobg.png) no-repeat;
+}
+.tq-logo{
+    width: 104px;
+    height: 35px;
+    background: url(../images/tq-logo.png) no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-top: 14px;
+}
+/*tq-content*/
+.tq-content{
+    width: 142px;
+    height: 183px;
+    position: absolute;
+    top: 68px;
+    z-index: 1;
+    overflow: hidden;
+    background: url(../images/tq-rxbg.png) no-repeat;
+}
+.tq-online{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+.tq-online .tq-icon{
+    display: block;
+    width: 19px;
+    height: 18px;
+    background:url(../images/tq-icon.png) no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+.tq-online1{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 9px;
+}
+.tq-online span{
+    float: left;
+    margin-left: 8px;
+}
+.tq-line{
+    width: 94px;
+    height: 1px;
+    background: #deaf64;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.tq-hotline{
+    width: 97px;
+    height: 37px;
+    margin:0 auto;
+    margin-top: 10px;
+    background: url(../images/tq-rx1.png) no-repeat;
+}
+.tq-phone{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #1b1b1b;
+    font-family: "黑体";
+    text-align: center;
+    box-sizing: border-box;
+}
+.tq-kf{
+    width: 142px;
+    height: 116px;
+    position: absolute;
+    top: 244px;
+    background: url(../images/tq-kf.png) no-repeat;
+}
+.r-top{
+    width: 142px;
+    height: 66px;
+    background: url(../images/tq-upbg.png) no-repeat;
+    position: absolute;
+    top: 352px;
+    z-index: 2;
+}
+@media screen and (max-width: 1418px) {
+    .r-top {
+        right: 0;
+    }
+}
+
+/* 留言板 */
+.location {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 68px;
+    width: 100%;
+    min-width: 1200px;
+    background: #b5b5af;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+.location .location-con {
+    width: 1200px;
+    min-width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.location-con p {
+    float: left;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    height: 68px;
+    line-height: 68px;
+    font-family: 微软雅黑;
+    margin-right: 97px;
+    margin-left: 90px;
+}
+.location-form {
+    float: left;
+    overflow: hidden;
+}
+.location-con .location-form input {
+    width: 188px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(102, 102, 102);
+    background: #f0f;
+    height: 40px;
+    font-family: 微软雅黑;
+    padding: 0px 15px;
+    margin-top: 14px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    float: left;
+    margin-right: 14px;
+    background: rgb(255, 255, 255);
+}
+.location-submit{
+    float: left;
+    width: 140px;
+    height: 40px;
+    background: #ffcd78;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 14px;
+    position: relative;
+}
+.location-lyicon{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 6px;
+    left: 18px;
+    background: url(../images/location-ly.png) no-repeat;
+}
+.location-con .location-form  .location-submit .button{
+    display: block;
+    width: 140px;
+    height: 40px;
+    background: transparent;
+    border-radius: 15px;
+    margin:0;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.location-ab{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 14px;
+    background: url(../images/delete.png) no-repeat;
+}

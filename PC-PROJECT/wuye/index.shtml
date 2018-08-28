@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>乌叶官网</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="氮气乌龙奶茶！会消失的泡沫茶！">
+    <meta name="description" content="创意高颜值新饮，圈粉燃爆茶饮界！">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/mobileClient.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4VTX4GV6tGH4y4bjBXAQd5zSX4zBdySm"></script>
+</head>
+
+<body>
+    <!--#include file="inc/msgBox.html" -->
+    <!-- 导航 -->
+    <div class="index-nav">
+        <div class="index-nav-box">
+            <a href="javascript:void();">
+                <div class="index-nav-logo"></div>
+            </a>
+            <p class="font-p1 font-p">市场</p>
+            <p class="font-p2 font-p">优势</p>
+            <p class="font-p3 font-p">产品</p>
+            <p class="font-p4 font-p">店型</p>
+            <p class="font-p5 font-p">服务</p>
+            <p class="font-p6 font-p">咨询</p>
+        </div>
+    </div>
+    <!-- nav end -->
+    <!-- banner1 -->
+    <div class="index-banner">
+        <div class="ban1-video">
+            <video class="video" src="http://video.cnnjidc.com/wuye/wuban.mp4" autoplay="autoplay" loop="loop"></video>
+        </div>
+        <div class="ban1-opa"></div>
+        <div class="index-1200">
+            <div class="ban1-text1" data-aos="fade"></div>
+            <div class="ban1-text2" data-aos="fade"></div>
+            <div class="ban1-text3" data-aos="fade"></div>
+            <div class="ban1-circle1"></div>
+            <div class="ban1-circle2"></div>
+            <div class="ban1-circle3"></div>
+        </div>
+    </div>
+    <!-- banner2 -->
+    <div class="index-banner2">
+        <div class="ban2-textbox" data-aos="fade">
+            <div class="index-1200">
+                <div class="ban2-circle1"></div>
+                <div class="ban2-text1" data-aos="fade"></div>
+                <div class="ban2-text2" data-aos="fade"></div>
+                <div class="ban2-text3" data-aos="fade"></div>
+            </div>
+        </div>
+        <div class="ban2-img2"></div>
+    </div>
+    <!-- banner3 -->
+    <div class="index-banner3">
+        <div class="index-1200">
+            <div class="ban3-img1" data-aos="fade-in"></div>
+            <div class="ban3-img2" data-aos="fade-in"></div>
+            <div class="ban3-img3" data-aos="fade-in"></div>
+            <div class="ban3-img4" data-aos="fade"></div>
+            <div class="ban3-img5" data-aos="fade"></div>
+            <div class="ban3-line" data-aos="fade"></div>
+            <div class="ban3-num-box">
+                <div class="ban3-num ban3-num1">0</div>
+                <div class="ban3-num ban3-num2">0</div>
+                <div class="ban3-num ban3-num3">8</div>
+                <div class="ban3-num ban3-num4">0</div>
+                <div class="ban-hidden">8</div>
+            </div>
+            <div class="ban3-word">（数据统计至截稿日期）</div>
+        </div>
+    </div>
+    <!-- banner4 三重优势-->
+    <div class="index-banner4">
+        <div class="ban4-textbox" data-aos="fade">
+            <div class="index-1200">
+                <div class="ban2-circle1 ban4-circle"></div>
+                <div class="ban2-text1 ban4-text1" data-aos="fade"></div>
+                <div class="ban2-text2 ban4-text2" data-aos="fade"></div>
+                <div class="ban2-text3 ban4-text3" data-aos="fade"></div>
+            </div>
+        </div>
+    </div>
+    <!-- banner5 优势一  -->
+    <div class="index-banner5">
+        <video class="video" src="http://video.cnnjidc.com/wuye/wuyecon1.mp4" autoplay="autoplay" loop="loop"></video>
+        <div class="index-1200">
+            <div class="ban5-title1" data-aos="fade"></div>
+            <div class="ban5-title2" data-aos="fade"></div>
+            <div class="ban5-title3" data-aos="fade"></div>
+        </div>
+    </div>
+    <!-- banner6 优势二-->
+    <div class="index-banner6">
+        <div class="index-1200">
+            <div class="ban5-title1 ban6-title1" data-aos="fade"></div>
+            <div class="ban5-title2 ban6-title2" data-aos="fade"></div>
+            <div class="ban5-title3 ban6-title3" data-aos="fade"></div>
+            <div class="ban6-img1"></div>
+            <div class="ban6-img2"></div>
+            <div class="ban6-img3"></div>
+        </div>
+    </div>
+    <!-- banner7 优势三-->
+    <div class="index-banner7">
+        <div class="index-1200">
+            <div class="ban5-title1 ban7-title1" data-aos="fade"></div>
+            <div class="ban5-title2 ban7-title2" data-aos="fade"></div>
+            <div class="ban5-title3 ban7-title3" data-aos="fade"></div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide1"><img src="images/ban7-img1.png" alt=""></div>
+                    <div class="swiper-slide swiper-slide2"><img src="images/ban7-img2.png" alt=""></div>
+                    <div class="swiper-slide swiper-slide3"><img src="images/ban7-img3.png" alt=""></div>
+                    <div class="swiper-slide swiper-slide4"><img src="images/ban7-img4.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner8 6大畅销  -->
+    <div class="index-banner8">
+        <div class="index-1200">
+            <div class="ban2-circle1 ban8-circle"></div>
+            <div class="ban2-text1 ban8-text1" data-aos="fade"></div>
+            <div class="ban2-text2 ban8-text2" data-aos="fade"></div>
+            <div class="ban2-text3 ban8-text3" data-aos="fade"></div>
+        </div>
+    </div>
+    <div class="video3-box">
+        <video class="video" src="http://video.cnnjidc.com/wuye/wuyecon2.mp4" autoplay="autoplay" loop></video>
+    </div>
+    <!-- banner9 主营产品-->
+    <div class="index-banner9">
+        <div class="index-1032">
+            <div class="swiper-container-more1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-sli"><img src="images/ban9-img1.png"></div>
+                    <div class="swiper-slide swiper-sli"><img src="images/ban9-img2.png"></div>
+                    <div class="swiper-slide swiper-sli"><img src="images/ban9-img3.png"></div>
+                    <div class="swiper-slide swiper-sli"><img src="images/ban9-img4.png"></div>
+                    <div class="swiper-slide swiper-sli"><img src="images/ban9-img5.png"></div>
+                    <div class="swiper-slide swiper-sli"><img src="images/ban9-img6.png"></div>
+                </div>
+            </div>
+            <div class="swi-line"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swi-btn">
+                <div class="swi-stop"></div>
+                <div class="swi-begin"></div>
+            </div>
+        </div>
+    </div>
+    <!-- banner10 辅营产品-->
+    <div class="index-banner10">
+        <div class="index-1200">
+            <div class="ban10-title1" data-aos="fade"></div>
+            <div class="ban10-title2" data-aos="fade"></div>
+            <div class="ban10-img1" data-aos="fade"></div>
+            <div class="ban10-img2" data-aos="fade"></div>
+            <div class="ban10-img3" data-aos="fade"></div>
+        </div>
+    </div>
+    <!-- banner11 店型  -->
+    <div class="index-banner11">
+        <div class="index-1200">
+            <div class="ban2-circle1 ban11-circle"></div>
+            <div class="ban2-text1 ban11-text1" data-aos="fade"></div>
+            <div class="ban2-text2 ban11-text2" data-aos="fade"></div>
+            <div class="ban2-text3 ban11-text3" data-aos="fade-in"></div>
+        </div>
+    </div>
+    <div class="dx-box">
+        <div class="dx-gif"></div>
+    </div>
+    <!-- banner12 -->
+    <div class="index-banner12">
+        <div class="index-1200">
+            <!-- 创业店  -->
+            <div class="ban12-dx ban12-dx1">
+                <div class="dx-title dx1-title"></div>
+                <div class="dx-img dx1-img"></div>
+                <div class="dx-tzjx">
+                    <p>投资仅需：</p>
+                    <p><span>36800+2000元</span>年度营运服务费</p>
+                </div>
+                <div class="dx-fyxz">
+                    <p>1人5㎡立店，</p>
+                    <p class="dx-word2">费用超低，选址超灵活！</p>
+                </div>
+                <div class="dx-sqtj">商圈推荐：美食城、学校、小吃街</div>
+            </div>
+            <!-- 标准店  -->
+            <div class="ban12-dx ban12-dx2">
+                <div class="dx-title dx2-title"></div>
+                <div class="dx-img dx2-img"></div>
+                <div class="dx-tzjx">
+                    <p>投资仅需：</p>
+                    <p><span>46800+2000元</span>年度营运服务费</p>
+                </div>
+                <div class="dx-fyxz">
+                    <p>产品线全面，</p>
+                    <p class="dx-word2">覆盖南北消费，人气不断！</p>
+                </div>
+                <div class="dx-sqtj">商圈推荐：步行街、社区底商</div>
+            </div>
+            <!-- 旗舰店  -->
+            <div class="ban12-dx ban12-dx3">
+                <div class="dx-title dx3-title"></div>
+                <div class="dx-img dx3-img"></div>
+                <div class="dx-tzjx">
+                    <p>投资仅需：</p>
+                    <p><span>56800+2000元</span>年度营运服务费</p>
+                </div>
+                <div class="dx-fyxz">
+                    <p class="dx-word2">享受总部重点扶持，</p>
+                    <p>多产品组合盈利！</p>
+                </div>
+                <div class="dx-sqtj">商圈推荐：写字楼、大型商场</div>
+            </div>
+            <!-- table -->
+            <div class="table-title"></div>
+            <div class="table-title2"></div>
+            <table class="dx-table">
+                <thead>
+                    <tr>
+                        <td>区域划分</td>
+                        <td>核心区域</td>
+                        <td>核心城市</td>
+                        <td>一线城市</td>
+                        <td>二线城市</td>
+                        <td>三线城市</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="color-black">投资费用</td>
+                    <td>21万</td>
+                    <td>18万</td>
+                    <td>15万</td>
+                    <td>12万</td>
+                    <td>10万</td>
+                </tr>
+                <tr>
+                    <td class="color-black">年度营运服务费</td>
+                    <td>5000元/年</td>
+                    <td>5000元/年</td>
+                    <td>5000元/年</td>
+                    <td>5000元/年</td>
+                    <td>5000元/年</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- banner13  -->
+    <div class="index-banner13">
+        <div class="index-1200">
+            <div class="ban2-circle1 ban13-circle"></div>
+            <div class="ban2-text1 ban13-text1" data-aos="fade"></div>
+            <div class="ban2-text2 ban13-text2" data-aos="fade"></div>
+            <div class="ban2-text3 ban13-text3" data-aos="fade"></div>
+        </div>
+    </div>
+    <!-- banner14 团队-->
+    <div class="index-banner14">
+        <div class="index-1200">
+            <div class="ban14-img1"></div>
+            <div class="ban14-img2"></div>
+            <div class="ban14-line1"></div>
+            <div class="ban14-img3"></div>
+            <div class="ban14-line2"></div>
+            <div class="ban14-img4"></div>
+        </div>
+    </div>
+    <!-- banner15 -->
+    <div class="index-banner15">
+        <div class="index-1200">
+            <div class="ban2-circle1 ban15-circle"></div>
+            <div class="ban2-text1 ban15-text1" data-aos="fade"></div>
+            <div class="ban2-text2 ban15-text2" data-aos="fade"></div>
+            <div class="ban2-text3 ban15-text3" data-aos="fade"></div>
+            <form action="http://liuyan.tlshangxun.com/tijiao.php " method="post" class="form">
+                <div class="input-box">
+                    <i class="input1-icon"></i>
+                    <input type="text" value="" class="input1" name="xingming" placeholder="姓名" onfocus="this.placeholder='' " onblur="this.placeholder='姓名'" required>
+                    <i class="input1-start"></i>
+                </div>
+                <div class="input-box1">
+                    <i class="input1-icon input1-icon2"></i>
+                    <input type="text" value="" class="input1" name="dianhua" placeholder="电话" onfocus="this.placeholder='' " onblur="this.placeholder='电话'" required>
+                    <i class="input1-start"></i>
+                </div>
+                <div class="input-box input-box3">
+                    <i class="input1-icon input1-icon3"></i>
+                    <input type="text" value="" class="input1" name="laizi" placeholder="地址" onfocus="this.placeholder='' " onblur="this.placeholder='地址'" required>
+                    <i class="input1-start"></i>
+                </div>
+                <div class="input-box input-box4">
+                    <i class="input1-icon input1-icon4"></i>
+                    <textarea id="" cols="150" rows="350" name="neirong" class="input1" placeholder="留言" onfocus="this.placeholder='' " onblur="this.placeholder='留言'"></textarea>
+                </div>
+                <input type="submit" value="提交" class="submit">
+            </form>
+            <div class="ban15-map-box">
+                <div class="map-title"></div>
+                <div class="map-list map-list1">
+                    <div class="map-addre" id="map1"></div>
+                    <p>华南运营中心</p>
+                    <p class="map-word2">广州黄埔区科学城商业广场A4二楼</p>
+                </div>
+                <div class="map-list">
+                    <div class="map-addre" id="map2"></div>
+                    <p>华北运营中心</p>
+                    <p class="map-word2">北京市大兴亦庄经济技术开发区路
+                        <br>东区科创十四街20号院1号楼5层 </p>
+                </div>
+                <div class="map-list">
+                    <div class="map-addre" id="map3"></div>
+                    <p>西南运营中心</p>
+                    <p class="map-word2">成都市金牛区金仙桥路15号
+                        <br>川铁大厦3楼</p>
+                </div>
+                <div class="map-list">
+                    <div class="map-addre" id="map4"></div>
+                    <p>华东运营中心</p>
+                    <p class="map-word2">南京市江宁区天印大道696号
+                        <br>东山总部商务园A1栋5层</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--#include file="inc/bot_floor.html" -->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/swiper.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/index.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/aos.js"></script>
+    <script type="text/javascript" src="libs/js/skrollr.min.js"></script>
+    <script type="text/javascript" src="http://developer.baidu.com/map/custom/stylelist.js"></script>
+    <script type="text/javascript">
+    AOS.init({
+        offset: 100,
+        duration: 800,
+        easing: 'linear',
+        disable: 'mobile'
+    });
+    </script>
+    <script type="text/javascript">
+    var swiper1 = new Swiper('.swiper-container-more1', {
+        autoplay: 2000,
+
+        speed: 1000,
+
+        autoplayDisableOnInteraction: false,
+
+        loop: true,
+
+        centeredSlides: true,
+
+        slidesPerView: 'auto',
+
+        pagination: '.swiper-pagination',
+
+        paginationClickable: true,
+    });
+    $('.swi-stop').click(function() {
+        swiper1.stopAutoplay();
+        $(".swi-stop").css("display", "none");
+        $(".swi-begin").css("display", "block");
+    })
+    $('.swi-begin').click(function() {
+        swiper1.startAutoplay();
+        $(".swi-begin").css("display", "none");
+        $(".swi-stop").css("display", "block");
+    })
+    </script>
+    </body>
+
+</html>
