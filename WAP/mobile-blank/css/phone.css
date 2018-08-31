@@ -1,0 +1,83 @@
+h3,p,div,body{margin:0;padding:0;}
+body{font-family:"微软雅黑";background:#e1e1e1;}
+a{text-decoration:none;}
+.warp{width:100%;}
+/*头部的设置*/
+.top{width:100%;}
+.top-list{width:100%;height:105px;background:#990000;overflow:hidden;line-height:105px;}
+.top p,
+.top span{float:left;}
+.top span{color:#f9f9f9;font-size:24px;text-align:center;width:200px;margin-left:20%;
+		letter-spacing:3px;}
+.top .top-list .top-last{float:right;}
+.top-list p img{margin-top:34px;}
+/*头部轮播图的设置*/
+.top .top-turn{clear:both;width:100%;background:green;}
+.top-turn img{display:block;width:100%;}
+
+/*banner的设置*/
+.banner{width:100%;margin-top:40px;overflow:hidden;background:#fff;}
+.banner .banner-list{width:18%;height:140px;float:left;margin-left:5%;margin-top:10px;}
+.banner-list img{display:block;width:100%;}
+.banner-list p{font-size:14px;color:#666;text-align:center;margin-top:25px;}
+
+/*主体内容的设置*/
+
+/*我要贷款  的设置*/
+.container{width:100%;margin-top:24px;}
+.loan{}
+.loan-top{width:100%;overflow:hidden;height:84px;line-height:84px;background:#fff;
+		border-bottom:1px solid #cccccc;}
+.loan-top h3{float:left;font-weight:normal;color:#666666;height:100%;line-height:84px;}
+.loan-top img{float:right;margin-top:6%;}
+
+
+.loan-con{clear:both;overflow:hidden;background:#fff;}
+.loan-list{width:33%;height:150px;border-right:1px solid #666;float:left;position:relative;}
+.loan-con .loan-last{border-right:0;}
+.loan-list img{position:absolute;top:30%;left:20%;}
+.loan-list span{position:absolute;top:75%;left:26%; color:#666; }
+
+/*新闻资讯  的设置*/
+.news{width:100%;background:#fff;margin-top:24px;}
+
+.news-list{width:100%;overflow:hidden;height:175px;border-bottom:1px solid #ccc;}
+.nlist-last{border-bottom:none;}
+.news-list .nlist-left{float:left;width:30%;height:100%;}
+.nlist-left img{display:block;width:60%;height:50%;margin:0 auto;margin-top:22%;}
+.news-list .nlist-right{float:left;width:69%;}
+/*新闻资讯  右侧标题，描述，时间的设置*/
+.nlist-right h2{font-size:14px;color:#333;margin-top:26px;}
+.nlist-right p{font-size:12px;color:#999;}
+.nlist-right .news-describe{margin-top:20px;margin-bottom:30px;}
+
+/*更多资讯  的设置*/
+.more-information{width:100%;height:120px;background:#fff;overflow:hidden;}
+.more-information p{display:block;width:150px;margin:0 auto;margin-top:36px;}
+.more-information p a{color:#999;font-size:24px;}
+.more-information img{display:block;width:40px;margin-left:37%;margin-bottom:30px;}
+
+
+/*底部  的设置*/
+.footer{width:100%;height:135px;background:#fff;margin-top:20px;overflow:hidden;}
+
+/*底部各个小项   的设置*/
+.flist{width:25%;height:100%;position:relative;float:left;}
+.flist p{height:52px;width:52px;background:url(../images/footer.png) no-repeat 0 -103px;
+		position:absolute;left:21%;top:26%;
+}
+.flist span{position:absolute;left:28%;top:67%;color:#aaa;}
+
+/*单个背景 的设置*/
+.flist-two p{background:url(../images/footer.png) no-repeat 0 -52px;}
+.flist-three p{background:url(../images/footer.png) no-repeat 0 0;}
+.flist-four p{left:13%;width:57px;background:url(../images/footer.png) no-repeat  0 -153px;}
+
+
+/*hover 之后的效果*/
+.flist:hover p{background:url(../images/footerhover.png) no-repeat 0 -103px;}
+.flist:hover span{color:#0ecb55;}
+
+.flist-two:hover p{background:url(../images/footerhover.png) no-repeat 0 -52px;}
+.flist-three:hover p{background:url(../images/footerhover.png) no-repeat 0 0;}
+.flist-four:hover p{height:57px;background:url(../images/footerhover.png) no-repeat  0 -155px;}
