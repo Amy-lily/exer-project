@@ -1,0 +1,8 @@
+var _arr = [1,2,3,4,5,6];
+var _max = Math.max(..._arr);    ==》  Math.max.apply(Math,_arr);
+//Math.max()  参数只能为一组数据，从一组数据中取最大值 
+
+//Math.max.apply(Math,_arr);  参数为数组
+
+
+//..._arr是将 _arr数组中的数据展开，为 1 2 3 4 5 6 
