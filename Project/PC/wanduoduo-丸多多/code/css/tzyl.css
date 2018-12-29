@@ -1,0 +1,686 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1200 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+
+/*subpage templet code by wyp*/
+
+
+/*banner*/
+
+.tzyl-box {
+    width: 100%;
+    height: 590px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tzyl-bg {
+    width: 100%;
+    height: 590px;
+    position: absolute;
+    background: url(../images/tzyl-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.tzyl-text {
+    width: 434px;
+    height: 182px;
+    position: absolute;
+    top: 236px;
+    left: 290px;
+    background: url(../images/tzyl-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tzyl-gif {
+    width: 240px;
+    height: 231px;
+    position: absolute;
+    top: 230px;
+    left: 740px;
+    background: url(../images/tzyl-gif1.gif) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/* content one */
+
+.tzyl-con-box {
+    width: 100%;
+    height: 1320px;
+    background: #000a19;
+    position: relative;
+}
+
+.tzyl-con-title {
+    width: 502px;
+    height: 96px;
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    margin-left: -251px;
+    background: url(../images/tzyl-con-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*创业店*/
+
+.tzyl-con-cyd {
+    width: 527px;
+    height: 524px;
+    position: absolute;
+    top: 195px;
+    left: 40px;
+}
+
+.cyd-title {
+    width: 231px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/cyd-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cyd-x {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 92px;
+    background: url(../images/cyd-x.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cyd-text {
+    width: 266px;
+    height: 14px;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    background: url(../images/cyd-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cyd-xian {
+    width: 395px;
+    height: 1px;
+    position: absolute;
+    top: 69px;
+    left: 0;
+    background: url(../images/cyd-xian.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cyd-jjz {
+    width: 106px;
+    height: 85px;
+    position: absolute;
+    top: -8px;
+    left: 395px;
+    background: url(../images/cyd-jjz.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cyd-money {
+    position: relative;
+    top: 102px;
+    left: 0;
+}
+
+.only {
+    display: block;
+    font-family: "sans-serif";
+    font-size: 20px;
+    font-weight: bold;
+    color: #23accd;
+}
+
+.last1 {
+    font-family: "sans-serif";
+    font-size: 14px;
+    font-weight: bold;
+    color: #23accd;
+    position: absolute;
+    top: 37px;
+    left: 105px;
+}
+
+.last2 {
+    font-family: "sans-serif";
+    font-size: 14px;
+    font-weight: bold;
+    color: #23accd;
+    position: absolute;
+    top: 37px;
+    left: 240px;
+}
+
+.first1 {
+    font-family: "sans-serif";
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.first2 {
+    font-family: "sans-serif";
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 130px;
+    top: 25px;
+}
+
+.cyd-img {
+    width: 531px;
+    height: 350px;
+    position: absolute;
+    top: 177px;
+    left: 0;
+    background: url(../images/cyd-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*标准店*/
+
+.tzyl-con-bzd {
+    width: 530px;
+    height: 521px;
+    position: absolute;
+    top: 195px;
+    right: 40px;
+}
+
+.bzd-title {
+    width: 231px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/bzd-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.bzd-x {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 92px;
+    background: url(../images/cyd-x.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.bzd-text {
+    width: 266px;
+    height: 14px;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    background: url(../images/bzd-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.bzd-xian {
+    width: 395px;
+    height: 1px;
+    position: absolute;
+    top: 69px;
+    left: 0;
+    background: url(../images/cyd-xian.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.bzd-jjz {
+    width: 106px;
+    height: 85px;
+    position: absolute;
+    top: -5px;
+    left: 395px;
+    background: url(../images/bzd-jjz.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.bzd-money {
+    position: relative;
+    top: 102px;
+    left: 0;
+}
+
+.bzd-img {
+    width: 531px;
+    height: 350px;
+    position: absolute;
+    top: 177px;
+    left: 0;
+    background: url(../images/bzd-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*旗舰店*/
+
+.tzyl-con-qjd {
+    width: 1123px;
+    height: 594px;
+    position: absolute;
+    top: 718px;
+    left: 50%;
+    margin-left: -561.5px;
+}
+
+.qjd-title {
+    width: 230px;
+    height: 26px;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: -115px;
+    background: url(../images/qjd-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.qjd-x {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 92px;
+    background: url(../images/cyd-x.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.qjd-text {
+    width: 264px;
+    height: 14px;
+    position: absolute;
+    top: 116px;
+    left: 50%;
+    margin-left: -132px;
+    background: url(../images/qjd-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.qjd-xian {
+    width: 861px;
+    height: 1px;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    background: url(../images/qjd-xian.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.qjd-jjz {
+    width: 128px;
+    height: 91px;
+    position: absolute;
+    top: 64px;
+    right: 134px;
+    background: url(../images/qjd-jjz.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.qjd-money {
+    width: 382px;
+    height: 60px;
+    position: relative;
+    top: 170px;
+    left: 50%;
+    margin-left: -193px;
+}
+
+.only2 {
+    display: block;
+    font-family: "sans-serif";
+    font-size: 20px;
+    font-weight: bold;
+    color: #23accd;
+    text-align: center;
+}
+
+.qjd-img {
+    width: 1124px;
+    height: 350px;
+    position: absolute;
+    top: 246px;
+    left: 0;
+    background: url(../images/qjd-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/* content two */
+
+.tzyl-con-box2 {
+    width: 100%;
+    height: 984px;
+    background: #000a19;
+    position: relative;
+}
+
+.tzyl-con-title2 {
+    width: 553px;
+    height: 93px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -276.5px;
+    background: url(../images/tzyl-con-title2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*区域代理*/
+
+.tzyl-con-qydl {
+    width: 1123px;
+    height: 805px;
+    position: absolute;
+    top: 176px;
+    left: 50%;
+    margin-left: -561.5px;
+}
+
+.qydl-title {
+    width: 414px;
+    height: 26px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -207px;
+    background: url(../images/qydl-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.qydl-x {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 130px;
+    background: url(../images/cyd-x.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.qydl-text {
+    width: 257px;
+    height: 46px;
+    position: absolute;
+    top: 96px;
+    left: 50%;
+    margin-left: -128.5px;
+    background: url(../images/qydl-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.qydl-jjz {
+    width: 145px;
+    height: 91px;
+    position: absolute;
+    top: 22px;
+    right: 160px;
+    background: url(../images/qydl-jjz.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*表格*/
+
+.tzyl-con-box2 table {
+    width: 1123px;
+    height: 158px;
+    position: absolute;
+    top: 166px;
+    left: 50%;
+    margin-left: -561.5px;
+    border: 2px solid #98952f;
+    border-collapse: collapse;
+}
+
+.tzyl-con-box2 table td {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #98952f;
+}
+
+.tzyl-con-box2 table .td {
+    font-size: 20px;
+    text-align: center;
+    color: #ff0;
+    border: 1px solid #98952f;
+}
+
+.qydl-img {
+    width: 1123px;
+    height: 481px;
+    position: absolute;
+    top: 324px;
+    left: 0;
+    background: url(../images/qydl-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/* content three */
+
+.tzyl-con-box3 {
+    width: 100%;
+    height: 1350px;
+    background: #000a19;
+    position: relative;
+}
+
+.tzyl-con-title3 {
+    width: 553px;
+    height: 93px;
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    margin-left: -276.5px;
+    background: url(../images/tzyl-con-title3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*盈利分析-1*/
+.tzyl-con-ylfx1 {
+    width: 1123px;
+    height: 946px;
+    position: relative;
+    top: 168px;
+    left: 50%;
+    margin-left: -561.5px;
+}
+
+.ylfx-img {
+    width: 372px;
+    height: 749px;
+    position: absolute;
+    top: 28px;
+    left: 64px;
+    background: url(../images/ylfx-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ylfx-text-1 {
+    width: 349px;
+    height: 26px;
+    position: absolute;
+    top: 80px;
+    right: 290px;
+    background: url(../images/ylfx-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ylfx-text1 {
+    width: 147px;
+    height: 68px;
+    position: absolute;
+    top: 120px;
+    right: 290px;
+    background: url(../images/ylfx-text1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.ylfx-text2 {
+    width: 437px;
+    height: 104px;
+    position: absolute;
+    top: 188px;
+    right: 290px;
+    background: url(../images/ylfx-text2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.ylfx-text3 {
+    width: 500px;
+    height: 63px;
+    position: absolute;
+    top: 292px;
+    right: 290px;
+    background: url(../images/ylfx-text3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.ylfx-text4 {
+    width: 500px;
+    height: 81px;
+    position: absolute;
+    top: 355px;
+    right: 290px;
+    background: url(../images/ylfx-text4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.ylfx-text5 {
+    width: 500px;
+    height: 78px;
+    position: absolute;
+    top: 436px;
+    right: 290px;
+    background: url(../images/ylfx-text5.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ylfx-text6 {
+    width: 500px;
+    height: 81px;
+    position: absolute;
+    top: 514px;
+    right: 290px;
+    background: url(../images/ylfx-text6.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+.ylfx-text7 {
+    width: 500px;
+    height: 78px;
+    position: absolute;
+    top: 595px;
+    right: 290px;
+    background: url(../images/ylfx-text7.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.ylfx-he {
+    width: 101px;
+    height: 34px;
+    position: absolute;
+    top: 688px;
+    right: 290px;
+    background: url(../images/ylfx-he.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+
+/*盈利分析-2*/
+.tzyl-con-ylfx2{
+    width: 1124px;
+    height: 405px;
+    position: relative;
+    background: #000a19;
+}
+.tzyl-con-gif{
+    width: 300px;
+    height: 356px;
+    position: absolute;
+    top: 46px;
+    left: 140px;
+    background: url(../images/tzyl-gif2.gif) no-repeat center center;
+    background-size: 100% 100%;
+}
+.tzyl-con-img{
+    width: 467px;
+    height: 359px;
+    position: absolute;
+    top: 46px;
+    left: 470px;
+    background: url(../images/tzyl-con-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/* content four */
+.tzyl-con-box4{
+    width: 100%;
+    height: 926px;
+    background: #000a19;
+    position: relative;
+}
+
+.tzyl-con-title4 {
+    width: 632px;
+    height: 89px;
+    position: absolute;
+    top: 111px;
+    left: 50%;
+    margin-left: -316px;
+    background: url(../images/tzyl-con-title4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.tzyl-con-al1{
+    width: 1088px;
+    height: 261px;
+    position: absolute;
+    top: 245px;
+    left: 50%;
+    margin-left: -544px;
+    background: url(../images/tzyl-con-al1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.tzyl-con-al2{
+    width: 1101px;
+    height: 261px;
+    position: absolute;
+    top: 570px;
+    left: 50%;
+    margin-left: -550.5px;
+    background: url(../images/tzyl-con-al2.png) no-repeat center center;
+    background-size: 100% 100%;
+}

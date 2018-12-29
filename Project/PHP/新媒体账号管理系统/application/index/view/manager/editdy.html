@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>编辑抖音账号信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="后台管理系统-管理员-编辑抖音账号信息" />
+    <meta content="Mosheng" name="author" />
+    <link rel="shortcut icon" href="__PUBLIC__assets/images/favicon.ico">
+    <!-- App css -->
+    <link href="__PUBLIC__css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__css/self.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    {include file="common/admin-slide"}
+    <!-- container-fluid     -->
+    <div class="wrapper">
+        <div class="col-lg-6  card-center">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">编辑抖音账号信息</h4>
+                    <hr>
+                    <form class="form-horizontal" method="POST">
+                        <input type="hidden" name="id" value="{$sel.id}">
+                        <div class="form-group row mb-3">
+                            <label for="inputEmail3" class="col-3 col-form-label">手机编号</label>
+                            <div class="col-9">
+                                <select class="form-control self-select" data-toggle="select2" name="pid" readonly="readonly">
+                                    {volist name="pid" id="a"} {eq name="sel.phonesn" value="$a.phonesn"}
+                                    <option value="{$a.id}" readonly="readonly" selected>{$a.phonesn}</option>
+                                    {else/}
+                                    <option value="{$a.id}" readonly="readonly">{$a.phonesn}</option>
+                                    {/eq} {/volist}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-3">
+                            <label for="inputEmail3" class="col-3 col-form-label">抖音账号</label>
+                            <div class="col-9">
+                                <input type="text" name="dyaccount" class="form-control" id="inputEmail3" value="{$sel.dyaccount}" placeholder="抖音账号">
+                            </div>
+                        </div>
+                        <div class="form-group row mb-3">
+                            <label for="inputEmail3" class="col-3 col-form-label">抖音密码</label>
+                            <div class="col-9">
+                                <input type="text" name="dypass" class="form-control" id="inputEmail3" value="{$sel.dypass}" placeholder="抖音密码">
+                            </div>
+                        </div>
+                        <div class="form-group row mb-3">
+                            <label for="inputEmail3" class="col-3 col-form-label">抖音名称</label>
+                            <div class="col-9">
+                                <input type="text" name="dyname" class="form-control" id="inputEmail3" value="{$sel.dyname}" placeholder="抖音名称">
+                            </div>
+                        </div>
+                        <div class="form-group row mb-3">
+                            <label for="inputEmail3" class="col-3 col-form-label">抖音粉丝量</label>
+                            <div class="col-3">
+                                <input type="text" name="dyfans" class="form-control" id="inputEmail3" value="{$sel.dyfans}" placeholder="粉丝量">
+                            </div>
+                            <div class="col-2 float-left">
+                                <select class="form-control self-select" data-toggle="select2" name="unit">
+                                    <option value="wan">万</option>
+                                    <option value="ge">个</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-3">
+                            <label for="inputEmail3" class="col-3 col-form-label">日期</label>
+                            <div class="col-9">
+                                <div class="laydate-box">
+                                    <input type="text" id="laydateInput" name="time" placeholder="xxxx年xx月xx日" />
+                                    <img src="__PUBLIC__/assets/images/calendar.png" alt="" class="icon data-icon" />
+                                    <div class="select-date">
+                                        <div class="select-date-header">
+                                            <ul class="heade-ul">
+                                                <li class="header-item header-item-one">
+                                                    <select name="" id="yearList"></select>
+                                                </li>
+                                                <li class="header-item header-item-two" onselectstart="return false">
+                                                    <select name="" id="monthList"></select>
+                                                </li>
+                                                <li class="header-item header-item-three" onselectstart="return false">
+                                                    <span class="reback">回到今天</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="select-date-body">
+                                            <ul class="week-list">
+                                                <li>日</li>
+                                                <li>一</li>
+                                                <li>二</li>
+                                                <li>三</li>
+                                                <li>四</li>
+                                                <li>五</li>
+                                                <li>六</li>
+                                            </ul>
+                                            <ul class="day-tabel"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-0 justify-content-end row">
+                            <div class="col-9">
+                                <button type="submit" class="btn btn-info">确定修改 </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    kuaidao Admin &copy; 2018 - tecms.net
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

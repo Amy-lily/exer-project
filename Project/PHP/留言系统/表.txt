@@ -1,0 +1,81 @@
+用户表
+	id
+	
+	username 	用户名
+
+	password	密码
+
+	type		用户类型
+
+
+抖音表（market-douyin)
+	id		
+
+	fanscount	粉丝数
+
+	likeCount	点赞数
+
+	videoCount	视频数
+
+	did		抖音id
+
+	screenName	用户显示名称
+
+	charge		负责人
+
+	time
+
+	
+
+营销平台管理（market-platform）
+
+	id
+
+	platname	平台名
+
+	time
+
+
+营销账号管理(market-account)
+
+	id
+	
+	platname	平台名
+
+	account		账号
+
+	charge		负责人
+
+	accountid	平台账号id
+
+	time
+	
+微博
+
+	id
+
+	accountinfoid	账号
+
+	fanscount	粉丝数
+
+	postcount	微博数
+
+	startcount	点赞数
+
+	shareCount	转发数
+
+	commentCount	评论数
+
+	time
+
+
+
+
+
+
+表单颜色
+
+	table-danger text-danger
+table-warning text-warning
+table-info text-info
+table-success text-success

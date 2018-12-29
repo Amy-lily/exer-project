@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1024{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+/*subpage templet code by jhy*/
+
+/*banner begin*/
+
+.sbp-ban-box {
+    width: 100%;
+    height: 599px;
+    position: relative;
+    background: url(../images/sbp-bbg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.sbp-syc{
+    width: 416px;
+    height: 101px;
+    position: absolute;
+    top: 224px;
+    left:392px;
+    background: url(../images/sbp-syc.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-mf{
+    width: 533px;
+    height: 174px;
+    position: absolute;
+    top: 120px;
+    left:253px;
+    background: url(../images/sbp-mf.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-sf{
+    width: 529px;
+    height: 129px;
+    position: absolute;
+    top: 305px;
+    left:253px;
+    background: url(../images/sbp-sf.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*banner end*/
+
+/*content one begin*/
+
+.con-box-1{
+    
+}
+
+/*content one end*/

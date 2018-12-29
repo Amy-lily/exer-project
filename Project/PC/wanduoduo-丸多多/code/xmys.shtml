@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>丸多多-项目优势</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="城市丸酷茶，搞怪潮流来袭！">
+    <meta name="description" content="丸出色，饮出彩！8色手作茶丸，高颜值！3好精选原料，高品质！">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/xmys.css">
+</head>
+
+<body>
+    <!--#include file="inc/head.html" -->
+    <!--#include file="inc/msgBox.html" -->
+    <!-- banner -->
+    <div class="xmys-banner min1200">
+        <div class="xmys-banner-bg wow scale-small"></div>
+        <div class="w1200">
+            <div class="xmys-bn-img1 wow fadeIn"></div>
+            <div class="xmys-bn-img2 wow fadeIn"></div>
+            <div class="xmys-bn-img3box wow fadeIn">
+                <div class="xmys-bn-img3 wow zoomIn"></div>
+            </div>
+            <div class="xmys-bn-img4 wow beat"></div>
+        </div>
+    </div>
+    <!-- content one -->
+    <div class="xmys-box1 min1200">
+        <div class="w1200">
+            <div class="xmys-box1-img1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box1-img2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box1-img3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box1-img4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box1-img5"></div>
+            <div class="xmys-box1-img6 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box1-img7 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s"></div>
+            <div class="xmys-box1-img8 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.7s"></div>
+            <div class="xmys-box1-img9box wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s" id="box">
+                <div class="box1">
+                    <img src="./images/1.jpg">
+                </div>
+                <div class="box2">
+                    <img src="./images/2.jpg">
+                </div>
+                <div class="box3">
+                    <img src="./images/3.jpg">
+                </div>
+            </div>
+            <div class="xmys-box1-img10 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box1-img11 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box1-img12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box1-img13 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+        </div>
+    </div>
+    <!-- content two -->
+    <div class="xmys-box2 min1200">
+    </div>
+    <!-- content three -->
+    <div class="xmys-box3 min1200">
+        <div class="w1200">
+            <div class="xmys-box3-img1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="xmys-box3-img2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+            <div class="box-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                <div class="box1-3">
+                    <div class="box1img lineWidth1"></div>
+                </div>
+                <div class="box2-3">
+                    <div class="box2img lineWidth2"></div>
+                </div>
+                <div class="box3-3">
+                    <div class="box3img lineWidth3"></div>
+                </div>
+                <div class="box4-3">
+                    <div class="box4img lineWidth4"></div>
+                </div>
+            </div>
+            <div class="xmys-box3-img4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s"></div>
+        </div>
+    </div>
+    <!--#include file="inc/foot.html" -->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <!--[if !IE]><!-->
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/wow.js" charset="UTF-8"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/xmys.js" charset="UTF-8"></script>
+    <!--#include file="inc/cnzz.html" -->
+    <!--#include file="inc/bot_floor.html"-->
+</body>
+
+</html>

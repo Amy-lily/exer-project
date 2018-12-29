@@ -1,0 +1,326 @@
+div,body{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+/*返回顶部*/
+
+.r-top {
+    width: 69px;
+    height: 69px;
+    position: fixed;
+    right: 110px;
+    bottom: 80px;
+    background: url("../images/r-top.png") no-repeat center center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.r-top.active {
+    opacity: 1;
+    transition: 2s;
+    -moz-transition: 2s;
+    /* Firefox 4 */
+    -webkit-transition: 2s;
+    /* Safari 和 Chrome */
+    -o-transition: 2s;
+}
+
+
+/*TQ*/
+.popUps{
+    -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.tq{
+    width: 129px;
+    height: auto;
+    position: fixed;
+    top: 150px;
+    right: 50px;
+    z-index: 999;
+}
+.tq.active {
+    top: 120px;
+    transition: 2s;
+    -moz-transition: 2s;
+    /* Firefox 4 */
+    -webkit-transition: 2s;
+    /* Safari 和 Chrome */
+    -o-transition: 2s;
+}
+.tq-box1{
+    width: 129px;
+    height: auto;
+}
+.tq-list1{
+    width: 129px;
+    height: 133px;
+    background: url("../images/tq-img1.png") no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.tq-list2{
+    width: 129px;
+    height: auto;
+    background: url("../images/tq-bg.png") no-repeat center center;;
+    background-size: 100% 100%;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    border-bottom:1px solid #fffddc; 
+}
+.tq-list2 p{
+    width: 129px;
+}
+.tq-zx{
+    width: 129px;
+    height: 20px;
+}
+.tq-zx span,.tq-qq span{
+    position: absolute;
+}
+.tq-p1{
+    padding-top:15px;
+}
+.tq-zx i,.tq-qq i{
+    margin-left: 20px;
+    margin-right: 6px;
+}
+.tq-p2{
+    margin-top: 10px;
+    height: 20px;
+}
+.tq-p3{
+    margin-top: 25px;
+    text-align: center;
+}
+.tq-p4,.tq-p5{
+    text-align: center;
+    color: #fff;
+}
+.tq-p4{
+    font-size: 16px;
+    margin-top: 7px;
+}
+.tq-p5{
+    font-size: 14px;
+    margin-top: 1px;
+}
+.tq-list3{
+    width: 128px;
+    height: 127px;
+    background: url("../images/tq-img5.png") repeat center center;
+    background-size: 100% 100%;
+    margin-top: 5px;
+    border-radius:2px;
+}
+/*返回顶部*/
+
+.r-top {
+    width: 69px;
+    height: 69px;
+    position: fixed;
+    right: 110px;
+    bottom: 80px;
+    background: url("../images/r-top.png") no-repeat center center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.r-top.active {
+    opacity: 1;
+    transition: 2s;
+    -moz-transition: 2s;
+    /* Firefox 4 */
+    -webkit-transition: 2s;
+    /* Safari 和 Chrome */
+    -o-transition: 2s;
+}
+@media screen and (max-width: 1418px) {
+    /*当屏幕尺寸小于1366px时，应用下面的CSS样式*/
+    .r-top{
+        right: 0;
+    }
+}
+
+
+/*定位 location 加盟享优惠 */
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+
+/*ul ol 下面li浮动*/
+
+.f-li li {
+    float: left;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+
+/*定位 location 加盟享优惠 */
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+
+/*ul ol 下面li浮动*/
+
+.f-li li {
+    float: left;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+
+/*定位 location 加盟享优惠 */
+
+.location {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 68px;
+    width: 100%;
+    min-width: 1200px;
+    background:rgba(0,0,0,0.6);
+    z-index: 99999999999;
+}
+
+.location-re {
+    width: 100%;
+    height: 100%;
+    -position: relative;
+    border-top: 1px solid #fff;
+}
+
+.location-ab {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.location-ab a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/delete.png) no-repeat;
+}
+
+.location .location-con {
+    width: 900px;
+    margin: 17px auto;
+}
+
+.location-con p {
+    float: left;
+    font-size: 22px;
+    color: #fff;
+    line-height: 35px;
+    margin-right: 142px;
+    clear: both;
+    height: 35px;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: "微软雅黑";
+}
+
+.location-con .form {
+    height: 35px;
+}
+
+.location-con .form input {
+    line-height: 35px;
+    padding: 0 15px;
+    color: #666;
+    border: 0;
+    height: 35px;
+    background: #fff;
+    font-family: "微软雅黑";
+}
+
+.location-con .form .a2 {
+    display: inline-block;
+    margin-left: 22px;
+    line-height: 33px;
+    width: 155px;
+    color: #fff!important;
+    font-size: 18px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 45px;
+    float: right;
+    font-family: "微软雅黑";
+}
+
+.location-con .form .button {
+    display: inline-block;
+    margin-left: 13px;
+    line-height: 33px;
+    width: 130px;
+    color: #fff!important;
+    font-size: 17px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 43px;
+    float: right;
+    cursor: pointer;
+}
+
+.location-con .form .a1 {
+    background: #d31c22 url(../images/location-a1.png) no-repeat 15px center;
+}
+
+.location-con .form .a1:hover {
+    background: #f50b12 url(../images/location-a1.png) no-repeat 15px center;
+}
+
+.location-con .form .a2 {
+    background: #E74A00 url(../images/location-a2.png) no-repeat 15px center;
+}
+
+.location-con .form .a2:hover {
+    background: #e20707 url(../images/location-a2.png) no-repeat 15px center;
+}
+
+input.tel-03 {
+    width: 100px;
+    margin-right: 9px;
+}
+
+input.tel-02 {
+    width: 130px;
+}

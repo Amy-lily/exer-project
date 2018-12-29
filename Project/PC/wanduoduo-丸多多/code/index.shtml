@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>丸多多官方网站</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="城市丸酷茶，搞怪潮流来袭！">
+    <meta name="description" content="丸出色，饮出彩！8色手作茶丸，高颜值！3好精选原料，高品质！">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <!-- code by jhy -->
+    <!--#include file="inc/head.html" -->
+    <!--#include file="inc/msgBox.html" -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page1">
+                <div class="ind-road"></div>
+                <div class="ind-jj"></div>
+                <div class="w1200">
+                    <div class="ind-tf-1 ani" swiper-animate-effect="shockSlow"></div>
+                    <div class="ind-cup"></div>
+                    <div class="ind-dt"></div>
+                    <div class="ind-btf-wan ani" swiper-animate-effect="jump"></div>
+                    <div class="ind-btf-chu ani" swiper-animate-effect="jump"></div>
+                    <div class="ind-btf-se ani" swiper-animate-effect="jump"></div>
+                    <div class="ind-btf-yin ani" swiper-animate-effect="jump"></div>
+                    <div class="ind-btf-chu2 ani" swiper-animate-effect="jump"></div>
+                    <div class="ind-btf-cai ani" swiper-animate-effect="jump"></div>
+                </div>
+            </div>
+            <div class="swiper-slide page2">
+                <div class="ind-jx">
+                    <div class="ind-wz"></div>
+                </div>
+                <div class="ind-yuansu ani" swiper-animate-effect="microFlash"></div>
+                <div class="w1200">
+                    <div class="ind-bf2 ani" swiper-animate-effect="shockSlow"></div>
+                    <div class="ind-gssz ani" swiper-animate-effect="fadeIn"></div>
+                    <div class="ind-btf-2 ani" swiper-animate-effect="zoomIn"></div>
+                </div>
+            </div>
+            <div class="swiper-slide page3">
+                <div class="ind-yuansu-3 ani" swiper-animate-effect="microFlash"></div>
+                <div class="w1200">
+                    <div class="ind-bf3 ani" swiper-animate-effect="shockSlow"></div>
+                    <div class="ind-shsj ani" swiper-animate-effect="fadeIn"></div>
+                    <div class="ind-btf-2 ani" swiper-animate-effect="zoomIn"></div>
+                </div>
+                <!-- lunbo -->
+                <div class="box">
+                    <div class="index-box">
+                        <div class="swiper-container-more1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/ind-goodmilk.png"></div>
+                                <div class="swiper-slide"><img src="images/ind-goodtea.png"></div>
+                                <div class="swiper-slide"><img src="images/ind-goodcandy.png"></div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/swiper-3.4.2.jquery.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/swiper.animate1.0.2.min.js" charset="UTF-8"></script>
+    <!--[if !IE]><!-->
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/wow.js" charset="UTF-8"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/index.js" charset="UTF-8"></script>
+    <!--#include file="inc/cnzz.html" -->
+    <!--#include file="inc/bot_floor.html"-->
+    <script type="text/javascript">
+    var swiper1 = new Swiper('.swiper-container-more1', {
+        speed: 1000,
+        autoplay: 2000,
+        loop: true,
+        slidesPerView: 3,
+        prevButton: '.swiper-button-prev',
+        nextButton: '.swiper-button-next',
+    });
+    </script>
+</body>
+
+</html>

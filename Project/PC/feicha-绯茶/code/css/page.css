@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1202{
+    width: 1202px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1202 {
+    min-width: 1202px;
+    overflow: hidden;
+}
+
+/*subpage templet code by jhy*/
+
+/*banner begin*/
+
+.sbp-ban-box {
+    width: 100%;
+    height: 594px;
+    position: relative;
+    background: url(../images/sbp-bbg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.sbp-mp{
+    width: 1052px;
+    height: 656px;
+    position: absolute;
+    top: 195px;
+    left:68px;
+    background: url(../images/sbp-mp.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-mf{
+    width: 451px;
+    height: 74px;
+    position: absolute;
+    top: 102px;
+    left:374px;
+    background: url(../images/sbp-mf.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*banner end*/
+
+/*content one begin*/
+
+.con-box-1{
+    
+}
+
+/*content one end*/

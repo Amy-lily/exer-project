@@ -1,0 +1,32 @@
+<!-- 定位 location 加盟享优惠 -->
+<div class="location" id="loca_Div">
+    <div class="location-ab" id="location-ab-Div">
+        <a href="javascript:;"></a>
+    </div>
+    <div class="location-con clearfix">
+        <p>立即咨询，迈向成功第一步！</p>
+        <div class="form f-l">
+            <form action="http://liuyan.tlshangxun.com/tijiao.php" method="post">
+                <input type="text" class="tel-03" name="xingming" value="请输入您的姓名" onfocus="if(this.value == '请输入您的姓名') this.value = ''" onblur="if(this.value =='') this.value = '请输入您的姓名'" />
+                <input type="text" class="tel-02" name="dianhua" value="请输入您的手机号码" onfocus="if(this.value == '请输入您的手机号码') this.value = ''" onblur="if(this.value =='') this.value = '请输入您的手机号码'" />
+                <input type="submit" class="a1 button" value="立即留言" />
+                <input id="xiangmu" name="xiangmu" type="hidden" value="小确茶PC官网" />
+                <!-- value内容修改 -->
+                <input name="url" type="hidden" id="durl" value="">
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+var thisTLoc = top.location.href;
+
+document.getElementById("durl").value = thisTLoc;
+
+var oDiv = document.getElementById("location-ab-Div");
+
+oDiv.onclick = function() {
+
+    document.getElementById("loca_Div").style.display = "none";
+
+}
+</script>

@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1200{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+/*subpage templet code by wyp*/
+
+
+/*banner */
+.lxwm-box{
+    width: 100%;
+    height: 588px;
+    position: relative;
+    overflow:hidden;
+}
+.lxwm-bg {
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    background: url(../images/lxwm-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+.lxwm-ys{
+	width: 240px;
+    height: 199px;
+    position: absolute;
+    top: 150px;
+    left: 408px;
+    background: url(../images/lxwm-ys.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.lxwm-text{
+	width: 649px;
+    height: 172px;
+    position: absolute;
+    top: 206px;
+    left: 50%;
+    margin-left: -324.5px;
+    background: url(../images/lxwm-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content one*/
+.lxwm-con-box{
+	width: 100%;
+    height: 730px;
+    background: #000a19;
+    position: relative;
+}
+.lxwm-con-title{
+	width: 613px;
+    height: 86px;
+    position: absolute;
+    top: 100px;
+    left: 205px;
+    background: url(../images/lxwm-con-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+#num{
+	font-size: 88px;
+	color: #3ad9ff;
+	position: absolute;
+	top: 82px;
+	right: 210px;
+}
+.lxwm-con-sj{
+	width: 110px;
+    height: 13px;
+    position: absolute;
+    top: 183px;
+    right: 210px;
+    background: url(../images/lxwm-con-sj.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.lxwm-con-text{
+	width: 282px;
+    height: 54px;
+    position: absolute;
+    top: 224px;
+    left: 50%;
+    margin-left: -141px;
+    background: url(../images/lxwm-con-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*留言板*/
+.fwbz-dzx {
+    width: 600px;
+    height: 394px;
+    position: absolute;
+    top: 291px;
+    left: 50%;
+    margin-left: -300px;
+}
+.tb-z {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tb-z p:nth-child(1) {
+    margin-top: 0;
+}
+.tb-z p {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 29px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #878b93;
+}
+input{
+    color: #fff;
+}
+.in-txt {
+    width: 555px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #959595;
+    background: unset;
+    margin-left: 3.5px;
+}
+.lxwm-ly {
+    width: 100%;
+    height: 124px;
+    line-height: 124px;
+    margin-top: 29px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.ly {
+    width: 41.5px;
+    height: 124px;
+    position: absolute;
+    color: #878b93;
+}
+.lxwm-con-tj{
+	width: 210px;
+    height: 14px;
+    position: absolute;
+    top: 340px;
+    left: 50px;
+    background: url(../images/lxwm-con-tj.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.form-control {
+    width: 555px;
+    height: 124px;
+    line-height: 124px;
+    border: 1px solid #959595;
+    background: unset;
+    margin-left: 42.5px;
+    color: #fff;
+}
+.tj {
+    width: 133px;
+    height: 40px;
+    margin: 0 auto;
+    background: #3ad9ff;
+    margin-top: 78px;
+    text-align: center;
+}
+.form-tj {
+    height: 40px;
+    line-height: 40px;
+    background: unset;
+    color: #0b404c;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*地图*/
+.lxwm-con-box2{
+	width: 100%;
+    height: 890px;
+    background: #000a19;
+    position: relative;
+}
+.lxwm-con-text2{
+	width: 284px;
+    height: 54px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -142px;
+    background: url(../images/lxwm-con-text2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.lxwm-list2 {
+    width: 100%;
+    height: 890px;
+    background: #000a19;
+}
+.list2-box1 {
+    width: 100%;
+    height: 890px;
+}
+.list2-box1 ul {
+    width: 100%;
+    height: 510px;
+    position: absolute;
+    top: 188px;
+}
+.list2-box1 .bd li:nth-child(1) {
+    display: block;
+    z-index: 55;
+}
+.list2-box1 .bd li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 708px;
+}
+.list2-box1 .bd li>div {
+    width: 100%;
+    height: 708px;
+}
+.list2-box2{
+	width: 100%;
+	height: 195px;
+	background: #2a363c;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 0;
+	z-index: 66;
+}
+.list2-box2-con{
+	width: 1200px;
+	margin: 0 auto; 
+}
+.bj-p1{
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.list2-box2 .bj, .list2-box2 .js, .list2-box2 .gz {
+    margin-top: 50px;
+    width: 382px;
+    height: 100px;
+    color: #e8e9ea;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+}
+.list2-box2 .bj.active, .list2-box2 .js.active, .list2-box2 .gz.active {
+    color: #3ad9ff;
+}
+.list2-box2 .xt {
+    width: 1px;
+    height: 100px;
+    background: #41474f;
+    margin: 0 12px;
+    float: left;
+    margin-top: 54px;
+}

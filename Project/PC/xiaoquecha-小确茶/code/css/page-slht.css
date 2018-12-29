@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1024 {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+
+/*subpage templet code by jhy*/
+
+
+/*banner begin*/
+
+.slht-box {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(../images/slht-banner1.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slht-frame {
+    width: 860px;
+    height: 360px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    background: url(../images/slht-frame.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slht-text1 {
+    width: 380px;
+    height: 48px;
+    position: absolute;
+    top: 182px;
+    left: 116px;
+    background: url(../images/slht-text1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slht-text2 {
+    width: 271px;
+    height: 47px;
+    position: absolute;
+    top: 236px;
+    left: 116px;
+    background: url(../images/slht-text2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slht-text3 {
+    width: 176px;
+    height: 40px;
+    position: absolute;
+    top: 294px;
+    left: 320px;
+    background: url(../images/slht-text3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slht-text4 {
+    width: 373px;
+    height: 94px;
+    position: absolute;
+    top: 308px;
+    left: 116px;
+    background: url(../images/slht-text4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*banner end*/
+
+
+/*content one begin*/
+
+.gssl-box {
+    width: 100%;
+    height: 1192px;
+    position: relative;
+    background: url(../images/gssl-bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-title {
+    width: 114px;
+    height: 166px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -57px;
+    background: url(../images/gssl-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-img1 {
+    width: 502px;
+    height: 300px;
+    position: absolute;
+    top: 290px;
+    left: 0;
+    background: url(../images/slht-banner2-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.gssl-img1-1 {
+    width: 502px;
+    height: 300px;
+    position: absolute;
+    top: 290px;
+    left: 0;
+    background: url(../images/slht-banner2-img11.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-img2 {
+    width: 502px;
+    height: 300px;
+    position: absolute;
+    top: 290px;
+    left: 520px;
+    background: url(../images/slht-banner2-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.gssl-img2-2 {
+    width: 502px;
+    height: 300px;
+    position: absolute;
+    top: 290px;
+    left: 520px;
+    background: url(../images/slht-banner2-img22.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.gssl-img1:hover,.gssl-img2:hover{
+    opacity: 0;
+    transition: 1s;
+}
+.gssl-img3 {
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    top: 610px;
+    left: 0;
+    background: url(../images/slht-banner2-img3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-jt {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 1136px;
+    left: 50%;
+    margin-left: -18px;
+    background: url(../images/xqc-jt.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-box {
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    background: url(../images/slht-banner3.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-title {
+    width: 114px;
+    height: 166px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -57px;
+    background: url(../images/fwbz-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-img1 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 288px;
+    left: 0;
+    background: url(../images/fwbz-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-img2 {
+    width: 100%;
+    height: 684px;
+    position: absolute;
+    top: 716px;
+    left: 0;
+    background: url(../images/fwbz-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-footer {
+    width: 1000px;
+    height: 385px;
+    position: absolute;
+    top: 996px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+.fwbz-footer1 {
+    width: 190px;
+    height: 384px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/fwbz-footer1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-footer2 {
+    width: 190px;
+    height: 384px;
+    position: absolute;
+    top: 0;
+    left: 205px;
+    background: url(../images/fwbz-footer2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-footer3 {
+    width: 190px;
+    height: 384px;
+    position: absolute;
+    top: 0;
+    left: 405px;
+    background: url(../images/fwbz-footer3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-footer4 {
+    width: 190px;
+    height: 384px;
+    position: absolute;
+    top: 0;
+    left: 605px;
+    background: url(../images/fwbz-footer4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-footer5 {
+    width: 190px;
+    height: 384px;
+    position: absolute;
+    top: 0;
+    left: 805px;
+    background: url(../images/fwbz-footer5.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*content one end*/

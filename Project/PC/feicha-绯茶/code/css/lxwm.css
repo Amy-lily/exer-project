@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1200{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+/*subpage templet code by jhy*/
+
+/*banner begin*/
+
+.lxwm-box {
+    width: 100%;
+    height: 414px;
+    position: relative;
+    background: url(../images/lxwm-bbg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.lxwm-f1{
+    width: 492px;
+    height: 39px;
+    position: absolute;
+    top: 178px;
+    left:78px;
+    background: url(../images/lxwm-f1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.lxwm-f2{
+    width: 290px;
+    height: 10px;
+    position: absolute;
+    top: 229px;
+    left:182px;
+    background: url(../images/lxwm-f2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*banner end*/
+
+/*content one begin*/
+
+.lxwm-form{
+   width: 100%;
+   height: 760px;
+   background:#feeced;
+   position: relative;
+}
+
+.lxwm-jkly{
+    width: 274px;
+    height: 61px;
+    position: absolute;
+    top: 108px;
+    left:50%;
+    margin-left: -137px;
+    background: url(../images/lxwm-jkly.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fwbz-dzx{
+    width: 600px;
+    height: 394px;
+    position: absolute;
+    top:248px;
+    left:50%;
+    margin-left: -300px;
+}
+
+.tb-z{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.tb-z p {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 29px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.tb-z p:nth-child(1){
+    margin-top: 0;
+}
+
+.in-txt{
+    width: 555px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #959595;
+    background:unset;
+    margin-left: 3.5px;
+}
+
+.lxwm-ly{
+    width: 100%;
+    height: 124px;
+    line-height: 124px;
+    margin-top: 29px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.form-control {
+    width: 555px;
+    height: 124px;
+    line-height: 124px;
+    border: 1px solid #959595;
+    background: unset;
+    margin-left: 42.5px;
+}
+
+.ly{
+    width: 41.5px;
+    height: 124px;
+    position: absolute;
+}
+
+.tj{
+    width: 133px;
+    height:40px;
+    margin:0 auto;
+    background:#ebaab0;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.form-tj{
+    height:40px;
+    line-height: 40px;
+    background:unset;
+    color: #2f1f21;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/*content one end*/
+
+.lxwm-slzb-wrap{
+   width: 100%;
+   height: 680px;
+   background:#fff;
+   position: relative;
+}
+
+.lxwm-slzb{
+    width: 277px;
+    height: 62px;
+    position: absolute;
+    top: 103px;
+    left:50%;
+    margin-left: -138.5px;
+    background: url(../images/lxwm-slzb.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*.lxwm-slzb-t{
+    width: 1177px;
+    height: 331px;
+    position: absolute;
+    top: 240px;
+    left:50%;
+    margin-left: -588.5px;
+    background: url(../images/lxwm-slzb-t.png) no-repeat center center;
+    background-size: 100% 100%;
+}*/
+
+/*baidu-map begin*/
+    .bd-map{
+        width: 1178px;
+        height:286px;
+        position: absolute;
+        top:240px;
+        left: 11px;
+    }
+
+    .bd-map ul li{
+        float: left;
+    }
+
+    .map-t{
+        width: 282px;
+        height: 214px;
+    }
+
+    #map1{
+        margin-right:15px;
+    }
+
+    #map2{
+        margin-right:15px;
+    }
+
+    #map3{
+        margin-right:15px;
+    }
+
+    .bd-map-f{
+        width: 1200px;
+        height:82px;
+        position:absolute;
+        top:490px;
+        left:0;
+    }
+
+    .map-f{
+        width:298px;
+        height: 82px;
+        display: inline-block;
+        float: left;
+    }
+
+    .map-f-1,.map-f-3{
+        border-left:1px solid #d2d2d2;
+        border-right:1px solid #d2d2d2;
+    }
+
+    .map-f-4{
+        border-right:1px solid #d2d2d2;
+    }
+
+    .map-city{
+        font-size: 18px;
+        color:#000;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 27px;
+    }
+
+    .map-addr{
+        color:#000;
+        text-align: center;
+        font-size: 14px;
+    }
+
+/*baidu-map end*/
+

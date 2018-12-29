@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1024 {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+
+/*subpage templet code by jhy*/
+
+
+/*banner begin*/
+
+.lxwm-box {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background: url(../images/lxwm-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.lxwm-frame {
+    width: 838px;
+    height: 420px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -419px;
+    background: url(../images/lxwm-frame.png) no-repeat center center;
+    background-size: cover;
+}
+
+.lxwm-text1 {
+    width: 397px;
+    height: 108px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -198.5px;
+    background: url(../images/lxwm-text1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.lxwm-text2 {
+    width: 397px;
+    height: 79px;
+    position: absolute;
+    top: 283px;
+    left: 50%;
+    margin-left: -198.5px;
+    background: url(../images/lxwm-text2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.lxwm-text3 {
+    width: 385px;
+    height: 89px;
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    margin-left: -192.5px;
+    background: url(../images/lxwm-text3.png) no-repeat center center;
+    background-size: cover;
+}
+/*banner end*/
+
+/*content one begin*/
+.slzb-box {
+    width: 100%;
+    height: 1049px;
+    position: relative;
+    background: url(../images/slzb-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slzb-title {
+    width: 255px;
+    height: 149px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -127.5px;
+    background: url(../images/slzb-title.png) no-repeat center center;
+    background-size: cover;
+}
+
+/*baidu-map begin*/
+    .bd-map{
+        width: 100%;
+        height:286px;
+        position: absolute;
+        top:270px;
+        left: 0;
+    }
+
+    .bd-map ul li{
+        float: left;
+    }
+
+    .map-li-1,.map-li-2{
+        border-right: 1px solid #bfb4b2;
+    }
+
+    .map-t{
+        width: 280px;
+        height: 200px;
+    }
+
+    #map1{
+        margin-right:44px;
+    }
+
+    #map2{
+        margin: 0 44px;
+    }
+
+    #map3{
+        margin-left: 44px;
+    }
+
+    .map-f{
+        width: 280px;
+        height:auto;
+        margin-top: 15px;
+    }
+
+    .map-city{
+        font-size: 16px;
+        color:#403a39;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .map-city font{
+        width: 23px;
+        text-align: center;
+        border-bottom:2px solid #ffb9b2;
+        padding-bottom: 3px;
+    }
+
+    .map-addr{
+        color:#958d8c;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .map-f-2{
+        margin-left: 44px;
+    }
+
+/*baidu-map end*/
+
+.slzb-form-bg {
+    width: 100%;
+    height: 355px;
+    position: absolute;
+    left: 0;
+    top: 583px;
+    background: #ffdcd9;
+}
+
+.slzb-form-bg p span {
+    font-size: 16px;
+    color: #666;
+    line-height: 2;
+}
+
+.slzb-form-bg input {
+    border: 0;
+    background: none;
+    text-indent: 10px;
+    font-size: 20px;
+    color: #666;
+}
+
+.slzb-form-bg .p1 input,
+.slzb-form-bg .p2 input {
+    width: 300px;
+}
+
+.slzb-form-bg .p1 {
+    width: 354px;
+    border-bottom: 1px solid #666;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+
+.slzb-form-bg .p2 {
+    width: 354px;
+    border-bottom: 1px solid #666;
+    position: absolute;
+    left: 572px;
+    top: 60px;
+}
+
+.slzb-form-bg .p3 {
+    width: 825px;
+    border-bottom: 1px solid #666;
+    position: absolute;
+    left: 100px;
+    top: 125px;
+}
+
+.slzb-form-bg .p4 {
+    width: 825px;
+    border-bottom: 1px solid #666;
+    position: absolute;
+    left: 100px;
+    top: 192px;
+}
+
+.slzb-form-bg .p5 {
+    width: 140px;
+    height: 35px;
+    background: #FF8A7F;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    top: 260px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slzb-form-bg .p5 input {
+    color: #FFF;
+    text-indent: 0;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/*content one end*/

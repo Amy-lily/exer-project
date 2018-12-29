@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1024{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+/*subpage templet code by lly*/
+
+/*banner begin*/
+
+.tzyl-ban-box {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(../images/tzyl-ban-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.tzyl-word{
+    width: 280px;
+    height: 340px;
+    position: absolute;
+    top: 77px;
+    left:372px;
+    background: url(../images/tzyl-word1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.tzyl-line{
+    width: 80px;
+    height: 2px;
+    background: url(../images/tzyl-line.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 447px;
+    left: 474px;
+}
+.tzyl-word1{
+    width: 450px;
+    height: 73px;
+    position: absolute;
+    top: 208px;
+    left:287px;
+    background: url(../images/tzyl-word2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tzyl-word2{
+    width: 407px;
+    height: 88px;
+    position: absolute;
+    top: 459px;
+    left:313px;
+    background: url(../images/tzyl-eword.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*banner end*/
+
+/*content ylfx begin*/
+
+.con-box-1{
+    width: 100%;
+    height: 700px;
+    background: url(../images/tzyl-ylfx-bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.con-title{
+    width: 141px;
+    height: 166px;
+    margin:0 auto;
+    margin-top: 80px;
+    background: url(../images/tzyl-fxbt.png) no-repeat center center;
+    background-size: 100% 100%;    
+}
+.tzyl-fxgs{
+    width: 100%;
+    height: 320px;
+    background: #d9f2ff;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.tzyl-gs1{
+    width: 803px;
+    height: 40px;
+    background: url(../images/tzyl-fxgs1.png) no-repeat center center;
+    background-size: 100% 100%;    
+    margin:0 auto;
+    margin-top: 60px;
+}
+.tzyl-gs2{
+    width: 384px;
+    height: 40px;
+    background: url(../images/tzyl-fxgs2.png) no-repeat center center;
+    background-size: 100% 100%;    
+    margin:0 auto;
+    margin-top: 40px;
+}
+.tzyl-gs3{
+    width: 311px;
+    height: 42px;
+    background: url(../images/tzyl-fxgs3.png) no-repeat center center;
+    background-size: 100% 100%;    
+    margin:0 auto;
+    margin-top: 40px;
+}
+.down{
+    width: 36px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    left:50%;
+    margin-left: -18px;
+    bottom: 20px;
+    z-index: 99;
+    background: url(../images/down.png) right bottom no-repeat;
+}
+/*content one end*/
+/*content ddms*/
+.con-box-2{
+    width: 100%;
+    height: 1676px;
+    background: url(../images/tzyl-ddms-bg.jpg) no-repeat center center;
+    background-size: 100% 100%; 
+    position: relative;   
+}
+.con-title1{
+    width: 113px;
+    height: 166px;
+    background: url(../images/tzyl-fxbt1.png) no-repeat center center;
+    background-size: 100% 100%; 
+    
+}
+.tzyl-ddms-dx{
+    width: 100%;
+    height: 300px;
+    background: #ffdcd9;
+    position: relative;
+    box-shadow: 1px 1px 2px rgba(160,159,159,0.5),
+                -1px -1px 2px rgba(160,159,159,0.5); 
+    top: 40px;
+}
+.tzyl-dx1{
+    width: 1004px;
+    height: 240px;
+    background: url(../images/tzyl-dx1.png) no-repeat center center;
+    background-size: 100% 100%;   
+    position: absolute;
+    top: 10px;
+    left: 10px;  
+}
+.tzyl-dx2{    
+    width: 210px;
+    height: 140px;
+    background: url(../images/tzyl-dxbt.png) no-repeat center center;
+    background-size: 100% 100%; 
+    position: absolute;
+    top: 150px;
+    left:30px;
+}
+.tzyl-tzfy{
+    width: 304px;
+    height: 24px;
+    border: 2px solid #ffb9b2;
+    border-radius:8px;
+    position: absolute;
+    top: 260px;
+    right: 10px;
+    text-align: center;
+    line-height: 24px;
+    color: #666666;
+    font-size: 14px;
+}
+/*标准店*/
+.tzyl-ddms-bz{
+    margin-top: 30px;
+}
+.tzyl-bz1{
+    background: url(../images/tzyl-bzdx.png) no-repeat center center;
+    background-size: 100% 100%; 
+}
+.tzyl-bz2{
+    background: url(../images/tzyl-bzbt.png) no-repeat center center;
+    background-size: 100% 100%; 
+}
+/*旗舰店*/
+.tzyl-qj1{
+    background: url(../images/tzyl-qjdx.png) no-repeat center center;
+    background-size: 100% 100%;     
+}
+.tzyl-qj2{
+    background: url(../images/tzyl-qjbt.png) no-repeat center center;
+    background-size: 100% 100%;     
+}
+/*代理模式*/
+.tzyl-dl1{
+    width: 590px;
+    height: 240px;
+    background: url(../images/tzyl-dldx.png) no-repeat center center;
+    background-size: 100% 100%;     
+}
+.tzyl-dl2{
+    background: url(../images/tzyl-dlbt.png) no-repeat center center;
+    background-size: 100% 100%;     
+}
+.tzyl-dl{
+    width: 404px;
+    height: 240px;
+    position: absolute;
+    background: #ffe8e5;
+    right: 10px;
+    top: 10px;
+}
+.tzyl-dl .tzyl-dlbg{
+    width: 384px;
+    height: 218px;
+    border-collapse: collapse;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #ffdcd9;
+}
+.tzyl-dlbg tr td{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.6);
+    border-top: 1px solid rgba(255,255,255,0.6);
+}
+.tzyl-dlbg .no-top-line td{
+    border-top: 0;
+}
+.tzyl-dlbg tr .no-right-line{
+    border-right: 0;
+}
+.tzyl-dlbg tr td:first-child{
+    color: #000000;
+}
+
+/*签约案例*/
+.con-box-3{
+    width: 100%;
+    height: 800px;
+    background: url(../images/tzyl-qyal.jpg) no-repeat center center;
+    background-size: 100% 100%;   
+    position: relative;  
+}
+.con-title3{
+    width: 153px;
+    height: 166px;
+    background: url(../images/tzyl-qyal.png) no-repeat center center;
+    background-size: 100% 100%;     
+}
+.tzyl-qyal{
+    width: 502px;
+    height: 415px;
+    background: url(../images/tzyl-al1.png) no-repeat center center;
+    background-size: 100% 100%;    
+    position: absolute;
+    margin-top: 40px;
+    left: 0;
+}
+.tzyl-qyal1{
+    width: 502px;
+    height: 415px;
+    background: url(../images/tzyl-al2.png) no-repeat center center;
+    background-size: 100% 100%;    
+    position: absolute;
+    margin-top: 40px;
+    right: 0;
+}

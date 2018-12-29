@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="renderer" content="webkit">
+
+<title>小确茶联系方式</title>
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<meta name="keywords" content="小确茶总部地址,小确茶电话">
+
+<meta name="description" content="小确茶总部地址,小确茶电话,投资者可实地考察,即刻留言,开启丰富财富生活.">
+
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+
+<link rel="stylesheet" type="text/css" href="css/global.css">
+
+<link rel="stylesheet" type="text/css" href="css/page-lxwm.css">
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4VTX4GV6tGH4y4bjBXAQd5zSX4zBdySm"></script>
+
+<script type="text/javascript" src="js/mobileClient.js"></script>
+
+</head>
+
+
+
+<body>
+
+<!--#include file="inc/head.html" --> 
+
+<!--#include file="inc/msgBox.html" --> 
+
+<!-- banner -->
+
+<div class="lxwm-box min1200">
+
+  <div class="w1024">
+
+    <div class="lxwm-frame wow fadeIn" data-wow-duration="1s"></div>
+
+    <div class="lxwm-text1 wow puffIn-sma" data-wow-duration="1s"></div>
+
+    <div class="lxwm-text2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"></div>
+
+    <div class="lxwm-text3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
+
+  </div>
+
+</div>
+
+<!-- content one -->
+
+<div class="slzb-box min1200">
+
+  <div class="w1024">
+
+    <div class="slzb-title wow zoomIn" data-wow-duration="1s"></div>
+
+    <!-- <div class="slzb-img wow fadeIn" data-wow-duration="1s"></div> -->
+
+    <div class="bd-map">
+
+      <ul>
+
+        <li class="map-li-1">
+
+          <div id="map1" class="map-t"></div>
+
+          <div class="map-f">
+
+            <p class="map-city"><font>北京公司</font></p>
+
+            <p class="map-addr">北京市大兴区亦庄开发区宏达北路16号<br/>
+
+              中航国际北京工业园2号楼4层</p>
+
+          </div>
+
+        </li>
+
+        <li class="map-li-2">
+
+          <div id="map2" class="map-t"></div>
+
+          <div class="map-f map-f-2">
+
+            <p class="map-city"><font>广州公司</font></p>
+
+            <p class="map-addr">广州市白云区三元里大道<br/>
+
+              新景大厦6层</p>
+
+          </div>
+
+        </li>
+
+        <li>
+
+          <div id="map3" class="map-t"></div>
+
+          <div class="map-f map-f-2">
+
+            <p class="map-city"><font>南京公司</font></p>
+
+            <p class="map-addr">江苏省南京市江宁区天元东路<br/>
+
+              118-2号天元大厦4楼</p>
+
+          </div>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="slzb-form-bg wow fadeIn" data-wow-duration="1s" data-wow-delay="" style="visibility: visible; animation-duration: 1s; animation-name: fadeIn;">
+
+      <form action="http://liuyan.tlshangxun.com/tijiao.php" method="post" class="hzfs_form">
+
+        <p class="p1"><span>姓名:</span>
+
+          <input id="xingming" name="xingming" class="in-txt" type="text" focus="">
+
+        </p>
+
+        <p class="p2"><span>电话:</span>
+
+          <input id="tel" name="dianhua" class="in-txt" type="text">
+
+        </p>
+
+        <p class="p3"><span>地址:</span>
+
+          <input id="address" name="laizi" class="in-txt form-dz" type="text">
+
+        </p>
+
+        <p class="p4"><span>留言:</span>
+
+          <input class="ipt-ly" type="text" name="liuyan">
+
+        </p>
+
+        <p class="p5">
+
+          <input class="form-tj" type="submit" value="提 交">
+
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- content two --> 
+
+<!--#include file="inc/foot.html" --> 
+
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+
+<script type="text/javascript" src="libs/js/skrollr.min.js"></script> 
+
+<script type="text/javascript" src="js/lxwm.js"></script> 
+
+<script type="text/javascript" src="http://developer.baidu.com/map/custom/stylelist.js"></script> 
+
+<!--#include file="inc/cnzz.html" --> 
+
+<!--#include file="inc/bot_floor.html"-->
+
+</body>
+
+</html>

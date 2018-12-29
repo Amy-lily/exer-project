@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>脆小鸡官网</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="脆小鸡官网">
+    <meta name="description" content="台式厚脆大鸡排，以超1cm厚度、少80%油脂的特色鸡排为招牌，各式小吃饮品等百种产品集于一店，逗趣+品质，鸡排新食尚！">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="libs/css/jquery.zySlide.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4VTX4GV6tGH4y4bjBXAQd5zSX4zBdySm"></script>
+    <script type="text/javascript" src="js/mobileClient.js"></script>
+
+</head>
+
+<body>
+    <!--#include file="inc/msgBox.html" -->
+    <!-- 导航 -->
+    <div class="index-nav">
+        <div class="index-nav-box">
+            <div class="nav-warp1 nav-warp">
+                <p class="font-p1 font-p">项目优势</p>
+                <div class="font-img font-img1"></div>
+            </div>
+            <div class="nav-warp2 nav-warp">
+                <p class="font-p2 font-p">产品盈利</p>
+                <div class="font-img font-img2"></div>
+            </div>
+            <div class="nav-warp3 nav-warp">
+                <p class="font-p3 font-p">投资店型</p>
+                <div class="font-img font-img3"></div>
+            </div>
+            <div class="nav-warp4 nav-warp">
+                <p class="font-p4 font-p">扶持政策</p>
+                <div class="font-img font-img4"></div>
+            </div>
+            <div class="nav-warp5 nav-warp">
+                <p class="font-p5 font-p">公司实力</p>
+                <div class="font-img font-img5"></div>
+            </div>
+            <div class="nav-warp6 nav-warp">
+                <p class="font-p6 font-p">联系我们</p>
+                <div class="font-img font-img6"></div>
+            </div>
+            <a href="#">
+                <div class="index-nav-logo"></div>
+            </a>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="index-banner">
+        <div class="index-1024">
+            <div class="banner-zz wow microFlash" data-wow-duration="1s"></div>
+            <div class="banner-xin wow zoomIn" data-wow-duration="1s"></div>
+            <div class="banner-text1 wow fadeIn" data-wow-duration="1s"></div>
+            <div class="banner-text2 wow fadeIn" data-wow-duration="1s"></div>
+            <div class="banner-img wow fadeInUp" data-wow-duration="1s"></div>
+            <div class="banner-text3 wow fadeIn" data-wow-duration="1s"></div>
+        </div>
+    </div>
+    <!-- 项目优势 1 -->
+    <div class="index-xmys1">
+        <div class="index-1024">
+            <div class="xmys1-zz wow microFlash"></div>
+            <div class="xmys1-xin" data-aos="zoom-in" aos-delay="500"></div>
+            <div class="xmys1-text1" data-aos="fade"></div>
+            <div class="xmys1-text2" data-aos="fade" aos-delay="500"></div>
+            <div class="xmys1-img" data-aos="fade-up" aos-delay="500">
+                <div class="xmys1-img-gif1"></div>
+                <div class="xmys1-img-gif2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 项目优势 2 -->
+    <div class="index-xmys2">
+        <div class="index-1024">
+            <div class="xmys2-xin" data-aos="zoom-in" aos-delay="500"></div>
+            <div class="xmys2-text1" data-aos="fade"></div>
+            <div class="xmys2-text2" data-aos="fade" aos-delay="500"></div>
+            <div class="xmys2-img1 xmys2-img" data-aos="fade-up" aos-delay="200"></div>
+            <div class="xmys2-img2 xmys2-img" data-aos="fade-up" aos-delay="200"></div>
+            <div class="xmys2-img3 xmys2-img" data-aos="fade-up" aos-delay="200"></div>
+            <div class="xmys2-img1-gif xmys2-img-gif" data-aos="fade" aos-delay="800"></div>
+            <div class="xmys2-img2-gif xmys2-img-gif" data-aos="fade" aos-delay="800"></div>
+            <div class="xmys2-img3-gif xmys2-img-gif" data-aos="fade" aos-delay="800"></div>
+        </div>
+    </div>
+    <!-- 产品盈利 1 -->
+    <div class="index-cpyl1">
+        <div class="index-1024">
+            <div class="cpyl1-xin" data-aos="zoom-in" aos-delay="500"></div>
+            <div class="cpyl1-text1" data-aos="fade"></div>
+            <div class="cpyl1-text2" data-aos="fade" aos-delay="500"></div>
+            <!-- <div class="cpyl1-img" data-aos="fade"></div> -->
+            <!-- lunbo -->
+            <div id="focus_Box" class="focus_Box1">
+                <span class="prev">&nbsp;</span>
+                <span class="next">&nbsp;</span>
+                <ul class="focus-wrapper">
+                    <li>
+                        <img class="3" width="500" height="300" src="images/cpyl1-lb3.jpg" />
+                    </li>
+                    <li>
+                        <img class="2" width="500" height="300" src="images/cpyl1-lb2.jpg" />
+                    </li>
+                    <li>
+                        <img class="1" width="500" height="300" src="images/cpyl1-lb1.jpg" />
+                    </li>
+                    <li>
+                        <img class="4" width="500" height="300" src="images/cpyl1-lb4.jpg" />
+                    </li>
+                    <li>
+                        <img class="5" width="500" height="300" src="images/cpyl1-lb5.jpg" />
+                    </li>
+                    <li>
+                        <img class="6" width="500" height="300" src="images/cpyl1-lb6.jpg" />
+                    </li>
+                    <li>
+                        <img class="7" width="500" height="300" src="images/cpyl1-lb7.jpg" />
+                    </li>
+                </ul>
+                <div class="cpyl1-lb-text">
+                    <div class="cpyl1-lb4-text cpyl1-text"></div>
+                    <div class="cpyl1-lb1-text cpyl1-text"></div>
+                    <div class="cpyl1-lb2-text cpyl1-text"></div>
+                    <div class="cpyl1-lb5-text cpyl1-text"></div>
+                    <div class="cpyl1-lb6-text cpyl1-text"></div>
+                    <div class="cpyl1-lb7-text cpyl1-text"></div>
+                    <div class="cpyl1-lb3-text cpyl1-text"></div>
+                </div>
+            </div>
+            <!--轮播结束-->
+            <div class="cpyl1-zz"></div>
+            <div class="cpyl1-img2"></div>
+        </div>
+    </div>
+    <!-- 产品盈利 2 -->
+    <div class="index-cpyl2">
+        <div class="index-1024">
+            <div class="cpyl2-xin" data-aos="zoom-in" aos-delay="500"></div>
+            <div class="cpyl2-text1" data-aos="fade"></div>
+            <div class="cpyl2-text2" data-aos="fade" aos-delay="500"></div>
+            <div class="cpyl2-img" data-aos="fade" aos-delay="500"></div>
+            <!-- lunbo -->
+            <div id="Slide1" class="zy-Slide">
+                <!--prev:元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。-->
+                <section class="prev">&nbsp;</section>
+                <section class="next">&nbsp;</section>
+                <ul>
+                    <!--alt + shift : 可以创建一个矩形选择区域-->
+                    <li><img src="images/cpyl2-lb1.jpg" /></li>
+                    <li><img src="images/cpyl2-lb2.jpg" /></li>
+                    <li><img src="images/cpyl2-lb3.jpg" /></li>
+                    <li><img src="images/cpyl2-lb4.jpg" /></li>
+                    <li><img src="images/cpyl2-lb5.jpg" /></li>
+                    <li><img src="images/cpyl2-lb6.jpg" /></li>
+                    <li><img src="images/cpyl2-lb7.jpg" /></li>
+                </ul>
+            </div>
+            <div class="cpyl2-img2"></div>
+        </div>
+    </div>
+    <!-- 投资店型 -->
+    <div class="index-tzdx">
+        <div class="index-1200">
+            <div class="tzdx-zz wow microFlash"></div>
+            <div class="tzdx-xin" data-aos="zoom-in" aos-delay="500"></div>
+            <div class="tzdx-text1" data-aos="fade"></div>
+            <div class="tzdx-text2" data-aos="fade" aos-delay="500"></div>
+            <div class="tzdx-cyd-btn tzdx-btn">
+                <div class="tzdx-cyd-btn-bg tzdx-btn-bg tzdx-bg-active"></div>
+                <div class="tzdx-cyd-text tzdx-text tzdx-text-active">创业店</div>
+            </div>
+            <div class="tzdx-bzd-btn tzdx-btn">
+                <div class="tzdx-bzd-btn-bg tzdx-btn-bg"></div>
+                <div class="tzdx-bzd-text tzdx-text">标准店</div>
+            </div>
+            <div class="tzdx-qjd-btn tzdx-btn">
+                <div class="tzdx-qjd-btn-bg tzdx-btn-bg"></div>
+                <div class="tzdx-qjd-text tzdx-text">旗舰店</div>
+            </div>
+            <div class="tzdx-qydl-btn tzdx-btn">
+                <div class="tzdx-qydl-btn-bg tzdx-btn-bg"></div>
+                <div class="tzdx-qydl-text tzdx-text">区域代理</div>
+            </div>
+            <div class="tzdx-cyd-img tzdx-book">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 投资费用：<span>35000元</span>
+                    <br/>年度营运服务费：<span>2000元/年</span></p>
+            </div>
+            <div class="tzdx-bzd-img tzdx-book">
+                <p>投资费用：<span> 45000元 </span>
+                    <br/>年度营运服务费：<span> 2000元/年 </span></p>
+            </div>
+            <div class="tzdx-qjd-img tzdx-book">
+                <p>&nbsp;&nbsp;&nbsp; 投资费用：55000元
+                    <br/>年度营运服务费: 2000元/年</p>
+            </div>
+            <div class="tzdx-qydl-table-k tzdx-book">
+                <div class="tzdx-qydl-table">
+                    <div class="tzdx-qydl-table-title"></div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="178px">区域划分</td>
+                                <td width="148px">三线城市</td>
+                                <td width="148px">二线城市</td>
+                                <td width="148px">一线城市</td>
+                                <td width="148px">核心城市</td>
+                                <td>核心区域</td>
+                            </tr>
+                            <tr>
+                                <td>投资费用</td>
+                                <td>9万元</td>
+                                <td>11万</td>
+                                <td>13万</td>
+                                <td>18万</td>
+                                <td>18万</td>
+                            </tr>
+                            <tr>
+                                <td>年度营运服务费</td>
+                                <td>5000元/年</td>
+                                <td>5000元/年</td>
+                                <td>5000元/年</td>
+                                <td>5000元/年</td>
+                                <td>5000元/年</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tzdx-qydl-img"></div>
+            </div>
+            <div class="tzdx-img"></div>
+        </div>
+    </div>
+    <!-- 扶持政策 -->
+    <div class="index-fczc">
+        <div class="index-1024">
+            <div class="fczc-zz wow microFlash"></div>
+            <div class="fczc-xin" data-aos="zoom-in" aos-delay="500"></div>
+            <div class="fczc-text1" data-aos="fade"></div>
+            <div class="fczc-text2" data-aos="fade" aos-delay="500"></div>
+            <div class="fczc-img1" data-aos="fade-up" aos-delay="200"></div>
+            <div class="fczc-img2" data-aos="fade-up" aos-delay="200"></div>
+        </div>
+    </div>
+    <!-- 公司实力 -->
+    <div class="index-gssl">
+        <div class="index-1024">
+            <div class="gssl-xin" data-aos="zoom-in" aos-delay="500"></div>
+            <div class="gssl-text1" data-aos="fade"></div>
+            <div class="gssl-text2" data-aos="fade" aos-delay="500"></div>
+            <div class="gssl-img1 gssl-img" data-aos="fade-up"></div>
+            <div class="gssl-img2 gssl-img" data-aos="fade-up" aos-delay="300"></div>
+            <div class="gssl-img3 gssl-img" data-aos="fade-up" aos-delay="600"></div>
+            <div class="gssl-img4 gssl-img" data-aos="fade-up" aos-delay="900"></div>
+        </div>
+    </div>
+    <!-- 联系我们 -->
+    <div class="index-lxwm">
+        <div class="index-1024">
+            <div class="lxwm-zz wow microFlash"></div>
+            <div class="lxwm-xin" data-aos="zoom-in" aos-delay="500"></div>
+            <div class="lxwm-text1" data-aos="fade"></div>
+            <div class="lxwm-text2" data-aos="fade" aos-delay="500"></div>
+            <div class="lxwm-map">
+                <ul>
+                    <li class="map-li-1">
+                        <div id="map1" class="map-t"></div>
+                        <div class="map-f">
+                            <div class="lxwm-map1-img lxwm-map-img"></div>
+                            <p class="map-city">
+                                <font>华北运营中心</font>
+                            </p>
+                            <p class="map-addr">北京大兴区亦庄经济技术开发区西环南路
+                                <br/>嘉捷科技园26号院5号楼</p>
+                        </div>
+                    </li>
+                    <li class="map-li-2">
+                        <div id="map2" class="map-t"></div>
+                        <div class="map-f map-f-2">
+                            <div class="lxwm-map2-img lxwm-map-img"></div>
+                            <p class="map-city">
+                                <font>华中运营中心</font>
+                            </p>
+                            <p class="map-addr">南京市江宁区天元西路
+                                <br/>秣陵九车间</p>
+                        </div>
+                    </li>
+                    <li class="map-li-3">
+                        <div id="map3" class="map-t"></div>
+                        <div class="map-f map-f-2">
+                            <div class="lxwm-map3-img lxwm-map-img"></div>
+                            <p class="map-city">
+                                <font>华南运营中心</font>
+                            </p>
+                            <p class="map-addr">广州白云区机场路2531号
+                                <br/>盛美大厦5层</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--#include file="inc/bot_floor.html"-->
+    <!--#include file="inc/cnzz.html"-->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/jquery-3.3.1.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/ZoomPic.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/swiper.min.js" charset="UTF-8"></script>
+    <script src="libs/js/jquery.zySlide.js"></script>
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/index.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/skrollr.min.js"></script>
+    <script type="text/javascript" src="http://developer.baidu.com/map/custom/stylelist.js"></script>
+    <!--[if !IE]><!-->
+
+    <script type="text/javascript" src="libs/js/aos.js"></script>
+    <script type="text/javascript">
+    AOS.init({
+        offset: 100,
+        duration: 1000,
+        easing: 'linear',
+        disable: 'mobile'
+    });
+    </script>
+    <!--<![endif]-->
+
+</html>

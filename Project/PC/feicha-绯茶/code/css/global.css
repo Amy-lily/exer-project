@@ -1,0 +1,473 @@
+div,
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+.w1024 {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*head nav*/
+
+.header {
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    min-width: 1200px;
+    background: #fff;
+    position: relative;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+
+.header-con {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.head-logo {
+    float: left;
+    width: 98px;
+    height: 52px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background: url(../images/ind-icon.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.header-con .ind-u1 {
+    float: left;
+    margin: 32px 0 0 40px;
+    overflow: hidden;
+}
+
+.header-con .ind-u1 li {
+    display: block;
+    float: left;
+    padding: 0 22px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-right: 1px solid #959595;
+}
+
+.header-con .ind-u1 li a {
+    display: block;
+    line-height: 27px;
+    font-size: 16px;
+    color: #343434;
+    letter-spacing: 0.5px;
+}
+
+.header-con .ind-u1 li:nth-child(1) {
+    padding-left: unset;
+}
+
+.header-con .ind-u1 li:nth-child(4) {
+    padding: 0 28px;
+}
+
+.header-con .ind-u1 li:nth-child(5) {
+    border-right: unset;
+}
+
+.header-con ul li a:hover {
+    border-bottom: 1px solid #353335;
+}
+
+.header-con ul li a.active {
+    border-bottom: 1px solid #353335;
+}
+
+.header-con .ind-u2 {
+    float: right;
+    margin: 32px 20px 0 0;
+    overflow: hidden;
+}
+
+.header-con .ind-u2 li {
+    display: block;
+    float: left;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.nav-list8{
+    margin-left: 23px;
+}
+
+.header-con .ind-u2 li a {
+    display: inline-block;
+    line-height: 27px;
+    font-size: 16px;
+    color: #343434;
+    letter-spacing: 0.5px;
+}
+
+.header-con .ind-u2 li.nav-list6 {
+    padding-right: 22px;
+}
+
+.header-con .ind-u2 img {
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 6px;
+    float: left;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 280px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 2px 25px rgba(198,198,198,0.5);
+    -moz-box-shadow: 0 2px 25px rgba(198,198,198,0.5);
+    -webkit-box-shadow: 0 2px 25px rgba(198,198,198,0.5);
+}
+
+.fot-logo {
+    width: 62px;
+    height: 90px;
+    margin: 47px auto 0;
+    background: url(../images/fot-logo.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.footer ul {
+    width: 580px;
+    height: 16px;
+    margin: 23px auto 0;
+    display: block;
+}
+
+.footer ul li {
+    float: left;
+    padding-left: 25px;
+}
+
+.footer ul li:nth-child(1) {
+    padding-left: unset;
+}
+
+.footer ul li a {
+    color: #838383;
+    font-size: 16px;
+    letter-spacing:
+}
+
+.boingInUp {
+    -webkit-animation-name: boingInUp;
+    animation-name: boingInUp;
+}
+@-webkit-keyframes boingInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform-origin: 50% 0%;
+        -webkit-transform: perspective(800px) rotateX(-90deg);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform-origin: 50% 0%;
+        -webkit-transform: perspective(800px) rotateX(50deg);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform-origin: 50% 0%;
+        -webkit-transform: perspective(800px) rotateX(0deg);
+    }
+}
+@keyframes boingInUp {
+    0% {
+        opacity: 0;
+        transform-origin: 50% 0%;
+        transform: perspective(800px) rotateX(-90deg);
+    }
+
+    50% {
+        opacity: 1;
+        transform-origin: 50% 0%;
+        transform: perspective(800px) rotateX(50deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform-origin: 50% 0%;
+        transform: perspective(800px) rotateX(0deg);
+    }
+}
+
+
+
+/*定位 location 加盟享优惠 */
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.f-li li {
+    float: left;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+.location {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 68px;
+    width: 100%;
+    min-width: 1200px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+}
+
+.location-re {
+    width: 100%;
+    height: 100%;
+    -position: relative;
+    border-top: 1px solid #fff;
+}
+
+.location-ab {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.location-ab a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/delete.png) no-repeat;
+}
+
+.location .location-con {
+    width: 900px;
+    margin: 17px auto;
+}
+
+.location-con p {
+    float: left;
+    font-size: 22px;
+    color: #fff;
+    line-height: 35px;
+    margin-right: 142px;
+    clear: both;
+    height: 35px;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: "微软雅黑";
+}
+
+.location-con .form {
+    height: 35px;
+}
+
+.location-con .form input {
+    line-height: 35px;
+    padding: 0 15px;
+    color: #666;
+    border: 0;
+    height: 35px;
+    background: #fff;
+    font-family: "微软雅黑";
+}
+
+.location-con .form .a2 {
+    display: inline-block;
+    margin-left: 22px;
+    line-height: 33px;
+    width: 155px;
+    color: #fff!important;
+    font-size: 18px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 45px;
+    float: right;
+    font-family: "微软雅黑";
+}
+
+.location-con .form .button {
+    display: inline-block;
+    margin-left: 13px;
+    line-height: 33px;
+    width: 130px;
+    color: #fff!important;
+    font-size: 17px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 43px;
+    float: right;
+}
+
+.location-con .form .a1 {
+    background: #c3b783 url(../images/location-a1.png) no-repeat 15px center;
+    background-size: 22px 22px;
+    cursor: pointer;
+}
+
+.location-con .form .a1:hover {
+    background: #b7a65c url(../images/location-a1.png) no-repeat 15px center;
+    background-size: 22px 22px;
+}
+
+input.tel-03 {
+    width: 100px;
+    margin-right: 9px;
+}
+
+input.tel-02 {
+    width: 130px;
+}
+
+
+
+/*返回顶部*/
+
+.r-top {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    right: 100px;
+    bottom: 80px;
+    background: url("../images/r-top.png") no-repeat center center;
+    background-size: 100% 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.r-top.active {
+    opacity: 1;
+    transition: 2s;
+    -moz-transition: 2s;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+}
+
+@media screen and (max-width: 1418px) {
+    .r-top {
+        right: 0;
+    }
+}
+
+/*TQ*/
+
+.popUps {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.tq {
+    width: 129px;
+    height: auto;
+    position: fixed;
+    top: 230px;
+    right: 30px;
+    z-index: 999;
+}
+.tq.active {
+    top: 90px;
+    transition: 2s;
+    -moz-transition: 2s;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+}
+.tq-box1 {
+    width: 129px;
+    height: auto;
+}
+.tq-list1 {
+    width: 129px;
+    height: 123px;
+    background: url("../images/tq-img1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.tq-list2 {
+    width: 129px;
+    height: auto;
+    background: url("../images/tq-bg.png") repeat center center;
+    background-size: 100% 100%;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+}
+.tq-list2 p {
+    width: 125px;
+}
+.tq-zx {
+    width: 129px;
+    height: 20px;
+}
+.tq-zx span {
+    position: absolute;
+    color: #fff;
+}
+.tq-p1 {
+    padding-top: 25px;
+}
+.tq-zx i {
+    margin-left: 20px;
+    margin-right: 6px;
+}
+.tq-p2 {
+    margin-top: 10px;
+    height: 20px;
+}
+.tq-p3 {
+    margin-top: 25px;
+    text-align: center;
+}
+.tq-p4,
+.tq-p5 {
+    text-align: center;
+    color: #fff;
+}
+.tq-p4 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+.tq-p5 {
+    font-size: 14px;
+    margin-top: 1px;
+}
+.tq-list3 {
+    width: 128px;
+    height: 127px;
+    background: url("../images/tq-img5.png") repeat center center;
+    background-size: 100% 100%;
+    margin-top: 5px;
+    border-radius: 2px;
+}

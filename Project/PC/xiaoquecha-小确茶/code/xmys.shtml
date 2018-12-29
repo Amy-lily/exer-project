@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<title>小确茶项目优势</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="keywords" content="小确茶项目优势">
+<meta name="description" content="小确茶4大精选主料,滋味相融,尽显品质,茶果邂逅,真材实料才最动人.">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/page-xmys.css">
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+<!--#include file="inc/head.html" --> 
+<!--#include file="inc/msgBox.html" --> 
+<!-- banner -->
+<div class="xmys-ban-box min1200">
+  <div class="w1024">
+    <div class="xmys-img1 wow puffIn-sma" data-wow-duration="1s"></div>
+    <div class="xmys-img2 wow fadeIn" data-wow-duration="2.5s"></div>
+  </div>
+</div>
+<!-- content one -->
+<div class="xmys-box-1 min1200">
+  <div class="w1024">
+    <div class="xmys-jx-img1 wow zoomIn" data-wow-duration="1s"></div>
+    <div class="xmys-jx-img2 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="xmys-jx-img3 wow fadeInUp" data-wow-duration="1.3s"></div>
+    <div class="zhishi animated topGuide"></div>
+  </div>
+</div>
+<!-- content two -->
+<div class="xmys-box-2 min1200">
+  <div class="w1024">
+    <div class="xmys-yj-img1 wow zoomIn" data-wow-duration="1s"></div>
+    <div class="xmys-yj-img2 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="zhishi animated topGuide"></div>
+  </div>
+</div>
+<!-- content three -->
+<div class="xmys-box-3 min1200">
+  <div class="w1024">
+    <div class="xmys-cc-img1 wow zoomIn" data-wow-duration="1s"></div>
+    <div class="xmys-cc-img2 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="xmys-cc-img3 wow fadeIn" data-wow-duration="1s"></div>
+  </div>
+</div>
+<!--#include file="inc/foot.html" --> 
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+<!--#include file="inc/cnzz.html" --> 
+<!--#include file="inc/bot_floor.html"-->
+</body>
+</html>

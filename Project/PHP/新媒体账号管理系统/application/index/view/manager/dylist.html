@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>抖音数据列表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="新媒体账号管理系统-管理员-抖音数据列表" />
+    <meta content="Mosheng" name="author" />
+    <link rel="shortcut icon" href="__PUBLIC__assets/images/favicon.ico">
+
+    <!-- App css -->
+    <link href="__PUBLIC__css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__css/self.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    {include file="common/admin-slide"}
+    <!-- container-fluid     -->
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="header-title">抖音数据列表</h4>
+                        <a href="{:url('Manager/adddy')}" class="btn btn-success btn-sm float-right">添加抖音数据</a>
+                        <table class="table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>手机编号</th>
+                                    <th>抖音账号</th>
+                                    <th>抖音密码</th>
+                                    <th>抖音名称</th>
+                                    <th>粉丝量</th>
+                                    <th>更新时间</th>
+                                    <th>编辑</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {volist name="sel" id="a" empty="$empty"} {switch name=($i+1)%2} {case value="0"}
+                                <tr class="table-bg text-text">
+                                    <th>{$a.id}</th>
+                                    <th>{$a.phonesn}</th>
+                                    <th>{$a.dyaccount}</th>
+                                    <th>{$a.dypass}</th>
+                                    <th>{$a.dyname}</th>
+                                    <th>{$a.dyfans}</th>
+                                    <th>{$a['dytime']}</th>
+                                    <td><a  href="editdy?id={$a.id}">编辑</a>|<a  href="deldy?id={$a.id}" onclick="return confirm('确定要删除吗?')">删除</a>|<a style="color:#c72128;" href="editdyfans?id={$a.id}">修改粉丝量</a></td>
+                                </tr>
+                                {/case} {case value="1"}
+                                <tr class="">
+                                    <th>{$a.id}</th>
+                                    <th>{$a.phonesn}</th>
+                                    <th>{$a.dyaccount}</th>
+                                    <th>{$a.dypass}</th>
+                                    <th>{$a.dyname}</th>
+                                    <th>{$a.dyfans}</th>
+                                    <th>{$a['dytime']}</th>
+                                    <td><a href="editdy?id={$a.id}">编辑</a>|<a href="deldy?id={$a.id}" onclick="return confirm('确定要删除吗?')">删除</a>|<a style="color:#c72128;" href="editdyfans?id={$a.id}">修改粉丝量</a></td>
+                                </tr>
+                                {/case} {/switch} {/volist}
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    kuaidao Admin &copy; 2018 - tecms.net
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

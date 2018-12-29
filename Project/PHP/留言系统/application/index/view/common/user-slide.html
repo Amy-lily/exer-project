@@ -1,0 +1,59 @@
+<header id="topnav">
+    <nav class="navbar-custom">
+        <div class="container-fluid">
+            <ul class="list-unstyled topbar-right-menu float-right mb-0">
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="fe-bell noti-icon"></i>
+                    </a>
+                </li>
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle nav-user mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <img src="__PUBLIC__assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                        <small class="pro-user-name ml-1">
+                            {$Think.session.name}
+                        </small>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown ">
+                        <!-- item-->
+                        <a href="{:url('Manager/logout')}" class="dropdown-item notify-item">
+                            <i class="fe-log-out"></i>
+                            <span>退出</span>
+                        </a>
+
+                    </div>
+                </li>
+            </ul>
+            <ul class="list-inline menu-left mb-0">
+                <li class="float-left">
+                    <a href="index.html" class="logo">
+                        <span class="logo-lg">
+                            <img src="__PUBLIC__assets/images/logo.png" alt="" height="18">
+                        </span>
+                        <span class="logo-sm">
+                            <img src="__PUBLIC__assets/images/logo-sm.png" alt="" height="28">
+                        </span>
+                    </a>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+    </nav>
+    <!-- topbar-menu -->
+    <div class="topbar-menu">
+        <div class="container-fluid">
+            <div id="navigation">
+                <ul class="navigation-menu">
+                    <li class="has-submenu">
+                        <a href="#">
+                            <i class="fe-layers"></i>留言列表
+                        </a>
+                    </li>
+                </ul>
+              
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+</header>

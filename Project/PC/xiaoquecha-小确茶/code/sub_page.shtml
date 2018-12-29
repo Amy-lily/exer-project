@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<title>小确茶-二级页</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="keywords" content="小确茶-台式、甜蜜、温暖、幸福、治愈、惬意">
+<meta name="description" content="手打3cm超厚纯芝士奶盖，是市场上传统奶盖的2倍，更有甜奶盖、咸奶盖和市面上罕见的榴莲奶盖再以6大茶基底和水果进行mix混合，迎合大多数消费者的喜好">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/page.css">
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+
+<!--#include file="inc/head.html" --> 
+<!--#include file="inc/msgBox.html" --> 
+
+<!-- banner -->
+<div class="sbp-ban-box min1200">
+  <div class="w1024">
+    <div class="sbp-syc wow fadeIn" data-wow-duration="1s"></div>
+    <div class="sbp-mf wow puffIn-sma" data-wow-duration="1s"></div>
+    <div class="sbp-sf wow flipInX" data-wow-duration="1s"></div>
+  </div>
+</div>
+<!-- content one -->
+<div class="con-box-1 min1200">
+  <div class="w1024"> 
+    <!-- 此处开始书写局部模块 --> 
+  </div>
+</div>
+<!-- content two -->
+<div class="con-box-2 min1200">
+  <div class="w1024"> 
+    <!-- 此处开始书写局部模块 --> 
+  </div>
+</div>
+
+<!--#include file="inc/foot.html" --> 
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+<!--#include file="inc/cnzz.html" --> 
+<!--#include file="inc/bot_floor.html"-->
+</body>
+</html>

@@ -1,0 +1,485 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1200 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+/*subpage templet code by lly*/
+
+
+/*banner begin*/
+
+.sbp-ban-box {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.cpqd-ban-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/cpqd-ban.jpg) no-repeat center center;
+    background-size: cover;    
+}
+.cpqd-little1 {
+    position: absolute;
+    left: 291px;
+    top: 116px;
+    width: 7px;
+    height: 6px;
+    background: url(../images/little1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.cpqd-little2 {
+    position: absolute;
+    top: 234px;
+    left: 329px;
+    width: 71px;
+    height: 56px;
+    background: url(../images/little2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.cpqd-little3 {
+    position: absolute;
+    top: 400px;
+    left: 1278px;
+    width: 10px;
+    height: 10px;
+    background: url(../images/little4.png) no-repeat center center;
+    background-size: cover;
+}
+
+.cpqd-little4 {
+    position: absolute;
+    top: 390px;
+    right: 207px;
+    width: 26px;
+    height: 19px;
+    background: url(../images/little3.png) no-repeat center center;
+    background-size: cover;
+}
+
+.cpqd-word1 {
+    width: 650px;
+    height: 200px;
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    margin-left: -325px;
+    background: url(../images/cpqd-banword2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.cpqd-word2-wrap {
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    top: 190px;
+    left: 447px;
+}
+
+.cpqd-word2 {
+    width: 100%;
+    height: 100%;
+    background: url(../images/cpqd-banword1.png) no-repeat center center;
+    background-size: cover;
+}
+
+/*banner end*/
+
+/*content one begin*/
+
+.con-box-1 {
+    width: 100%;
+    height: 1090px;
+    position: relative;
+    background: url(../images/cpqd-bkbg.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.cpqd-bt {
+    width: 511px;
+    height: 95px;
+    background: url(../images/cpqd-bk-bt.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 94px;
+    left: 50%;
+    margin-left: -255px;
+    z-index: 1;
+}
+
+.swiper-container {
+    width: 1200px;
+    height: 897px;
+    position: absolute;
+    top: 192px;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 6;
+}
+
+.swiper-wrapper {
+    width: 1200px;
+    height: 897px;
+}
+
+.swiper-slide {
+    width: 1200px;
+    height: 766px;
+    background:url(../images/cpqd-yh.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.swiper-slide1{    
+    background: url(../images/cpqd-gss.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    width: 1250px;
+}
+
+
+/*轮播图二*/
+.swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #fff;
+}
+
+.swiper-pagination-bullet-active {
+    background: #e5e5e5;
+}
+
+/*content one end*/
+
+
+/*content 金牌产品*/
+.con-box-2 {
+    width: 100%;
+    height: 1228px;
+    position: relative;
+    background: #000000;
+    overflow: hidden;
+}
+
+.cpqd-jpcp-bt {
+    width: 551px;
+    height: 96px;
+    position: absolute;
+    top: 80px;
+    background: url(../images/cpqd-jpbt.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 9;
+}
+/*手风琴*/
+
+.list {
+    width: 1777px;
+    background: #000;
+    margin: 0 auto;
+    height: 912px;
+    position: relative;
+    top: 230px;
+    overflow: hidden;
+}
+
+.list ul {
+    width: 1802px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.list ul li {
+    width: 293px;
+    height: 912px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.list ul li img {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -294px;
+}
+
+.list ul li span {
+    width: 293px;
+    height: 912px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 8;
+}
+
+.list ul li .span1 {
+    background: url("../images/cpqd-cp-11.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.list ul li .span2 {
+    background: url("../images/cpqd-cp-22.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.list ul li .span3 {
+    background: url("../images/cpqd-cp-33.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.list ul li .span4 {
+    background: url("../images/cpqd-cp-44.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.list ul li .span5 {
+    background: url("../images/cpqd-cp-55.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.list ul li .span6 {
+    background: url("../images/cpqd-cp-66.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.list ul li p {
+    width: 30px;
+    height: 240px;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    top: 30px;
+    font-size: 30px;
+    color: #fff;
+    z-index: 9;
+}
+
+
+
+/*content 全产品线*/
+
+.con-box-3 {
+    width: 100%;
+    height: 3012px;
+    background: #000a19;
+    position: relative;
+    background: url(../images/cpqd-dmbg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cpqd-cpx-bt {
+    width: 502px;
+    height: 96px;
+    background: url("../images/cpqd-cpbt.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cpqd-line{
+    width: 1198px;
+    height: 3px;
+    margin:0 auto;
+    position: absolute;
+    top: 922px;
+    background: orange;
+    left: 50%;
+    margin-left: -599px;
+    background: url("../images/cpqd-line.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.cpqd-line1{
+    top: 1936px;
+}
+.cpqd-c1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url("../images/cpqd-c1.png") no-repeat center center;
+    background-size: 100% 100%;
+    top: 289px;
+    left: 447px;
+}
+
+.cpqd-c2 {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    background: url("../images/cpqd-c2.png") no-repeat center center;
+    background-size: 100% 100%;
+    top: 281px;
+    left: 492px;
+}
+
+.cpqd-c3 {
+    width: 90px;
+    height: 89px;
+    position: absolute;
+    background: url("../images/cpqd-ccy.png") no-repeat center center;
+    background-size: 100% 100%;
+    top: 257px;
+    left: 556px;
+}
+
+.cpqd-c4 {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    background: url("../images/cpqd-c4.png") no-repeat center center;
+    background-size: 100% 100%;
+    top: 281px;
+    left: 663px;
+}
+
+.cpqd-c5 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url("../images/cpqd-c5.png") no-repeat center center;
+    background-size: 100% 100%;
+    top: 289px;
+    left: 721px;
+}
+
+@keyframes circles {
+    50% {
+        -ms-transform: scale(1.5, 1.5);
+        -webkit-transform: scale(1.5, 1.5);
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        -ms-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
+.circles {
+    animation-name: circles;
+}
+
+.cpqd-cy {
+    width: 1077px;
+    height: 488px;
+    background: url(../images/cpqd-cyd.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 378px;
+    left: 50%;
+    margin-left: -538px;
+}
+
+
+/*标准店*/
+
+.cpqd-hc1 {
+    top: 1002px;
+    background: url(../images/cpqd-hc1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cpqd-hc2 {
+    top: 996px;
+    background: url(../images/cpqd-hc2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cpqd-hc3 {
+    top: 971px;
+    width: 91px;
+    height: 112px;
+    background: url(../images/cpqd-hc3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cpqd-hc4 {
+    top: 996px;
+    background: url(../images/cpqd-hc4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cpqd-hc5 {
+    top: 1002px;
+    background: url(../images/cpqd-hc5.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cpqd-bz {
+    width: 1091px;
+    height: 762px;
+    background: url(../images/cpqd-bz.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1121px;
+    left: 50%;
+    margin-left: -545px;
+}
+
+
+/*旗舰店*/
+
+.cpqd-qj1{  
+    top:2038px;
+    background: url(../images/cpqd-qc1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.cpqd-qj2{ 
+    top:2031px;
+    background: url(../images/cpqd-qc2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.cpqd-qj3{ 
+    top:2008px;
+    width: 91px;
+    height: 112px;
+    background: url(../images/cpqd-qc3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.cpqd-qj4{ 
+    top:2031px;
+    background: url(../images/cpqd-qc4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.cpqd-qj5{ 
+    top:2038px;
+    background: url(../images/cpqd-qc5.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.cpqd-qj{
+    width: 1083px;
+    height: 758px;
+    position: absolute;
+    top: 2167px;
+    left: 50%;
+    margin-left: -541px;
+    background: url(../images/cpqd-qj.png) no-repeat center center;
+    background-size: 100% 100%;
+
+}

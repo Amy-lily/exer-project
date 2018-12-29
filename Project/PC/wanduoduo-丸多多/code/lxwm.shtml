@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>丸多多-联系我们</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="城市丸酷茶，搞怪潮流来袭！">
+    <meta name="description" content="丸出色，饮出彩！8色手作茶丸，高颜值！3好精选原料，高品质！">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/lxwm.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4VTX4GV6tGH4y4bjBXAQd5zSX4zBdySm"></script>
+</head>
+
+<body>
+    <!--#include file="inc/head.html" -->
+    <!--#include file="inc/msgBox.html" -->
+    <!-- banner -->
+    <div class="lxwm-box min1200">
+        <div class="lxwm-bg wow scale-small"></div>
+        <div class="w1200">
+            <div class="lxwm-text wow vanishIn"></div>
+            <div class="lxwm-ys-warp wow fadeIn" data-wow-delay="0.8s">
+                <div class="lxwm-ys wow jump loop" data-wow-duration="2s"></div>
+            </div>
+        </div>
+    </div>
+    <!-- content one -->
+    <div class="lxwm-con-box min1200">
+        <div class="w1200">
+            <div class="lxwm-con-title wow zoomIn"></div>
+            <h1 id="num" class="wow fadeIn" data-wow-delay="0.4s">108</h1>
+            <div class="lxwm-con-sj wow fadeIn"></div>
+            <div class="lxwm-con-text wow fadeIn"></div>
+            <!-- 留言板 -->
+            <div class="fwbz-dzx wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                <form action="http://liuyan.tlshangxun.com/tijiao.php" method="post">
+                    <div class="tb-z">
+                        <p> 姓名
+                            <input id="xingming" name="xingming" class="in-txt" type="text">
+                        </p>
+                        <p> 电话
+                            <input id="dianhua" maxlength="11" name="dianhua" class="in-txt" type="text">
+                        </p>
+                        <p> 地址
+                            <input id="laizi" name="laizi" class="in-txt" type="text">
+                        </p>
+                        <div class="lxwm-ly">
+                            <div class="ly">留言</div>
+                            <textarea name="neirong" class="form-control" placeholder=""></textarea>
+                        </div>
+                        <div class="lxwm-con-tj wow fadeIn"></div>
+                        <div class="tj">
+                            <input class="form-tj" type="submit" value="提交">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- content two -->
+    <div class="lxwm-con-box2 min1200">
+        <div class="lxwm-con-text2 wow fadeIn"></div>
+        <div class="lxwm-list2">
+            <!-- 地图 -->
+            <div class="list2-box1">
+                <div class="list2-box2">
+                    <div class="list2-box2-con">
+                        <div class="bj active">
+                            <p class="bj-p1">华北运营中心</p>
+                            <p class="bj-p2">地址：北京市大兴区亦庄经济技术开发区</p>
+                            <p class="bj-p3">凉水河二街大族企业湾13号楼5层</p>
+                        </div>
+                        <div class="xt"></div>
+                        <div class="js">
+                            <p class="bj-p1">华东运营中心</p>
+                            <p class="bj-p2">地址：江苏省南京市江宁区清水亭西路</p>
+                            <p class="bj-p3">长亭街9号俊杰科创大厦16楼</p>
+                        </div>
+                        <div class="xt"></div>
+                        <div class="gz">
+                            <p class="bj-p1">华南运营中心</p>
+                            <p class="bj-p2">广东省广州市白云区机场路1718号悦成</p>
+                            <p class="bj-p3">商务中心511-545</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd">
+                    <ul>
+                        <li>
+                            <div id="map1"></div>
+                        </li>
+                        <li>
+                            <div id="map2"></div>
+                        </li>
+                        <li>
+                            <div id="map3"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--#include file="inc/foot.html"-->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <!--[if !IE]><!-->
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/wow.js" charset="UTF-8"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="http://developer.baidu.com/map/custom/stylelist.js"></script>
+    <script type="text/javascript" src="libs/js/skrollr.min.js"></script>
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/lxwm.js" charset="UTF-8"></script>
+    <!--#include file="inc/cnzz.html" -->
+    <!--#include file="inc/bot_floor.html"-->
+</body>
+
+</html>

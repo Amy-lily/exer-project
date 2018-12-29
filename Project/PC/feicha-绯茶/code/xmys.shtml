@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>绯茶-项目优势</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="keywords" content="lady、原萃、品质、都市、魅惑、风韵、精致、粉色、绯红、翡翠、宝石、颜值、流行、色彩、年轻">
+<meta name="description" content="绯茶采用冷萃热泡工艺，在工艺上吸引了消费者的眼球，也满足了食客在不同季节的需求；同时主打益生菌瘦身奶盖，备受女性消费者喜爱，在多方面增加了绯茶的消费人群。">
+<meta name="applicable-device" content="pc"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-transform"> 
+<meta http-equiv="Cache-Control" content="no-siteapp"> 
+<meta name="robots" content="all">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta name="mobile-agent" content="format=html5;url=http://wap.feicha88.com/">
+<meta name="mobile-agent" content="format=xhtml;url=http://wap.feicha88.com/">
+<meta name="mobile-agent" content="format=wml;url=http://wap.feicha88.com/">
+<link rel="shortcut" icon="icon" type="image/ico" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="alternate" media="only screen and(max-width: 640px)" href="http://wap.feicha88.com">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/xmys.css">
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+
+<!--#include file="inc/head.html" --> 
+<!--#include file="inc/msgBox.html" --> 
+
+<!-- banner -->
+<div class="xmys-ban-box min1202">
+  <div class="w1202">
+    <div class="xmys-title wow puffIn-sma" data-wow-duration="1s"></div>
+  </div>
+</div>
+<!-- content one -->
+<div class="con-box-1 min1202">
+  <div class="w1202">
+    <div class="con1-title wow puffIn-sma" data-wow-duration="1s"></div>
+    <div class="con1-cup"></div>
+  </div>
+</div>
+<!-- content two -->
+<div class="con-box-2 min1202">
+  <div class="w1202">
+    <div class="con2-title wow puffIn-sma" data-wow-duration="1s"></div>
+    <div class="con2-gc wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con2-img1 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con2-img2 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con2-word1 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con2-word2 wow fadeIn" data-wow-duration="1s"></div>
+  </div>
+</div>
+<!-- content three -->
+<div class="con-box-3 min1202">
+  <div class="w1202">
+    <div class="con3-title wow puffIn-sma" data-wow-duration="1s"></div>
+    <div class="con3-01bt wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con3-01word wow fadeInLeft" data-wow-duration="1s"></div>
+    <div class="con3-01img wow fadeInRight" data-wow-duration="1s"></div>
+    <div class="con3-02bt"></div>
+    <div class="con3-02word wow fadeInRight" data-wow-duration="1s"></div>
+    <div class="con3-02img wow fadeInLeft" data-wow-duration="1s"></div>
+    <div class="con3-03"></div>
+    <div class="con3-04bt"></div>
+    <div class="con3-04word wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con3-04img wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con3-05 wow fadeIn" data-wow-duration="1s"></div>
+  </div>
+</div>
+<!--#include file="inc/foot.html" --> 
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+<!--#include file="inc/cnzz.html" --> 
+<!--#include file="inc/bot_floor.html"-->
+</body>
+</html>

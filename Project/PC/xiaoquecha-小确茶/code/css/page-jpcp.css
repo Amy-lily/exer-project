@@ -1,0 +1,450 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1024{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+/*subpage templet code by lly*/
+
+/*banner begin*/
+
+.jpcp-ban-box {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(../images/jpcp-ban-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.jpcp-word{
+    width: 238px;
+    height: 165px;
+    position: absolute;
+    top: 231px;
+    left:77px;
+    background: url(../images/jpcp-word1.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.jpcp-word1{
+    width: 359px;
+    height: 134px;
+    position: absolute;
+    top: 180px;
+    left:245px;
+    background: url(../images/jpcp-word.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.jpcp-word2{
+    width: 275px;
+    height: 62px;
+    position: absolute;
+    top: 336px;
+    left:325px;
+    background: url(../images/jpcp-word2.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*banner end*/
+
+/*content jpcp begin*/
+
+.con-box-1{
+    width: 100%;
+    height: 1060px;
+    position: relative;
+    background:url(../images/jpcp-bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.con-title{
+    width: 149px;
+    height: 166px;
+    margin:0 auto;
+    margin-top: 80px;
+    background: url(../images/jpcp-title1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*轮播图*/
+#focus_Box {
+    position: absolute;
+    width:1024px;
+    height: 600px;
+    left: 50%;
+    margin-left: -512px;
+    margin-top: 60px;
+}
+
+#focus_Box ul {
+    position: relative;
+    width:1024px;
+    height: 600px;
+    left: 50%;
+    margin-left: -512px;
+}
+
+#focus_Box li {
+    z-index: 0;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 146px;
+    cursor: pointer;
+    left: 377px;
+    border-radius: 4px;
+}
+
+#focus_Box li img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    box-shadow: 3px 3px 1px rgba(0,0,0,0.1),
+    -3px -3px 1px rgba(0,0,0,0.1);
+}
+
+#focus_Box .prev,
+#focus_Box .next {
+    display: block;
+    z-index: 100;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    top: 50%;
+    margin-top: -30px;
+}
+
+#focus_Box .prev {
+    width: 34px;
+    height: 60px;
+    background: url(../images/jpcp-pre.png) left bottom no-repeat;
+    left: -62px
+}
+
+#focus_Box .next {
+    background: url(../images/jpcp-next.png) right bottom no-repeat;
+    right: -62px
+}
+/*轮播图*/
+#focus_Box .jpcp-b2-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 800px;
+    background: url("../image/index-b3-img10.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+  .indicator-list {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -131px;
+  z-index: 100;
+  top: 640px;
+}
+ .indicator-list a {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #656063;
+  margin-left: 5px;
+}
+ .indicator-list a.selected {
+  width: 32px;
+  height: 14px;
+  border-radius: 13px;
+  background-color: #656063;
+  /*background-color: orange;*/
+}
+/*轮播结束*/
+.down{
+    width: 36px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    left:50%;
+    margin-left: -18px;
+    bottom: 20px;
+    z-index: 99;
+    background: url(../images/down.png) right bottom no-repeat;
+}
+/*content one end*/
+/*content dycpx*/
+.con-box-2{
+    height: 1713px;
+    overflow: hidden;
+    background:url(../images/jpcp-dy-bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.cont-two{
+    overflow: hidden;
+    width: 1024px;
+    margin:0 auto;
+    position: relative;
+}
+.jpcp-dycpx{
+    width: 173px;
+    height: 152px;
+    background: url(../images/jpcp-title2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.con-bg-left{
+    width: 368px;
+    height: 697px;
+    background: url(../images/jpcp-left.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 317px;
+    left: 0;
+}
+.con-bg-right{
+    width: 368px;
+    height: 697px;
+    background: url(../images/jpcp-right.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top:847px;
+    right: 0;
+}
+.con-box2-title{
+    width: 114px;
+    height: 20px;
+    background: url(../images/jpcp-bt1.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-top: 60px;
+}
+/*创业店*/
+
+.con-box2-cyimg{
+    width: 164px;
+    height: 221px;
+    position: absolute;
+    top: 349px;
+}
+.con-box2-dm1{
+    background: url(../images/jpcp-dmimg1.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 7px;
+}
+.con-box2-dm2{
+    width: 214px;
+    background: url(../images/jpcp-dmimg2.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 191px;
+}
+.con-box2-dm3{
+    width: 184px;
+    height: 240px;
+    top: 349px;
+    background: url(../images/jpcp-dmimg3.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 425px;
+}
+.con-box2-dm4{
+    background: url(../images/jpcp-dmimg4.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 629px;
+}
+.con-box2-dm5{
+    width: 204px;
+    background: url(../images/jpcp-dmimg5.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 813px;
+}
+
+/*标准店*/
+.con-box2-title1{
+    width: 126px;
+    height: 44px;
+    background: url(../images/jpcp-bt2.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -63px;
+    top: 630px;
+}
+.con-box2-bzimg{
+    position: absolute;
+    top: 702px;
+}
+.con-box2-dm6{
+    width: 204px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg6.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 7px;
+}
+.con-box2-dm7{
+    width: 214px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg7.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 230px;
+}
+.con-box2-dm8{
+    width:164px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg8.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 465px;
+}
+.con-box2-dm9{
+    width:164px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg9.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 649px;
+}
+.con-box2-dm10{
+    width:184px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg10.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 833px;
+}
+.con-box2-dm11{
+    width:234px;
+    height: 181px;
+    background: url(../images/jpcp-dmimg11.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 64px;
+    top: 923px;
+}
+.con-box2-dm12{
+    width:204px;
+    height: 181px;
+    background: url(../images/jpcp-dmimg12.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 318px;
+    top: 923px;
+}
+.con-box2-dm13{
+    width:206px;
+    height: 210px;
+    background: url(../images/jpcp-dmimg13.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 542px;
+    top: 915px;
+}
+.con-box2-dm14{
+    width:204px;
+    height: 181px;
+    background: url(../images/jpcp-dmimg14.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 756px;
+    top: 923px;
+}
+/*旗舰店*/
+.con-box2-title2{
+    width: 126px;
+    height: 44px;
+    background: url(../images/jpcp-bt3.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1164px;
+    left: 50%;
+    margin-left: -63px;
+}
+.con-box2-qjimg{
+    position: absolute;
+    top: 1236px;
+}
+.con-box2-dm15{
+    width:194px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg15.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 7px;
+}
+.con-box2-dm16{
+    width:184px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg16.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 226px;
+}
+.con-box2-dm17{
+    width:164px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg17.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 430px;
+}
+.con-box2-dm18{
+    width:194px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg18.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 614px;
+}
+.con-box2-dm19{
+    width:184px;
+    height: 201px;
+    background: url(../images/jpcp-dmimg19.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 828px;
+}
+.con-box2-dm20{
+    width:214px;
+    height: 156px;
+    background: url(../images/jpcp-dmimg20.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 54px;
+    top: 1457px;
+}
+.con-box2-dm21{
+    width:204px;
+    height: 156px;
+    background: url(../images/jpcp-dmimg21.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 288px;
+    top: 1457px;
+}
+.con-box2-dm22{
+    width:204px;
+    height: 156px;
+    background: url(../images/jpcp-dmimg22.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 510px;
+    top: 1457px;
+}
+.con-box2-dm23{
+    width:234px;
+    height: 156px;
+    background: url(../images/jpcp-dmimg23.png) no-repeat center center;
+    background-size: 100% 100%;
+    left: 736px;
+    top: 1457px;
+}

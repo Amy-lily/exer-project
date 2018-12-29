@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1202{
+    width: 1202px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1202 {
+    min-width: 1202px;
+    overflow: hidden;
+}
+
+/*subpage templet code by jhy*/
+
+/*banner begin*/
+
+.slfw-ban-box {
+    width: 100%;
+    height: 600px;
+    background: #f6dbdd;
+}
+
+.slfw-ban-img1{
+    width: 541px;
+    height: 526px;
+    position: absolute;
+    top: 61px;
+    left: 61px;
+    background: url(../images/slfw-ban-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slfw-ban-img2{
+    width: 402px;
+    height: 451px;
+    position: absolute;
+    top: 95px;
+    left: 1052px;
+    background: url(../images/tzyl-ban-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slfw-ban-img3{
+    width: 396px;
+    height: 134px;
+    position: absolute;
+    left: 655px;
+    top: 251px;
+    background: url(../images/slfw-ban-img3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*banner end*/
+.slfw-box1{
+    width: 100%;
+    height: 857px;
+    background: #fff;
+}
+.slfw-box1-img1{
+    width: 171px;
+    height: 61px;
+    position: absolute;
+    left: 50%;
+    margin-left: -85px;
+    top: 85px;
+    background: url(../images/slfw-box1-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.slfw-box1-img2{
+    width: 1001px;
+    height: 77px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500.5px;
+    top: 180px;
+    background: url(../images/slfw-box1-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.slfw-box1-img3{
+    width: 1200px;
+    height: 481px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 290px;
+    background: url(../images/slfw-box1-img3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.slfw-box2{
+    width: 100%;
+    height: 1737px;
+    background: #f6dbdd;
+}
+.slfw-box2-img1{
+    width: 126px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -63px;
+    top: 82px;
+    background: url(../images/slfw-box2-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.slfw-box2-img2{
+    width: 973px;
+    height: 447px;
+    position: absolute;
+    left: 50%;
+    margin-left: -486px;
+    top: 185px;
+    background: url(../images/slfw-box2-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.slfw-box2-img3{
+    width: 972px;
+    height: 452px;
+    position: absolute;
+    left: 50%;
+    margin-left: -486px;
+    top: 688px;
+    background: url(../images/slfw-box2-img3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.slfw-box2-img4{
+    width: 1000px;
+    height: 447px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    top: 1194px;
+    background: url(../images/slfw-box2-img4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.slfw-box3{
+    width: 100%;
+    height: 970px;
+    background: #fff;
+}
+.slfw-box3-img1{
+    width: 168px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -84px;
+    top: 86px;
+    background: url(../images/slfw-box3-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.slfw-box3-img2{
+    width: 1200px;
+    height: 636px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 184px;
+    background: url(../images/slfw-box3-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}

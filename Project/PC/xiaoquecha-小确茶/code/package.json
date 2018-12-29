@@ -1,0 +1,25 @@
+{
+  "name": "m.datagram",
+  "version": "1.1.1",
+  "description": "this is  gulp",
+  "main": "gulofile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tinhan",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.1.1",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^2.0.1"
+  },
+  "keywords": [
+    "gulp"
+  ]
+}

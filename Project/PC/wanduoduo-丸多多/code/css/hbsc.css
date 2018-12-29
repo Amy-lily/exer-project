@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1200 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+
+
+/*subpage templet code by lly*/
+
+
+/*banner begin*/
+
+.sbp-ban-box {
+    width: 100%;
+    height: 590px;
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+
+.sbp-bbg {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url(../images/hbsc-banbg.jpg) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.hbsc-word1 {
+    width: 568px;
+    height: 169px;
+    background: url(../images/hbsc-word2.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 228px;
+    left: 291px;
+    z-index: 3;
+}
+
+.hbsc-word2-wrap {
+    width: 126px;
+    height: 81px;
+    position: absolute;
+    top: 228px;
+    left: 396px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.hbsc-word2 {
+    width: 130px;
+    height: 81px;
+    background: url(../images/hbsc-word1.png) no-repeat center center;
+    background-size: cover;
+    z-index: 3;
+}
+
+.hbsc-gs {
+    width: 148px;
+    height: 101px;
+    background: url(../images/hbsc-gs.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 209px;
+    left: 695px;
+    z-index: 9;
+}
+
+
+
+
+/*banner end*/
+
+
+/*content 行业吸金 begin*/
+
+.con-box-1 {
+    width: 100%;
+    height: 790px;
+    background: #000a19;
+}
+
+.hbsc-xjyw {
+    width: 103px;
+    height: 59px;
+    background: url(../images/hbsc-xjyw.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 82px;
+    left: 346px;
+}
+
+.hbsc-xjbt1 {
+    width: 266px;
+    height: 78px;
+    background: url(../images/hbsc-xjbt.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 74px;
+    left: 445px;
+}
+
+.hbsc-xjbt2 {
+    width: 135px;
+    height: 60px;
+    background: url(../images/hbsc-max.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 85px;
+    left: 709px;
+}
+
+.hbsc-hy-line {
+    width: 100%;
+    height: 2px;
+    background: #4d545e;
+    position: absolute;
+    top: 187px;
+}
+
+.zline {
+    width: 1px;
+    height: 600px;
+    background: url(../images/hbsc-zline.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    z-index: 9;
+}
+
+.hbsc-wzz-wrap {
+    width: 259px;
+    height: 48px;
+    position: absolute;
+    top: 233px;
+    left: 60px;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.hbsc-wzz {
+    width: 259px;
+    height: 48px;
+    background: url(../images/hbsc-xjzsj.png) no-repeat center center;
+    background-size: cover;
+}
+
+.hbsc-yejt-wrap {
+    width: 363px;
+    height: 252px;
+    position: absolute;
+    top: 280px;
+    left: 61px;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.hbsc-yejt {
+    width: 363px;
+    height: 252px;
+    background: url(../images/hbsc-xjjt.png) no-repeat center center;
+    background-size: cover;
+}
+
+#main {
+    position: absolute;
+    top: 341px;
+    left: -29px;
+    z-index: 1;
+}
+
+.hbsc-wzy-wrap {
+    width: 282px;
+    height: 48px;
+    position: absolute;
+    top: 231px;
+    overflow: hidden;
+    left: 625px;
+}
+
+.hbsc-wzy {
+    width: 282px;
+    height: 48px;
+    background: url(../images/hbsc-xjysj.png) no-repeat center center;
+    background-size: cover;
+}
+
+.hbsc-hybl {
+    width: 205px;
+    height: 30px;
+    background: #ffffff url(../images/hbsc-zbfx.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 329px;
+    left: 625px;
+    z-index: 6;
+}
+
+
+
+/*饼状图 */
+
+.hbsc-yh {
+    border-radius: 50%;
+    position: absolute;
+    right: 125px;
+    top: 327px;
+    transform: rotate(19deg);
+}
+
+.hbsc-hyew {
+    width: 133px;
+    height: 105px;
+    background: url(../images/hbsc-ew.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 397px;
+    left: 625px;
+    z-index: 6;
+}
+
+.hbsc-hysw {
+    width: 144px;
+    height: 120px;
+    background: url(../images/hbsc-sw.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 407px;
+    right: 87px;
+    z-index: 6;
+}
+
+.hbsc-hyss {
+    width: 109px;
+    height: 64px;
+    background: url(../images/hbsc-ss.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 548px;
+    left: 625px;
+    z-index: 6;
+}
+
+.hbsc-hyss2 {
+    width: 128px;
+    height: 62px;
+    background: url(../images/hbsc-ktv.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 548px;
+    right: 87px;
+    z-index: 6;
+}
+
+.hbsc-bfb {
+    width: 134px;
+    height: 41px;
+    background: url(../images/hbsc-bb.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 545px;
+    right: 270px;
+}
+
+.hbsc-yz {
+    width: 164px;
+    height: 163px;
+    background: url(../images/hbsc-xjyz.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 620px;
+    left: 549px;
+    z-index: 6;
+}
+
+.hbsc-hy-line1 {
+    top: 789px;
+}
+
+
+
+/*content 行业吸金 end*/
+
+.con-box-2 {
+    width: 100%;
+    height: 986px;
+    background: #000a19;
+}
+
+.hbsc-cpyw {
+    width: 134px;
+    height: 58px;
+    left: 315px;
+    background: url(../images/hbsc-cpyw.png) no-repeat center center;
+    background-size: cover;
+}
+
+.hbsc-cpbt1 {
+    width: 261px;
+    height: 78px;
+    background: url(../images/hbsc-cpbt.png) no-repeat center center;
+    background-size: cover;
+}
+
+.hbsc-cpword1 {
+    width: 121px;
+    height: 29px;
+    background: url(../images/hbsc-cpword1.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 239px;
+    left: 72px;
+}
+
+.hbsc-cpword2 {
+    width: 127px;
+    height: 59px;
+    background: url(../images/hbsc-cpword2.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 221px;
+    left: 199px;
+}
+
+.hbsc-cpword3 {
+    width: 104px;
+    height: 29px;
+    background: url(../images/hbsc-word3.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 239px;
+    left: 494px;
+}
+
+.hbsc-cpword4 {
+    width: 123px;
+    height: 59px;
+    background: url(../images/hbsc-word4.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 221px;
+    left: 602px;
+}
+
+.hbsc-cpword5 {
+    width: 121px;
+    height: 29px;
+    background: url(../images/hbsc-word5.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 239px;
+    left: 924px;
+}
+
+.hbsc-cpword6 {
+    width: 128px;
+    height: 59px;
+    background: url(../images/hbsc-word6.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 220px;
+    left: 1050px;
+}
+
+.hbsc-gif {
+    width: 343px;
+    height: 600px;
+    position: absolute;
+    top: 293px;
+}
+
+.hbsc-gif2 {
+    width: 473px;
+    left: 362px;
+}
+
+.hbsc-gif3 {
+    left: 856px;
+}
+
+.hbsc-hyz {
+    width: 164px;
+    height: 164px;
+    background: url(../images/hbsc-hyz.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    left: 868px;
+    top: 711px;
+    opacity: 0;
+}

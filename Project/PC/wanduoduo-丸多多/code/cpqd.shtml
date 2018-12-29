@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>丸多多-产品清单</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="城市丸酷茶，搞怪潮流来袭！">
+    <meta name="description" content="丸出色，饮出彩！8色手作茶丸，高颜值！3好精选原料，高品质！">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/cpqd.css">
+</head>
+
+<body>
+    <!--#include file="inc/head.html" -->
+    <!--#include file="inc/msgBox.html" -->
+    <!-- banner -->
+    <div class="sbp-ban-box min1200">
+        <div class="cpqd-ban-img wow scale-small"></div>
+        <div class="cpqd-little1 wow jump loop" data-wow-duration="2s"></div>
+        <div class="cpqd-little2 wow jump loop" data-wow-duration="2s"></div>
+        <div class="cpqd-little3 wow jump loop" data-wow-duration="2s"></div>
+        <div class="cpqd-little4 wow jump loop" data-wow-duration="2s"></div>
+        <div class="w1200">
+            <div class="cpqd-word1 wow vanishIn"></div>
+            <div class="cpqd-word2-wrap wow fadeIn" data-wow-delay="1s">
+                <div class="cpqd-word2 wow fadeIn" data-wow-duration="2s"></div>
+            </div>
+        </div>
+    </div>
+    <!-- content 爆款产品 -->
+    <div class="con-box-1 min1200">
+        <div class="w1200">
+            <div class="cpqd-bt cpqd-bkcp-bt"></div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                </div>
+                <div class="swiper-slide swiper-slide1">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- content 金牌产品 -->
+    <div class="con-box-2 min1200">
+        <div class="cpqd-bt cpqd-jpcp-bt"></div>
+        <div class="list">
+            <ul>
+                <li>
+                    <span class="span1"></span>
+                    <img src="images/cpqd-jp-img1.jpg">
+                </li>
+                <li>
+                    <span class="span2"></span>
+                    <img src="images/cpqd-jp-img3.jpg">
+                </li>
+                <li>
+                    <span class="span3"></span>
+                    <img src="images/cpqd-jp-img2.jpg">
+                </li>
+                <li>
+                    <span class="span4"></span>
+                    <img src="images/cpqd-jp-img4.jpg">
+                </li>
+                <li>
+                    <span class="span5"></span>
+                    <img src="images/cpqd-jp-img5.jpg">
+                </li>
+                <li>
+                    <span class="span6"></span>
+                    <img src="images/cpqd-jp-img6.jpg">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- content 全产品线 -->
+    <div class="con-box-3 min1200">
+        <div class="w1200">
+            <div class="cpqd-bt cpqd-cpx-bt"></div>
+            <div class="cpqd-bz-bt">
+                <div class="cpqd-c1 wow jump loop" data-wow-duration="2s" data-wow-delay="1.4s"></div>
+                <div class="cpqd-c2 wow jump loop" data-wow-duration="2s" data-wow-delay="0.7s"></div>
+                <div class="cpqd-c3 wow jump loop" data-wow-duration="2s" data-wow-delay="0s"></div>
+                <div class="cpqd-c4 wow jump loop" data-wow-duration="2s" data-wow-delay="0.7s"></div>
+                <div class="cpqd-c5 wow jump loop" data-wow-duration="2s" data-wow-delay="1.4s"></div>
+            </div>
+            <div class="cpqd-cy wow fadeIn" data-wow-duration="1s"></div>
+            <div class="cpqd-line"></div>
+            <!-- 标准店 -->
+            <div class="cpqd-bz-bt">
+                <div class="cpqd-c1 cpqd-hc1 wow jump loop" data-wow-duration="2s" data-wow-delay="1.4s"></div>
+                <div class="cpqd-c2 cpqd-hc2 wow jump loop" data-wow-duration="2s" data-wow-delay="0.7s"></div>
+                <div class="cpqd-c3 cpqd-hc3 wow jump loop" data-wow-duration="2s" data-wow-delay="0s"></div>
+                <div class="cpqd-c4 cpqd-hc4 wow jump loop" data-wow-duration="2s" data-wow-delay="0.7s"></div>
+                <div class="cpqd-c5 cpqd-hc5 wow jump loop" data-wow-duration="2s" data-wow-delay="1.4s"></div>
+            </div>
+            <div class="cpqd-bz wow fadeIn" data-wow-duration="1s"></div>
+            <div class="cpqd-line cpqd-line1"></div>
+            <!-- 旗舰店 -->
+            <div class="cpqd-qj-bt">
+                <div class="cpqd-c1 cpqd-qj1 wow jump loop" data-wow-duration="2s" data-wow-delay="1.4s"></div>
+                <div class="cpqd-c2 cpqd-qj2 wow jump loop" data-wow-duration="2s" data-wow-delay="0.7s"></div>
+                <div class="cpqd-c3 cpqd-qj3 wow jump loop" data-wow-duration="2s" data-wow-delay="0s"></div>
+                <div class="cpqd-c4 cpqd-qj4 wow jump loop" data-wow-duration="2s" data-wow-delay="0.7s"></div>
+                <div class="cpqd-c5 cpqd-qj5 wow jump loop" data-wow-duration="2s" data-wow-delay="1.4s"></div>
+            </div>
+            <div class="cpqd-qj wow fadeIn" data-wow-duration="1s"></div>
+        </div>
+        <!-- <div class="cpqd-cy-bt1"></div> -->
+    </div>
+    <!--#include file="inc/foot.html" -->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <!--[if !IE]><!-->
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/wow.js" charset="UTF-8"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="libs/js/swiper-3.4.2.jquery.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/cpqd.js" charset="UTF-8"></script>
+    <!--#include file="inc/cnzz.html" -->
+    <!--#include file="inc/bot_floor.html"-->
+</body>
+
+</html>

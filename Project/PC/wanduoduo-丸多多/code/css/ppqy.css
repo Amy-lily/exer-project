@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1200{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+/*subpage templet code by jhy*/
+
+/*banner begin*/
+
+.sbp-ban-box {
+    width: 100%;
+    height: 594px;
+    position: relative;
+    overflow:hidden;
+}
+
+.sbp-bbg {
+    width: 100%;
+    height: 594px;
+    position: absolute;
+    background: url(../images/sbp-bbg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.sbp-mp{
+    width: 736px;
+    height: 84px;
+    position: absolute;
+    top: 285px;
+    left:258px;
+    background: url(../images/sbp-mp.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-mf-wrap{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    top: 275px;
+    left:653px;
+}
+
+.sbp-mf{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: url(../images/sbp-mf.png) no-repeat center center;
+    background-size: 100% 100%;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/*banner end*/
+
+.ppqy-box{
+    width: 100%;
+    height: 2410px;
+    position: relative;
+    overflow: hidden;
+    background: #000a1a;
+}
+.ppqy-box-img1{
+    width: 259px;
+    height: 199px;
+    position: absolute;
+    top: 78px;
+    left: 52px;
+    background: url(../images/ppqy-box-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+.ppqy-box-img2{
+    width: 1082px;
+    height: 462px;
+    position: absolute;
+    top: 135px;
+    left: 60px;
+    background: url(../images/ppqy-box-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+.ppqy-box-img3{
+    width: 537px;
+    height: 283px;
+    position: absolute;
+    top: 538px;
+    left: 733px;
+    background: url(../images/ppqy-box-img3.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+.ppqy-box-img4{
+    width: 442px;
+    height: 198px;
+    position: absolute;
+    top: 760px;
+    left: 52px;
+    background: url(../images/ppqy-box-img4.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+.video{
+    width: 1920px;
+    height: 1080px;
+    /*background: #f00;*/
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 800px;
+    z-index: 2;
+    overflow: hidden;
+}
+#video{
+    object-fit: inherit;
+}
+.ppqy-box-img5{
+    width: 485px;
+    height: 199px;
+    position: absolute;
+    top: 1730px;
+    left: 52px;
+    background: url(../images/ppqy-box-img5.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+.ppqy-box-img6{
+    width: 350px;
+    height: 393px;
+    position: absolute;
+    top: 1936px;
+    left: 73px;
+    background: url(../images/ppqy-box-img6.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+.ppqy-box-img7{
+    width: 711px;
+    height: 471px;
+    position: absolute;
+    top: 1842px;
+    left: 463px;
+    background: url(../images/ppqy-box-img7.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 5;
+}

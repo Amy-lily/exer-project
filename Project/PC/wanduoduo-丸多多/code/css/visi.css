@@ -1,0 +1,341 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1200 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+
+/*subpage templet code by lly*/
+
+
+/*banner begin*/
+
+.sbp-ban-box {
+    width: 100%;
+    height: 590px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sbp-bbg {
+    width: 100%;
+    height: 590px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../images/visi-banbg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.sbp-word1 {
+    width: 561px;
+    height: 207px;
+    position: absolute;
+    top: 218px;
+    left: 319px;
+    background: url(../images/visi-ban-word.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-word2-wrap {
+    width: 182px;
+    height: 91px;
+    position: absolute;
+    top: 218px;
+    left: 415px;
+    overflow: hidden;
+}
+
+.sbp-word2 {
+    width: 182px;
+    height: 91px;
+    background: url(../images/visi-word1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-gif {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 460px;
+    left: 50%;
+    margin-left: -23px;
+    background: url(../images/visi-gif.gif) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*banner end*/
+
+
+/*content one begin*/
+
+.con-box-1 {
+    width: 100%;
+    height: 548px;
+    position: relative;
+    background: url(../images/visi-lgban.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.wzlg-lg {
+    width: 109px;
+    height: 85px;
+    position: absolute;
+    background: url(../images/visi-lgt.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    top: 60px;
+    left: 348px;
+}
+
+.wzlg-yw {
+    width: 174px;
+    height: 61px;
+    background: url(../images/visi-lge.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 81px;
+    left: 457px;
+}
+
+.wzlg-wz1 {
+    width: 55px;
+    height: 69px;
+    background: url(../images/visi-lgw.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 81px;
+    left: 644px;
+}
+
+.wzlg-wz2 {
+    width: 51px;
+    height: 69px;
+    background: url(../images/visi-lgz.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 81px;
+    left: 696px;
+}
+
+.wzlg-wz3 {
+    width: 15px;
+    height: 69px;
+    background: url(../images/visi-lgl.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 81px;
+    left: 746px;
+}
+
+.wzlg-wz4 {
+    width: 30px;
+    height: 69px;
+    background: url(../images/visi-lgo.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 81px;
+    left: 760px;
+}
+
+.wzlg-wz5 {
+    width: 33px;
+    height: 53px;
+    background: url(../images/visi-lgg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 103px;
+    left: 790px;
+}
+
+.wzlg-wz6 {
+    width: 32px;
+    height: 40px;
+    background: url(../images/visi-lg02.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 103px;
+    left: 823px;
+}
+
+.wzlg-lc {
+    width: 759px;
+    height: 301px;
+    background: url(../images/visi-lc.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 241px;
+    left: 252px;
+}
+
+
+/*content one end*/
+
+
+/*content SI*/
+
+.con-box-2 {
+    width: 100%;
+    height: 1130px;
+    background: #000a19;
+}
+
+.wzsi-yw {
+    left: 358px;
+}
+
+.wzsi-wz1 {
+    left: 547px;
+}
+
+.wzsi-wz2 {
+    left: 600px;
+}
+
+.wzsi-wz3 {
+    width: 32px;
+    height: 55px;
+    background: url(../images/visi-sis.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    left: 653px;
+}
+
+.wzsi-wz4 {
+    width: 15px;
+    height: 69px;
+    background: url(../images/visi-lgl.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    left: 694px;
+}
+
+.wzsi-wz5 {
+    width: 140px;
+    height: 80px;
+    background: url(../images/visi-sihg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    left: 726px;
+    top: 70px;
+}
+
+.wzsi-img1 {
+    width: 1202px;
+    height: 917px;
+    background: url(../images/visi-siimg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 196px;
+    left: 50%;
+    margin-left: -601px;
+}
+
+
+/*content 玩转VI*/
+
+.con-box-3 {
+    width: 100%;
+    height: 3200px;
+    background: #000a19;
+}
+
+.wzvi-wz3 {
+    width: 41px;
+    height: 59px;
+    background: url(../images/visi-viv.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    left: 652px;
+}
+
+.wzvi-wz4 {
+    width: 15px;
+    height: 69px;
+    background: url(../images/visi-lgl.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    left: 690px;
+}
+
+.wzvi-wz5 {
+    width: 74px;
+    height: 81px;
+    background: url(../images/visi-viimg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    left: 724px;
+    top: 70px;
+}
+
+.wzvi-cj {
+    width: 1200px;
+    height: 749px;
+    background: url(../images/visi-vicj.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.wzvi-fz {
+    width: 1200px;
+    height: 526px;
+    background: url(../images/visi-vifz.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 948px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.wzvi-zb{
+    width: 1200px;
+    height: 606px;
+    background: url(../images/vsi-vizb.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1480px;
+    left: 50%;
+    margin-left: -600px;
+}
+.wzvi-xc{
+    width: 1200px;
+    height: 478px;
+    background: url(../images/visi-xc.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 2093px;
+    left: 50%;
+    margin-left: -600px;
+}
+.wzvi-db{
+    width: 1200px;
+    height: 572px;
+    background: url(../images/visi-db.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 2570px;
+    left: 50%;
+    margin-left: -600px;
+}

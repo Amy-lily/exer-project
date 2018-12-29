@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1200 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+
+/*subpage templet code by wyp*/
+
+
+/*banner*/
+.gssl-box{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow:hidden;
+}
+.gssl-bg {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    background: url(../images/gssl-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.gssl-ys {
+    width: 1417px;
+    height: 354px;
+    position: absolute;
+    top: 118px;
+    left: 298px;
+    background: url(../images/gssl-ys.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-text {
+    width: 622px;
+    height: 187px;
+    position: absolute;
+    top: 208px;
+    left: 50%;
+    margin-left: -311px;
+    background: url(../images/gssl-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-xgs-warp {
+    width: 86px;
+    height: 85px;
+    position: absolute;
+    top: 316px;
+    left: 640px;
+}
+
+.gssl-xgs {
+    width: 86px;
+    height: 85px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/gssl-xgs.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-call-warp {
+    width: 119px;
+    height: 71px;
+    position: absolute;
+    top: 324px;
+    left: 730px;
+}
+
+.gssl-call {
+    width: 119px;
+    height: 71px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/gssl-call.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content one*/
+.gssl-con-box {
+    width: 100%;
+    height: 2061px;
+    background: #000a19;
+    position: relative;
+}
+
+
+.gssl-con-text1 {
+    width: 825px;
+    height: 87px;
+    position: absolute;
+    top: 96px;
+    left: 50%;
+    margin-left: -412px;
+    background: url(../images/gssl-con-text1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-con-text2 {
+    width: 390px;
+    height: 55px;
+    position: absolute;
+    top: 188px;
+    left: 50%;
+    margin-left: -195px;
+    background: url(../images/gssl-con-text2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-con-img1{
+    width: 1090px;
+    height: 551px;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: -545px;
+    background: url(../images/gssl-con-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-con-img2{
+    width: 1090px;
+    height: 1153px;
+    position: absolute;
+    top: 904px;
+    left: 50%;
+    margin-left: -545px;
+    background: url(../images/gssl-con-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content two*/
+.gssl-con-box2 {
+    width: 100%;
+    height: 1643px;
+    background: #000a19;
+    position: relative;
+}
+
+.gssl-con-text3 {
+    width: 837px;
+    height: 89px;
+    position: absolute;
+    top: 94px;
+    left: 50%;
+    margin-left: -418px;
+    background: url(../images/gssl-con-text3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-con-text4 {
+    width: 414px;
+    height: 31px;
+    position: absolute;
+    top: 182px;
+    left: 50%;
+    margin-left: -207px;
+    background: url(../images/gssl-con-text4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-con-img3{
+    width: 1090px;
+    height: 438px;
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    margin-left: -545px;
+    background: url(../images/gssl-con-kdb.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.gssl-con-img4{
+    width: 1090px;
+    height: 439px;
+    position: absolute;
+    top: 720px;
+    left: 50%;
+    margin-left: -545px;
+    background: url(../images/gssl-con-yyb.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.gssl-con-img5{
+    width: 1090px;
+    height: 377px;
+    position: absolute;
+    top: 1170px;
+    left: 50%;
+    margin-left: -545px;
+    background: url(../images/gssl-con-fwb.png) no-repeat center center;
+    background-size: 100% 100%;
+}

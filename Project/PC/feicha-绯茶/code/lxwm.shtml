@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>绯茶-联系我们</title>
+<meta name="keywords" content="lady、原萃、品质、都市、魅惑、风韵、精致、粉色、绯红、翡翠、宝石、颜值、流行、色彩、年轻">
+<meta name="description" content="绯茶采用冷萃热泡工艺，在工艺上吸引了消费者的眼球，也满足了食客在不同季节的需求；同时主打益生菌瘦身奶盖，备受女性消费者喜爱，在多方面增加了绯茶的消费人群。">
+<meta name="applicable-device" content="pc"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-transform"> 
+<meta http-equiv="Cache-Control" content="no-siteapp"> 
+<meta name="robots" content="all">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta name="mobile-agent" content="format=html5;url=http://wap.feicha88.com/">
+<meta name="mobile-agent" content="format=xhtml;url=http://wap.feicha88.com/">
+<meta name="mobile-agent" content="format=wml;url=http://wap.feicha88.com/">
+<link rel="shortcut" icon="icon" type="image/ico" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="alternate" media="only screen and(max-width: 640px)" href="http://wap.feicha88.com">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/lxwm.css">
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4VTX4GV6tGH4y4bjBXAQd5zSX4zBdySm"></script>
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+<!--#include file="inc/head.html" --> 
+<!--#include file="inc/msgBox.html" --> 
+<!-- banner -->
+<div class="lxwm-box min1200">
+  <div class="w1200">
+    <div class="lxwm-f1 wow puffIn-sma" data-wow-duration="0.8s" data-wow-delay="0.1s"></div>
+    <div class="lxwm-f2 wow flipInX" data-wow-duration="1s" data-wow-delay="0.6s"></div>
+  </div>
+</div>
+<!-- content one -->
+<div class="lxwm-form min1200">
+  <div class="w1200">
+    <div class="lxwm-jkly wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.1s"></div>
+    <div class="fwbz-dzx wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.1s">
+      <form action="http://liuyan.tlshangxun.com/tijiao.php" method="post">
+        <div class="tb-z">
+          <p> 姓名
+            <input id="xingming" name="xingming" class="in-txt" type="text" />
+          </p>
+          <p> 电话
+            <input id="dianhua" maxlength="11" name="dianhua" class="in-txt" type="text" />
+          </p>
+          <p> 地址
+            <input id="laizi" name="laizi" class="in-txt" type="text" />
+          </p>
+          <div class="lxwm-ly">
+            <div class="ly">留言</div>
+            <textarea name="neirong" class="form-control" placeholder=""></textarea>
+          </div>
+          <div class="tj">
+            <input class="form-tj" type="submit" value="提交" />
+          </div>
+        </div>
+        <input id="xiangmu" name="xiangmu" type="hidden" value="绯茶PC官网" />
+        <input id="wangzhi" name="wangzhi" type="hidden" value="" />
+      </form>
+    </div>
+  </div>
+</div>
+<div class="lxwm-slzb-wrap min1200">
+  <div class="w1200">
+    <div class="lxwm-slzb wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.1s"></div>
+    <div class="bd-map">
+      <ul>
+        <li class="map-li-1">
+          <div id="map1" class="map-t"></div>
+        </li>
+        <li class="map-li-2">
+          <div id="map2" class="map-t"></div>
+        </li>
+        <li class="map-li-3">
+          <div id="map3" class="map-t"></div>
+        </li>
+        <li>
+          <div id="map4" class="map-t"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="bd-map-f">
+      <div class="map-f map-f-1">
+        <p class="map-city"> <font>华南运营中心</font> </p>
+        <p class="map-addr">广州黄埔区科学城商业广场A4二楼</p>
+      </div>
+      <div class="map-f">
+        <p class="map-city"> <font>华北运营中心</font> </p>
+        <p class="map-addr">北京市大兴亦庄经济技术开发区路东区 <br/>
+          科创十四街20号院1号楼5层</p>
+      </div>
+      <div class="map-f map-f-3">
+        <p class="map-city"> <font>西南运营中心</font> </p>
+        <p class="map-addr">成都市金牛区金仙桥路15号 <br/>
+          川铁大厦3楼</p>
+      </div>
+      <div class="map-f map-f-4">
+        <p class="map-city"> <font>华东运营中心 </font> </p>
+        <p class="map-addr">南京市江宁区天印大道696号 <br/>
+          东山总部商务园A1栋5层</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="inc/foot.html"--> 
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/skrollr.min.js"></script> 
+<script type="text/javascript" src="js/lxwm.js"></script> 
+<script type="text/javascript" src="http://developer.baidu.com/map/custom/stylelist.js"></script> 
+<!--#include file="inc/cnzz.html" --> 
+<!--#include file="inc/bot_floor.html"-->
+</body>
+</html>

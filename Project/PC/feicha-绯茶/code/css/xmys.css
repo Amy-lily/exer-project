@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1202{
+    width: 1202px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1202 {
+    min-width: 1202px;
+    overflow: hidden;
+}
+
+/* code by lly*/
+
+/*banner begin*/
+
+.xmys-ban-box {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(../images/xmys-ban-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.xmys-title{
+    width: 289px;
+    height: 140px;
+    position: absolute;
+    top: 213px;
+    right:100px;
+    background: url(../images/xmys-ban-bt.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*banner end*/
+
+/*content one begin*/
+
+.con-box-1{
+    width: 100%;
+    height: 835px;
+    background: url(../images/xmys-bg2.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.con1-title{
+    width: 632px;
+    height: 87px;
+    background: url(../images/xmys-ssbt.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    margin-left: -316px;
+}
+.con1-cup{
+    width: 851px;
+    height: 529px;
+    background: url(../images/xmys-ss.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 228px;
+    left: 193px;
+}
+/*content one end*/
+/*content two*/
+.con-box-2{
+    width: 100%;
+    height: 1620px;
+    background: #f9e7e8;
+}
+.con2-title{
+    width: 741px;
+    height: 88px;
+    background: url(../images/xmys-tybt.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 228px;
+    top: 85px;
+}
+.con2-gc{
+    width: 1146px;
+    height: 201px;
+    background: url(../images/xmys-tygc.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 224px;
+    left: 26px;
+}
+.con2-img1{
+    width: 601px;
+    height: 947px;
+    background: url(../images/xmys-img1.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 470px;
+    left: 0;
+}
+.con2-img2{
+    width: 599px;
+    height: 947px;
+    background: url(../images/xmys-img2.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 470px;
+    right: 0;
+}
+.con2-word1{
+    width: 454px;
+    height: 66px;
+    background: url(../images/xmys-word1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1450px;
+    left: 75px;
+}
+.con2-word2{
+    width: 454px;
+    height: 66px;
+    background: url(../images/xmys-word2.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1450px;
+    right: 75px;
+}
+/*con-box-3*/
+.con-box-3{
+    width: 100%;
+    height: 2584px;
+    background: #fff;
+    position: relative;
+}
+.con3-title{
+    width: 598px;
+    height: 89px;
+    background: url(../images/xmys-mlbt.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 84px;
+    left: 50%;
+    margin-left: -299px;
+}
+.con3-01bt{
+    width: 18px;
+    height: 71px;
+    background: url(../images/xmys-01.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 530px;
+    left: 0;
+}
+.con3-01word{
+    width: 484px;
+    height: 131px;
+    background: url(../images/xmys-01word1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 370px;
+    left: 0;
+}
+.con3-01img{
+    width: 596px;
+    height: 343px;
+    background: url(../images/xmys-01img1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 239px;
+    right: 0;
+}
+.con3-02img{
+    width: 587px;
+    height: 344px;
+    background: url(../images/xmys-02img2.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 680px;
+}
+.con3-02bt{
+    width: 22px;
+    height: 71px;
+    background: url(../images/xmys-02.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 953px;
+    right: 0;
+}
+.con3-02word{
+    width: 522px;
+    height: 135px;
+    background: url(../images/xmys-02word2.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 773px;
+    right: 0;
+}
+.con3-03{
+    width: 1200px;
+    height: 500px;
+    background: url(../images/xmys-03.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1097px;
+    left: 0;
+}
+.con3-04bt{
+    width: 22px;
+    height: 71px;
+    background: url(../images/xmys-04.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1898px;
+    left: 0;
+}
+.con3-04word{
+    width: 499px;
+    height: 167px;
+    background: url(../images/xmys-04word4.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1756px;
+    left: 0;    
+}
+.con3-04img{
+    width: 587px;
+    height: 339px;
+    background: url(../images/xmys-04img4.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1637px;
+    right: 0;
+}
+.con3-05{
+    width: 1200px;
+    height: 468px;
+    background: url(../images/xmys-05.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 2033px;
+    left: 0;    
+}

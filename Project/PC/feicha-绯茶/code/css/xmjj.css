@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1202{
+    width: 1202px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1202 {
+    min-width: 1202px;
+    overflow: hidden;
+}
+
+/*code by lly*/
+
+/*banner begin*/
+
+.sbp-ban-box {
+    width: 100%;
+    height: 594px;
+    position: relative;
+    background: url(../images/sbp-bbg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.sbp-mp{
+    width: 1052px;
+    height: 656px;
+    position: absolute;
+    top: 195px;
+    left:68px;
+    background: url(../images/sbp-mp.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-mf{
+    width: 451px;
+    height: 74px;
+    position: absolute;
+    top: 65px;
+    left:394px;
+    background: url(../images/sbp-mf.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*banner end*/
+
+/*content xmjj-szj begin*/
+
+.con-box-1{
+    width: 100%;
+    height: 566px;
+    background: #fff;
+}
+.xmjj-title{
+    width: 563px;
+    height: 87px;
+    background: url(../images/xmjj-szbt.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -286.5px;
+    top: 80px;
+}
+.xmjj-jd{
+    width: 1123px;
+    height: 269px;
+    background: url(../images/xmjj-jd.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -561.5px;
+    top: 215px;
+}
+/*content one end*/
+/*content two start*/
+.con-box-2{
+    width: 100%;
+    height: 626px;
+    background: url(../images/xmjj-jzbg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.con2-cup{
+    width: 321px;
+    height: 506px;
+    background: url(../images/xmjj-con2-img.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 83px;
+    right: 164px;
+}
+.con2-title-wrap{
+    width: 56px;
+    height: 305px;
+    position: absolute;
+    top: 169px;
+    left: 480px;
+    overflow: hidden;
+}
+.con2-title{
+    width: 56px;
+    height: 305px;
+    background: url(../images/xmjj-con2-bt.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.con2-word-wrap{
+    width: 350px;
+    height: 266px;
+    overflow: hidden;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+.con2-word{
+    width: 350px;
+    height: 266px;    
+    background: url(../images/xmjj-con2-wrod.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content 2*/
+.con-box-3{
+    width: 100%;
+    height: 667px;
+    background: url(../images/xmjj-dybg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.con3-title{
+    width: 628px;
+    height: 97px;
+    background: url(../images/xmjj-con3-bt.png) no-repeat center center;
+    background-size: 100% 100%;
+    position:absolute;
+    top: 85px;
+    left: 50%;
+    margin-left: -314px;
+}
+.con3-cup{
+    width: 276px;
+    height: 340px;
+    background: url(../images/xmjj-dyimg.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 193px;
+    left: 180px;
+}
+.con3-word-wrap{
+    width: 785px;
+    height: 373px;
+    position: absolute;
+    left: 490px;
+    top: 210px;
+    overflow: hidden;
+}
+.con3-word{
+    width: 785px;
+    height: 373px;
+    background: url(../images/xmjj-dyimg2.png) no-repeat center center;
+    background-size: 100% 100%;    
+}

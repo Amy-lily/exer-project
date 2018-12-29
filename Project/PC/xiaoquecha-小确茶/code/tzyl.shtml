@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>小确茶投资盈利</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="小确茶投资费用,小确茶盈利分析">
+    <meta name="description" content="小确茶投资费用介绍,小确茶盈利分析,三种不同单店类型,适应不同预算创业者.">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/page-tzyl.css">
+    <script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+    <!--#include file="inc/head.html" -->
+    <!--#include file="inc/msgBox.html" -->
+    <!-- banner -->
+    <div class="tzyl-ban-box min1200">
+        <div class="w1024">
+            <div class="tzyl-word wow fadeIn" data-wow-duration="1s"></div>
+            <div class="tzyl-line wow fadeIn" data-wow-duration="1s"></div>
+            <div class="tzyl-word1 wow puffIn-sma" data-wow-duration="1s"></div>
+            <div class="tzyl-word2 wow flipInX" data-wow-duration="1s"></div>
+        </div>
+    </div>
+    <!-- content ylfx -->
+    <!-- <div class="con-box-1 min1200">
+        <div class="w1024">
+            <div class="con-title wow zoomIn" data-wow-duration="1s"></div>
+            <div class="tzyl-fxgs">
+                <div class="tzyl-gs1 wow fadeIn" data-wow-duration="1s"></div>
+                <div class="tzyl-gs2 wow fadeIn" data-wow-duration="1s"></div>
+                <div class="tzyl-gs3 wow fadeInUp" data-wow-duration="1s"></div>
+            </div>
+        </div>
+        <a class="down wow topGuide" data-wow-duration="1s"></a>
+    </div> -->
+    <!-- content ddms -->
+    <div class="con-box-2 min1200" id="con-box-2">
+        <div class="w1024">
+            <div class="con-title con-title1 wow zoomIn" data-wow-duration="1s"></div>
+            <!-- 创业店 -->
+            <div class="tzyl-ddms-dx">
+                <div class="tzyl-dx1 wow fadeIn" data-wow-duration="1s"></div>
+                <div class="tzyl-dx2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"></div>
+                <div class="tzyl-tzfy wow fadeIn" data-wow-duration="1s">投资仅需：80000元+2000元年度营运服务费</div>
+            </div>
+            <!-- 标准店 -->
+            <div class="tzyl-ddms-dx tzyl-ddms-bz">
+                <div class="tzyl-dx1 tzyl-bz1 wow fadeIn" data-wow-duration="1s"></div>
+                <div class="tzyl-dx2 tzyl-bz2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"></div>
+                <div class="tzyl-tzfy">投资仅需：90000元+2000元年度营运服务费</div>
+            </div>
+            <!-- 旗舰店 -->
+            <div class="tzyl-ddms-dx tzyl-ddms-bz">
+                <div class="tzyl-dx1 tzyl-qj1 wow fadeIn" data-wow-duration="1s"></div>
+                <div class="tzyl-dx2 tzyl-qj2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"></div>
+                <div class="tzyl-tzfy">投资仅需：100000元+2000元年度营运服务费</div>
+            </div>
+            <!-- 代理模式 -->
+            <div class="tzyl-ddms-dx tzyl-ddms-bz">
+                <div class="tzyl-dx1 tzyl-dl1 wow fadeIn" data-wow-duration="1s"></div>
+                <div class="tzyl-dx2 tzyl-dl2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"></div>
+                <div class="tzyl-dl">
+                    <table class="tzyl-dlbg wow fadeIn" data-wow-duration="0.7s">
+                        <tr class="no-top-line">
+                            <td>区域划分</td>
+                            <td>投资费用</td>
+                            <td class="no-right-line">年度营运服务费</td>
+                        </tr>
+                        <tr>
+                            <td>三线城市</td>
+                            <td>15万元</td>
+                            <td class="no-right-line">5000元</td>
+                        </tr>
+                        <tr>
+                            <td>二线城市</td>
+                            <td>20万元</td>
+                            <td class="no-right-line">5000元</td>
+                        </tr>
+                        <tr>
+                            <td>一线城市</td>
+                            <td>25万元</td>
+                            <td class="no-right-line">5000元</td>
+                        </tr>
+                        <tr>
+                            <td>核心城市</td>
+                            <td>32万元</td>
+                            <td class="no-right-line">5000元</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- <div class="tzyl-tzfy">区域内享超低进货价，综合盈利＞单店6倍</div> -->
+            </div>
+        </div>
+        <a class="down wow topGuide" data-wow-duration="1s"></a>
+    </div>
+    <!-- 签约案例 -->
+    <!-- <div class="con-box-3 min1200" id="con-box-3">
+        <div class="w1024">
+            <div class="con-title con-title3 wow zoomIn" data-wow-duration="1s"></div>
+            <div class="tzyl-qyal wow fadeIn" data-wow-duration="1s"></div>
+            <div class="tzyl-qyal1 wow fadeIn" data-wow-duration="1s"></div>
+        </div>
+    </div> -->
+    <!--#include file="inc/foot.html" -->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <!--#include file="inc/cnzz.html" -->
+    <!--#include file="inc/bot_floor.html"-->
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>丸多多-公司实力</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="城市丸酷茶，搞怪潮流来袭！">
+    <meta name="description" content="丸出色，饮出彩！8色手作茶丸，高颜值！3好精选原料，高品质！">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/gssl.css">
+</head>
+
+<body>
+    <!--#include file="inc/head.html" -->
+    <!--#include file="inc/msgBox.html" -->
+    <!-- banner -->
+    <div class="gssl-box min1200">
+        <div class="gssl-bg wow scale-small">
+            <div class="gssl-ys wow jump loop" data-wow-duration="2s"></div>
+        </div>
+        <div class="w1200">
+            <div class="gssl-text wow vanishIn"></div>
+            <div class="gssl-xgs-warp wow fadeIn" data-wow-delay="1s">
+                <div class="gssl-xgs wow flicker"></div>
+            </div>
+            <div class="gssl-call-warp wow fadeIn" data-wow-delay="1.2s">
+                <div class="gssl-call wow filterIn loop" data-wow-duration="2s"></div>
+            </div>
+        </div>
+    </div>
+    <!-- content one -->
+    <div class="gssl-con-box min1200">
+        <div class="w1200">
+            <div class="gssl-con-text1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.5s"></div>
+            <div class="gssl-con-text2 wow fadeIn" data-wow-delay="0.6s"></div>
+            <div class="gssl-con-img1 wow fadeIn" data-wow-delay="0.7s"></div>
+            <div class="gssl-con-img2 wow fadeIn"></div>
+        </div>
+    </div>
+    <!-- content two -->
+    <div class="gssl-con-box2 min1200">
+        <div class="w1200">
+            <div class="gssl-con-text3 wow zoomIn" data-wow-duration="1.5s"></div>
+            <div class="gssl-con-text4 wow fadeIn" data-wow-delay="0.2s"></div>
+            <div class="gssl-con-img3 wow fadeIn"></div>
+            <div class="gssl-con-img4 wow fadeIn"></div>
+            <div class="gssl-con-img5 wow fadeIn"></div>
+        </div>
+    </div>
+    <!--#include file="inc/foot.html" -->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <!--[if !IE]><!-->
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/wow.js" charset="UTF-8"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <!--#include file="inc/cnzz.html" -->
+    <!--#include file="inc/bot_floor.html"-->
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!-- 加载页 -->
+<div class="index-warp">
+  <div class="index-gif">
+    <div class="progressbar"></div>
+    <span class="index-num">10%</span>
+  </div>
+</div>
+<!-- 内容 -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <!-- slide -->
+    <div class="swiper-slide home stop-swiping">
+      <div class="home-word1 animated fadeIn"></div>
+      <div class="home-word2 animated rubberBand"></div>
+      <div class="input-name">
+        <span class="input-word"></span> <input type="text" class="name" />
+      </div>
+      <div class="start"></div>
+    </div>
+    <!-- Q1 -->
+    <div class="swiper-slide stop-swiping">
+      <div class="slide-contain">
+        <div class="slide1-gif"></div>
+        <div class="quesWarp">
+          <div class="qest"></div>
+          <div class="anslist swiper-button-next oneBtn one1" data-ans="1">
+            <div class="chose"><img src="../images/A.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next oneBtn one2" data-ans="5">
+            <div class="chose"><img src="../images/B.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next oneBtn one3" data-ans="5">
+            <div class="chose"><img src="../images/C.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next oneBtn one4" data-ans="2">
+            <div class="chose"><img src="../images/D.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Q2 -->
+    <div class="swiper-slide slide2 stop-swiping">
+      <div class="slide-contain">
+        <div class="slide2-gif">
+          <img src="http://gif.cnnjidc.com/yidiandian/slide2-gif.gif" alt="" />
+        </div>
+        <div class="quesWarp">
+          <div class="qest qest2"></div>
+          <div class="anslist swiper-button-next twoBtn two1" data-ans="3">
+            <div class="chose"><img src="../images/A.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next twoBtn two2" data-ans="2">
+            <div class="chose"><img src="../images/B.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Q3 -->
+    <div class="swiper-slide slide3 stop-swiping">
+      <div class="slide-contain">
+        <div class="slide3-gif">
+          <img src="http://gif.cnnjidc.com/yidiandian/slide3-gif.gif" alt="" />
+        </div>
+        <div class="quesWarp">
+          <div class="qest qest3"></div>
+          <div class="anslist swiper-button-next threeBtn three1" data-ans="4">
+            <div class="chose"><img src="../images/A.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next threeBtn three2" data-ans="5">
+            <div class="chose"><img src="../images/B.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Q4 -->
+    <div class="swiper-slide slide4 stop-swiping">
+      <div class="slide-contain">
+        <img
+          src="http://gif.cnnjidc.com/yidiandian/slide4-gif.gif"
+          class="slide4-gif"
+          alt=""
+        />
+        <div class="quesWarp">
+          <div class="qest qest4"></div>
+          <div class="anslist swiper-button-next fourBtn four1" data-ans="5">
+            <div class="chose"><img src="../images/A.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next fourBtn four2" data-ans="1">
+            <div class="chose"><img src="../images/B.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next fourBtn four3" data-ans="3">
+            <div class="chose"><img src="../images/C.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next fourBtn four4" data-ans="3">
+            <div class="chose"><img src="../images/D.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Q5 -->
+    <div class="swiper-slide slide5 stop-swiping">
+      <div class="slide-contain">
+        <img
+          src="http://gif.cnnjidc.com/yidiandian/slide5-gif.gif"
+          class="slide5-gif"
+          alt=""
+        />
+        <div class="quesWarp">
+          <div class="qest qest5"></div>
+          <div class="anslist swiper-button-next fiveBtn five1" data-ans="4">
+            <div class="chose"><img src="../images/A.png" alt="" /></div>
+          </div>
+          <div class="anslist swiper-button-next fiveBtn five2" data-ans="1">
+            <div class="chose"><img src="../images/B.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ANS -->
+    <div class="swiper-slide slide6 stop-swiping">
+      <div class="resWarp" style="display: none;">
+        <img src="../images/ansbg.jpg" class="resimg resbg" alt="" />
+        <img src="../images/ansname.png" class="resimg ansnamebox" alt="" />
+        <div class="resimg ansname">amy</div>
+        <img src="../images/1.png" class="resimg ansres" alt="" />
+        <img src="../images/anscode.png" class=" resimg anscode" alt="" />
+      </div>
+
+      <div class="btn-warp">
+        <a href="http://wx.qudaosujian.com/luodiye/yidiandian/"
+          ><div class="ans-btn animated pulse loop"></div
+        ></a>
+        <div class="ans-btn ans-btn2"></div>
+        <div class="save">长按保存图片</div>
+      </div>
+      <img id="myCanvas" alt="" />
+      <div class="opa"><div class="share"></div></div>
+    </div>
+    <div id="music">
+      <div id="btn" class="on">
+        <audio
+          id="media"
+          loop="loop"
+          preload="auto"
+          autoplay
+          src="http://audio.cnnjidc.com/yidiandian/ydd.mp3"
+        ></audio>
+      </div>
+    </div>
+  </div>
+</div>

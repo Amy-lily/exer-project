@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1024{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+/*subpage templet code by jhy*/
+
+/*banner begin*/
+
+.sbp-ban-box {
+    width: 100%;
+    height: 599px;
+    position: relative;
+    background: url(../images/sbp-bbg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.sbp-syc{
+    width: 416px;
+    height: 101px;
+    position: absolute;
+    top: 224px;
+    left:392px;
+    background: url(../images/sbp-syc.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-mf{
+    width: 533px;
+    height: 174px;
+    position: absolute;
+    top: 120px;
+    left:253px;
+    background: url(../images/sbp-mf.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.sbp-sf{
+    width: 529px;
+    height: 129px;
+    position: absolute;
+    top: 305px;
+    left:253px;
+    background: url(../images/sbp-sf.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*banner end*/
+
+/*content one begin*/
+
+.con-box-1{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background: url(../images/xmjj-xmqy.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmjj-xmqy-img1{
+    width: 542px;
+    height: 818px;
+    position: absolute;
+    left: 50%;
+    margin-left: -271px;
+    top: 100px;
+    background: url(../images/xmjj-xmqy-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmjj-xmqy-img2{
+    width: 128px;
+    height: 166px;
+    position: absolute;
+    left: 50%;
+    margin-left: -64px;
+    top: 57px;
+    background: url(../images/xmjj-xmqy-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmjj-xmqy-img3-box{
+    width: 251px;
+    position: absolute;
+    height: 482px;
+    left: 50%;
+    margin-left: -125.5px;
+    top: 260px;
+    overflow: hidden;
+}
+.xmjj-xmqy-img3{
+    width: 251px;
+    height: 482px;
+    position: absolute;
+    left:0;
+    top: 0;
+    background: url(../images/xmjj-xmqy-img3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.zhishi{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    margin-left: -18px;
+    bottom: 30px;
+    background: url(../images/zhishi.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content two*/
+.con-box-2{
+    width: 100%;
+    height: 783px;
+    position: relative;
+    background: url(../images/xmjj-ncbns.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmjj-hxbns-img1{
+    width: 140px;
+    height: 152px;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    top: 80px;
+    background: url(../images/xmjj-hxbns-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmjj-hxbns-img2{
+    width: 1024px;
+    height: 391px;
+    position: absolute;
+    left: 0;
+    top: 290px;
+    background: url(../images/xmjj-hxbns-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content three*/
+.con-box-3{
+    width: 100%;
+    height: 626px;
+    position: relative;
+    background: url(../images/xmjj-xmda.jpg) no-repeat center center;
+    background-size: cover;
+}
+.xmjj-xmda-img1{
+    width: 145px;
+    height: 166px;
+    position: absolute;
+    left: 50%;
+    margin-left: -72.5px;
+    top: 80px;
+    background: url(../images/xmjj-xmda-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content four*/
+.con-box-4{
+    width: 100%;
+    height: 736px;
+    position: relative;
+    background: url(../images/xmjj-scql.jpg) no-repeat center center;
+    background-size: cover;
+}
+.xmjj-scql-img1{
+    width: 150px;
+    height: 166px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    top: 80px;
+    background: url(../images/xmjj-scql-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}

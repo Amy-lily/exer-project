@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.w1024{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+/*subpage templet code by jhy*/
+
+/*banner begin*/
+
+.xmys-ban-box {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(../images/xmys-ban-box.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.xmys-img1{
+    width: 447px;
+    height: 289px;
+    position: absolute;
+    top: 120px;
+    left:50%;
+    margin-left: -224px;
+    background: url(../images/xmys-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.xmys-img2{
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    top: 439px;
+    left:50%;
+    margin-left: -50px;
+    background: url(../images/xmys-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*banner end*/
+
+/*content one begin*/
+.xmys-box-1{
+    width: 100%;
+    height: 999px;
+    background: url(../images/xmys-jx.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmys-jx-img1{
+    width: 167px;
+    height: 152px;
+    position: absolute;
+    left: 50%;
+    margin-left: -83.5px;
+    top: 80px;
+    background: url(../images/xmys-jx-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmys-jx-img2{
+    width: 1024px;
+    height: 560px;
+    position: absolute;
+    left: 50%;
+    margin-left: -512px;
+    top: 330px;
+    background: url(../images/xmys-jx-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmys-jx-img3{
+    width: 415px;
+    height: 640px;
+    position: absolute;
+    left: 100px;
+    top: 290px;
+    background: url(../images/xmys-jx-img3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.zhishi{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    margin-left: -18px;
+    bottom: 30px;
+    background: url(../images/zhishi.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content two*/
+.xmys-box-2{
+    width: 100%;
+    height: 907px;
+    background: url(../images/xmys-yj.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmys-yj-img1{
+    width: 143px;
+    height: 152px;
+    position: absolute;
+    left: 50%;
+    margin-left: -71.5px;
+    top: 80px;
+    background: url(../images/xmys-yj-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmys-yj-img2{
+    width: 1024px;
+    height: 535px;
+    position: absolute;
+    left: 50%;
+    margin-left: -512px;
+    top: 270px;
+    background: url(../images/xmys-yj-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*content three*/
+.xmys-box-3{
+    width: 100%;
+    height: 1133px;
+    background: url(../images/xmys-cc.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmys-cc-img1{
+    width: 143px;
+    height: 152px;
+    position: absolute;
+    left: 50%;
+    margin-left: -71.5px;
+    top: 80px;
+    background: url(../images/xmys-cc-img1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmys-cc-img2{
+    width: 1024px;
+    height: 309px;
+    position: absolute;
+    left: 50%;
+    margin-left: -512px;
+    top: 290px;
+    background: url(../images/xmys-cc-img2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.xmys-cc-img3{
+    width: 1024px;
+    height: 393px;
+    position: absolute;
+    left: 50%;
+    margin-left: -512px;
+    top: 640px;
+    background: url(../images/xmys-cc-img3.png) no-repeat center center;
+    background-size: 100% 100%;
+}

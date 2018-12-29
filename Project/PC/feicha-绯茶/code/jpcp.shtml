@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>绯茶-金牌产品</title>
+<meta name="keywords" content="lady、原萃、品质、都市、魅惑、风韵、精致、粉色、绯红、翡翠、宝石、颜值、流行、色彩、年轻">
+<meta name="description" content="绯茶采用冷萃热泡工艺，在工艺上吸引了消费者的眼球，也满足了食客在不同季节的需求；同时主打益生菌瘦身奶盖，备受女性消费者喜爱，在多方面增加了绯茶的消费人群。">
+<meta name="applicable-device" content="pc"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-transform"> 
+<meta http-equiv="Cache-Control" content="no-siteapp"> 
+<meta name="robots" content="all">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta name="mobile-agent" content="format=html5;url=http://wap.feicha88.com/">
+<meta name="mobile-agent" content="format=xhtml;url=http://wap.feicha88.com/">
+<meta name="mobile-agent" content="format=wml;url=http://wap.feicha88.com/">
+<link rel="shortcut" icon="icon" type="image/ico" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="alternate" media="only screen and(max-width: 640px)" href="http://wap.feicha88.com">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/jpcp.css">
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+<!--#include file="inc/head.html" --> 
+<!--#include file="inc/msgBox.html" -->
+<div class="jpcp-ban-box min1202">
+  <div class="w1202">
+    <div class="jpcp-text wow puffIn-sma"></div>
+    <div class="jpcp-img wow popInBottom" data-wow-delay="0.5s"></div>
+  </div>
+</div>
+<div class="bkcp-ban-box min1202">
+  <div class="w1202">
+    <div class="bkcp-text wow zoomIn"></div>
+    <div class="bkcp-img1 wow fadeInLeft"></div>
+    <div class="bkcp-img2 wow fadeInRight"></div>
+  </div>
+</div>
+<div class="zycp-ban-box min1202">
+  <div class="w1202">
+    <div class="zycp-text wow zoomIn"></div>
+    <div id="focus_Box"> <span class="prev">&nbsp;</span> <span class="next">&nbsp;</span>
+      <ul>
+        <li> <img width="600" height="800" src="images/zycp-carousel3.jpg"> </li>
+        <li> <img width="600" height="800" src="images/zycp-carousel2.jpg"> </li>
+        <li> <img width="600" height="800" src="images/zycp-carousel1.jpg"> </li>
+        <li> <img width="600" height="800" src="images/zycp-carousel4.jpg"> </li>
+        <li> <img width="600" height="800" src="images/zycp-carousel5.jpg"> </li>
+        <li> <img width="600" height="800" src="images/zycp-carousel6.jpg"> </li>
+        <li> <img width="600" height="800" src="images/zycp-carousel7.jpg"> </li>
+        <li> <img width="600" height="800" src="images/zycp-carousel8.jpg"> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="cpx-ban-box min1202">
+  <div class="w1202">
+    <div class="cpx-title wow zoomIn"></div>
+    <div class="cpx-text wow fadeIn" data-wow-delay="0.4s"></div>
+    <div class="cpx-img wow fadeIn" data-wow-delay="0.6s"></div>
+  </div>
+</div>
+<div class="bzd-ban-box min1202">
+  <div class="w1202">
+    <div class="bzd-text wow fadeIn" data-wow-delay="0.4s"></div>
+    <div class="bzd-img wow fadeIn" data-wow-delay="0.6s"></div>
+  </div>
+</div>
+<div class="qjd-ban-box min1202">
+  <div class="w1202">
+    <div class="qjd-text wow fadeIn" data-wow-delay="0.4s"></div>
+    <div class="qjd-img wow fadeIn" data-wow-delay="0.6s"></div>
+  </div>
+</div>
+<!--#include file="inc/foot.html" --> 
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/ZoomPic.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+<!--#include file="inc/cnzz.html" --> 
+<!--#include file="inc/bot_floor.html"-->
+</body>
+</html>

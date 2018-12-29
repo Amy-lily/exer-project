@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>小确茶总部</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="小确茶总部">
+    <meta name="description" content="小确茶隶属荣创餐饮旗下台式奶茶品牌,专业团队,成熟运营体系,让创业更简单.">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/page-slht.css">
+    <script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+    <!--#include file="inc/head.html" -->
+    <!--#include file="inc/msgBox.html" -->
+    <!-- banner -->
+    <div class="slht-box min1200">
+        <div class="w1024">
+            <div class="slht-frame wow fadeIn" data-wow-duration="1s"></div>
+            <div class="slht-text1 wow fadeIn" data-wow-duration="1s"></div>
+            <div class="slht-text2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"></div>
+            <div class="slht-text3 wow puffIn-sma" data-wow-duration="1s" data-wow-delay="1.2s"></div>
+            <div class="slht-text4 wow flipInX" data-wow-duration="1s" data-wow-delay="0.5s"></div>
+        </div>
+    </div>
+    <!-- content one -->
+    <div class="gssl-box min1200">
+        <div class="w1024">
+            <div class="gssl-title wow zoomIn" data-wow-duration="1s"></div>
+            <div class="gssl-img wow fadeIn" data-wow-duration="1s">
+                <!-- <div class="gssl-img1 wow fadeIn" data-wow-duration="1s"></div> -->
+                <div class="gssl-img1-1 wow fadeIn" data-wow-duration="1s"></div>
+                <!-- <div class="gssl-img2 wow fadeIn" data-wow-duration="1s"></div> -->
+                <div class="gssl-img2-2 wow fadeIn" data-wow-duration="1s"></div>
+            </div>
+            <div class="gssl-img3 wow fadeIn" data-wow-duration="1s"></div>
+            <div class="gssl-jt wow topGuide" data-wow-duration="1.5s"></div>
+        </div>
+    </div>
+    <!-- content two -->
+    <div class="fwbz-box min1200">
+        <div class="w1024">
+            <div class="fwbz-title wow zoomIn" data-wow-duration="1s"></div>
+            <div class="fwbz-img1 wow fadeIn" data-wow-duration="1s"></div>
+            <div class="fwbz-img2 wow fadeIn" data-wow-duration="1s"></div>
+            <div class="fwbz-footer wow fadeIn" data-wow-duration="1s">
+                <div class="fwbz-footer1 wow zoomIn" data-wow-duration="1s"></div>
+                <div class="fwbz-footer2 wow zoomIn" data-wow-duration="1s"></div>
+                <div class="fwbz-footer3 wow zoomIn" data-wow-duration="1s"></div>
+                <div class="fwbz-footer4 wow zoomIn" data-wow-duration="1s"></div>
+                <div class="fwbz-footer5 wow zoomIn" data-wow-duration="1s"></div>
+            </div>
+        </div>
+    </div>
+    <!--#include file="inc/foot.html" -->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <!--#include file="inc/cnzz.html" -->
+    <!--#include file="inc/bot_floor.html"-->
+</body>
+
+</html>

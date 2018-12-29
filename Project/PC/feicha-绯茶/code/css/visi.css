@@ -1,0 +1,336 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.min1202 {
+    min-width: 1202px;
+    overflow: hidden;
+}
+
+.w1202 {
+    width: 1202px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* code by wyp */
+
+.visi-ban-box {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(../images/VISI-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.visi-text {
+    width: 440px;
+    height: 143px;
+    position: absolute;
+    top: 205px;
+    left: 750px;
+    background: url(../images/visi-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.visi-img {
+    width: 785px;
+    height: 343px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    background: url(../images/visi-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.logo-ban-box {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: #fff;
+}
+
+.logo-title {
+    width: 147px;
+    height: 55px;
+    position: absolute;
+    top: 63px;
+    left: 50%;
+    margin-left: -73.5px;
+    background: url(../images/logo-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.logo-text {
+    width: 1085px;
+    height: 266px;
+    position: absolute;
+    top: 237px;
+    left: 50%;
+    margin-left: -542.5px;
+    background: url(../images/logo-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ztmt-ban-box {
+    width: 100%;
+    height: 538px;
+    position: relative;
+    background: #f9e7e8;
+}
+
+.ztmt-img {
+    width: 1202px;
+    height: 240px;
+    position: absolute;
+    top: 92px;
+    left: 0;
+    background: url(../images/ztmt-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ztmt-title {
+    width: 146px;
+    height: 55px;
+    position: absolute;
+    top: 365px;
+    left: 50%;
+    margin-left: -73px;
+    background: url(../images/ztmt-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ztmt-text {
+    width: 473px;
+    height: 39px;
+    position: absolute;
+    top: 435px;
+    left: 50%;
+    margin-left: -236.5px;
+    background: url(../images/ztmt-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.bthj-ban-box {
+    width: 100%;
+    height: 540px;
+    position: relative;
+    background: #fffbfa;
+}
+
+.bthj-title {
+    width: 199px;
+    height: 55px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-left: -99.5px;
+    background: url(../images/bthj-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.bthj-text {
+    width: 474px;
+    height: 38px;
+    position: absolute;
+    top: 134px;
+    left: 50%;
+    margin-left: -237px;
+    background: url(../images/bthj-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/*轮播 begin */
+
+.swiper-container {
+    width: 1212px;
+    height: 252px;
+    position: absolute;
+    top: 192px;
+    left: 50%;
+    margin-left: -601px;
+    border: 1px solid #bfbcbc;
+}
+
+.swiper-wrapper {
+    width: 2800px;
+    height: 240px;
+    margin: 5px;
+}
+
+
+/*轮播 end */
+
+.cj-ban-box {
+    width: 100%;
+    height: 540px;
+    position: relative;
+    background: #f9e7e8;
+}
+
+.cj-title {
+    width: 263px;
+    height: 60px;
+    position: absolute;
+    top: 226px;
+    left: 938px;
+    background: url(../images/cj-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cj-text {
+    width: 190px;
+    height: 14px;
+    position: absolute;
+    top: 300px;
+    left: 890px;
+    background: url(../images/cj-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cj-img {
+    width: 770px;
+    height: 438px;
+    position: absolute;
+    top: 66px;
+    left: 0;
+    background: url(../images/cj-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.xx-ban-box {
+    width: 100%;
+    height: 736px;
+    position: relative;
+    background: #fff;
+}
+
+.xx-title {
+    width: 264px;
+    height: 59px;
+    position: absolute;
+    top: 312px;
+    left: 0;
+    background: url(../images/xx-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.xx-text {
+    width: 188px;
+    height: 15px;
+    position: absolute;
+    top: 388px;
+    left: 120px;
+    background: url(../images/xx-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.xx-img-warp {
+    width: 800px;
+    height: 598px;
+    position: absolute;
+    top: 83px;
+    left: 404px;
+    background: #eff1f2;
+}
+
+.xx-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/xx-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fz-ban-box {
+    width: 100%;
+    height: 590px;
+    position: relative;
+    background: #f9e7e8;
+}
+
+.fz-title {
+    width: 262px;
+    height: 60px;
+    position: absolute;
+    top: 238px;
+    left: 938px;
+    background: url(../images/fz-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fz-text {
+    width: 193px;
+    height: 14px;
+    position: absolute;
+    top: 316px;
+    left: 885px;
+    background: url(../images/fz-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fz-img {
+    width: 723px;
+    height: 465px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: url(../images/fz-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.xc-ban-box {
+    width: 100%;
+    height: 775px;
+    position: relative;
+    background: #fff;
+}
+
+.xc-title {
+    width: 297px;
+    height: 60px;
+    position: absolute;
+    top: 290px;
+    left: 0;
+    background: url(../images/xc-title.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.xc-text {
+    width: 193px;
+    height: 14px;
+    position: absolute;
+    top: 373px;
+    left: 115px;
+    background: url(../images/xc-text.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.xc-img {
+    width: 792px;
+    height: 596px;
+    position: absolute;
+    top: 75px;
+    left: 406px;
+    background: url(../images/xc-img.png) no-repeat center center;
+    background-size: 100% 100%;
+}

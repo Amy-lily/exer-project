@@ -1,0 +1,367 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*video begin*/
+
+.vid-wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 9998;
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+.vid-wrap.active {
+    width: 340px;
+    height: 200px;
+    position: fixed;
+    left: 10px;
+    top: 220px;
+    z-index: 9998;
+    min-width: unset;
+}
+
+.index-video-wrap {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.index-video-wrap.active {
+    display: none;
+}
+
+.vid-w1024.active {
+    width: 340px;
+    height: 200px;
+    position: fixed;
+    left: 10px;
+    top: 220px;
+    z-index: -2;
+}
+
+.index-video {
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    left: 230px;
+    top: 150px;
+    box-shadow: 10px 10px 18px #000;
+    border: 45px solid #f7f7f7;
+    border-radius: 15px;
+    border-right: 80px solid #f7f7f7;
+    z-index: 9999;
+}
+
+.index-video.active {
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    left: 10px;
+    top: 220px;
+    margin-top: 2px;
+    box-shadow: 5px 5px 10px #000;
+    border: 10px solid #f7f7f7;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+}
+
+.shexiangtou {
+    width: 10px;
+    height: 10px;
+    background: #393534;
+    position: absolute;
+    left: -27px;
+    top: 50%;
+    margin-top: -10px;
+    border-radius: 100%;
+}
+
+.guanbi {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -63px;
+    top: 50%;
+    margin-top: -25px;
+    border-radius: 50%;
+    z-index: 1000;
+    background: url("../images/guanbi.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.guanbi.active,
+.shexiangtou.active {
+    display: none;
+}
+
+.statement {
+    width: 300px;
+    height: 416px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    background: url("../images/statement.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 999999;
+}
+.statement:hover{
+    width: 600px;
+    height: 831px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    transition: 1s;
+}
+.statement.active {
+    display: none;
+}
+
+
+/*video end*/
+
+.index-box1 {
+    width: 100%;
+    height: 950px;
+    position: relative;
+    background: url(../images/ind-ban-bg1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.ind-cup1 {
+    width: 400px;
+    height: 489px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -200px;
+    background: url(../images/ind-cup1.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.ind-jx1 {
+    width: 280px;
+    height: 650px;
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    margin-left: -140px;
+    background: url(../images/ind-jx1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-mf-1 {
+    width: 740px;
+    height: 123px;
+    position: absolute;
+    top: 197px;
+    left: 50%;
+    margin-left: -370px;
+    background: url(../images/ind-mf-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-sf-1 {
+    width: 240px;
+    height: 73px;
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    margin-left: -120px;
+    background: url(../images/ind-sf-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-jt {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    margin-left: -18px;
+    background: url(../images/ind-jt.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 8;
+}
+
+.index-box2 {
+    width: 100%;
+    height: 950px;
+    position: relative;
+    background: url(../images/ind-ban-bg2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.ind-fruit {
+    width: 430px;
+    height: 433px;
+    position: absolute;
+    top: 470px;
+    left: 8px;
+    background: url(../images/ind-fruit.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-tea {
+    width: 450px;
+    height: 453px;
+    position: absolute;
+    top: 462px;
+    left: 593px;
+    background: url(../images/ind-tea.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-jx2 {
+    width: 584px;
+    height: 584px;
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    margin-left: -292px;
+    background: url(../images/ind-jx2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-mf-2 {
+    width: 710px;
+    height: 80px;
+    position: absolute;
+    top: 236px;
+    left: 50%;
+    margin-left: -355px;
+    background: url(../images/ind-mf-2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-sf-c {
+    width: 440px;
+    height: 56px;
+    position: absolute;
+    top: 354px;
+    left: 50%;
+    margin-left: -220px;
+    background: url(../images/ind-sf-c.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-sf-b {
+    width: 494px;
+    height: 42px;
+    position: absolute;
+    top: 449px;
+    left: 50%;
+    margin-left: -247px;
+    background: url(../images/ind-sf-b.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.index-box3 {
+    width: 100%;
+    height: 950px;
+    position: relative;
+    background: url(../images/ind-ban-bg3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.ind-xx {
+    width: 100%;
+    height: 1075px;
+    position: absolute;
+    top: -84px;
+    left: 0;
+    background: url(../images/ind-xx.png) no-repeat center center;
+    background-size: cover;
+}
+
+@-webkit-keyframes lineIn {
+    0% {
+        top: -264px;
+        left: 180px;
+    }
+    100% {
+        top: -84px;
+        left: 0;
+    }
+}
+
+@keyframes lineIn {
+    0% {
+        top: -264px;
+        left: 180px;
+    }
+    100% {
+        top: -84px;
+        left: 0;
+    }
+}
+
+.lineIn {
+    -webkit-animation-name: lineIn;
+    animation-name: lineIn;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+.ind-pro {
+    width: 942px;
+    height: 461px;
+    position: absolute;
+    top: 430px;
+    left: 40px;
+    background: url(../images/ind-pro.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-jx3 {
+    width: 724px;
+    height: 320px;
+    position: absolute;
+    top: 58px;
+    left: 50%;
+    margin-left: -362px;
+    background: url(../images/ind-jx3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.ind-mf-3 {
+    width: 522px;
+    height: 240px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -262px;
+    background: url(../images/ind-mf-3.png) no-repeat center center;
+    background-size: 100% 100%;
+}

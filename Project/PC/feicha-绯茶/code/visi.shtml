@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>绯茶-VISI</title>
+<meta name="keywords" content="lady、原萃、品质、都市、魅惑、风韵、精致、粉色、绯红、翡翠、宝石、颜值、流行、色彩、年轻">
+<meta name="description" content="绯茶采用冷萃热泡工艺，在工艺上吸引了消费者的眼球，也满足了食客在不同季节的需求；同时主打益生菌瘦身奶盖，备受女性消费者喜爱，在多方面增加了绯茶的消费人群。">
+<meta name="applicable-device" content="pc"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-transform"> 
+<meta http-equiv="Cache-Control" content="no-siteapp"> 
+<meta name="robots" content="all">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta name="mobile-agent" content="format=html5;url=http://wap.feicha88.com/">
+<meta name="mobile-agent" content="format=xhtml;url=http://wap.feicha88.com/">
+<meta name="mobile-agent" content="format=wml;url=http://wap.feicha88.com/">
+<link rel="shortcut" icon="icon" type="image/ico" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="alternate" media="only screen and(max-width: 640px)" href="http://wap.feicha88.com">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="libs/css/swiper-3.4.2.min.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/visi.css">
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<title>绯茶-VISI</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="keywords" content="lady、原萃、品质、都市、魅惑、风韵、精致、粉色、绯红、翡翠、宝石、颜值、流行、色彩、年轻">
+<meta name="description" content="绯茶采用冷萃热泡工艺，在工艺上吸引了消费者的眼球，也满足了食客在不同季节的需求；同时主打益生菌瘦身奶盖，备受女性消费者喜爱，在多方面增加了绯茶的消费人群。">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="libs/css/swiper-3.4.2.min.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/visi.css">
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+<!--#include file="inc/head.html" --> 
+<!--#include file="inc/msgBox.html" -->
+<div class="visi-ban-box min1202">
+  <div class="w1202">
+    <div class="visi-text wow puffIn-sma"></div>
+    <div class="visi-img"></div>
+  </div>
+</div>
+<div class="logo-ban-box min1202">
+  <div class="w1202">
+    <div class="logo-title wow zoomIn"></div>
+    <div class="logo-text wow fadeIn" data-wow-delay="0.3s"></div>
+  </div>
+</div>
+<div class="ztmt-ban-box min1202">
+  <div class="w1202">
+    <div class="ztmt-img wow fadeIn"></div>
+    <div class="ztmt-title wow zoomIn"></div>
+    <div class="ztmt-text wow fadeIn" data-wow-delay="0.3s"></div>
+  </div>
+</div>
+<div class="bthj-ban-box min1202">
+  <div class="w1202">
+    <div class="bthj-title wow zoomIn" data-wow-delay="0.5s"></div>
+    <div class="bthj-text wow fadeIn" data-wow-delay="0.8s"></div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/bt1.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/bt2.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/bt3.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/bt4.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/bt5.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/bt6.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/bt7.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cj-ban-box min1202">
+  <div class="w1202">
+    <div class="cj-title wow fadeInRight"></div>
+    <div class="cj-text wow fadeIn" data-wow-delay="0.5s"></div>
+    <div class="cj-img"></div>
+  </div>
+</div>
+<div class="xx-ban-box min1202">
+  <div class="w1202">
+    <div class="xx-title wow fadeInLeft"></div>
+    <div class="xx-text wow fadeIn" data-wow-delay="0.5s"></div>
+    <div class="xx-img-warp">
+      <div class="xx-img"> </div>
+    </div>
+  </div>
+</div>
+<div class="fz-ban-box min1202">
+  <div class="w1202">
+    <div class="fz-title wow fadeInRight"></div>
+    <div class="fz-text wow fadeIn" data-wow-delay="0.5s"></div>
+    <div class="fz-img"></div>
+  </div>
+</div>
+<div class="xc-ban-box min1202">
+  <div class="w1202">
+    <div class="xc-title wow fadeInLeft"></div>
+    <div class="xc-text wow fadeIn" data-wow-delay="0.5s"></div>
+    <div class="xc-img"></div>
+  </div>
+</div>
+<!--#include file="inc/foot.html" --> 
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/swiper-3.4.2.jquery.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/visi.js" charset="UTF-8"></script> 
+<!--#include file="inc/cnzz.html" --> 
+<!--#include file="inc/bot_floor.html"-->
+</body>
+</html>

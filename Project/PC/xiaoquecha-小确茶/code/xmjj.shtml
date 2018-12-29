@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<title>小确茶介绍</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="keywords" content="小确茶市场前景">
+<meta name="description" content="茶饮行业正处于飞速增长期,小确茶独创3cm超厚奶盖,融合6种茶基,滋味更醇香,小确茶相较其他餐饮创业种类,投资门槛更低,市场更前景广阔...">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/page-xmjj.css">
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+
+<!--#include file="inc/head.html" --> 
+
+<!--#include file="inc/msgBox.html" --> 
+
+<!-- banner -->
+
+<div class="sbp-ban-box min1200">
+  <div class="w1024">
+    <div class="sbp-syc wow fadeIn" data-wow-duration="1s"></div>
+    <div class="sbp-mf wow puffIn-sma" data-wow-duration="1s"></div>
+    <div class="sbp-sf wow flipInX" data-wow-duration="1s"></div>
+  </div>
+</div>
+
+<!-- content one -->
+
+<div class="con-box-1 min1200">
+  <div class="w1024">
+    <div class="xmjj-xmqy-img1 wow fadeIn" data-wow-duration="0.7s">
+      <div class="xmjj-xmqy-img2 wow zoomIn" data-wow-duration="1s"></div>
+      <div class="xmjj-xmqy-img3-box wow lineHeight" data-wow-duration="28s">
+        <div class="xmjj-xmqy-img3"></div>
+      </div>
+    </div>
+    <div class="zhishi animated topGuide"></div>
+  </div>
+</div>
+
+<!-- content two -->
+
+<div class="con-box-2 min1200">
+  <div class="w1024">
+    <div class="xmjj-hxbns-img1 wow zoomIn" data-wow-duration="1s"></div>
+    <div class="xmjj-hxbns-img2 wow fadeIn" data-wow-duration="1.2s"></div>
+    <div class="zhishi animated topGuide"></div>
+  </div>
+</div>
+
+<!-- content three -->
+
+<div class="con-box-3 min1200">
+  <div class="w1024">
+    <div class="xmjj-xmda-img1 wow zoomIn" data-wow-duration="1s"></div>
+  </div>
+</div>
+
+<!-- content four -->
+
+<div class="con-box-4 min1200">
+  <div class="w1024">
+    <div class="xmjj-scql-img1 wow zoomIn" data-wow-duration="1s"></div>
+  </div>
+</div>
+
+<!--#include file="inc/foot.html" --> 
+
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+<!--[if !IE]><!--> 
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+
+<!--<![endif]--> 
+
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+
+<!--#include file="inc/cnzz.html" --> 
+
+<!--#include file="inc/bot_floor.html"-->
+
+</body>
+</html>

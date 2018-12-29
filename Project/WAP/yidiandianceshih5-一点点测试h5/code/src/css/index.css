@@ -1,0 +1,507 @@
+html {
+  font-size: 0.4rem;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #ef5f44;
+  background-size: cover;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 0.28rem;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  background-image:none;
+}
+.swiper-button-next, .swiper-button-prev{
+  position: relative;
+  top: 0;
+  right: 0;
+}
+/* 加载页 */
+.index-warp {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #ef5f43;
+}
+.index-gif {
+  width: 8.25rem;
+  height: 5.75rem;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -65%);
+  background: url(http://gif.cnnjidc.com/yidiandian/index-gif.gif) no-repeat;
+  background-size: 100% 100%;
+}
+.progressbar{
+  width: 8.825rem;
+    height: 1.575rem;
+  background: url(../images/index-pres.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 3.875rem;
+}
+.index-num{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 4rem;
+    left: 3rem;
+    font-family: "微软雅黑";
+}
+/* 内容 */
+.container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+/* 首页 */
+.home{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url(../images/home-bg.jpg) no-repeat;
+  background-size: cover;
+}
+.home-word1{
+  width: 16.275rem;
+  height: 7.85rem;
+  margin:0 auto;
+  margin-top: 2.3rem;
+  background: url(../images/home-word1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.home-word2{
+  width: 9.75rem;
+  height:9.825rem;
+  margin:0 auto;
+  margin-top: .925rem;
+  background: url(../images/home-word2.png) no-repeat;
+  background-size: 100% 100%;
+  animation-duration: 0.8s;
+  -webkit-animation-duration: 0.8s;
+}
+.input-name{
+  width: 9.775rem;
+  height: 1.975rem;
+  background: url(../images/input-bg.png) no-repeat;
+  background-size: 100% 100%;
+  margin:0 auto;
+  margin-top: 1.8rem;
+  position: relative;
+  text-align: center;
+}
+.input-name input{
+  width: 9.775rem;
+  height: 1.975rem;
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  text-align: center;
+  background: transparent;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.input-name span{
+  width: 5.025rem;
+  height:1.155rem;
+  position: absolute;
+  top: .325rem;
+  left: 50%;
+  z-index: 1;
+  margin-left: -2.512rem;
+  background: url(../images/input-name.png) no-repeat;
+  background-size: 100% 100%;
+}
+.start{
+  width: 9.775rem;
+  height: 1.95rem;
+  margin:0 auto;
+  margin-top: 1.75em;
+  background: url(http://gif.cnnjidc.com/yidiandian/start-test.gif) no-repeat;
+  background-size: 100% 100%;
+}
+/* quest */
+
+.qes-warp,
+.swiper-container{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.swiper-slide{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.slide-contain{
+  width: 16.5rem;
+  height: 28.25rem;
+  position: relative;
+  left: 50%;
+  margin-left: -8.25rem;
+  top: 50%;
+  margin-top: -14.125rem;
+  overflow: hidden;
+}
+.slide1-gif{
+  width: 15.5rem;
+  height: 10rem;
+  margin:0 auto;
+  margin-top: 2rem;
+  background: url(http://gif.cnnjidc.com/yidiandian/slide1-gif.gif) no-repeat;
+  background-size: 100% 100%;
+}
+.quesWarp{
+  width: 14.9rem;
+  height: 10rem;
+  margin:0 auto;
+  margin-top: 1.75rem;
+}
+.qest{
+  width: 12.8rem;
+  height:.925rem;
+  background: url(../images/q1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.anslist{
+  display: block;
+  width: 14.25rem;
+  height: 1.425rem;
+  margin:0 auto;
+  margin-top: 1rem;
+  position: relative;
+}
+.chose{
+  width: 1.55rem;
+  height: 1.3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: url(../images/nochose.png) no-repeat;
+  background-size: 100% 100%;
+}
+.chose img{
+  width: .8rem;
+  height: .85rem;
+  margin-top: .225rem;
+}
+.active{
+  background: url(../images/chose.png) no-repeat;
+  background-size: 100% 100%;
+}
+.quesWarp .one1{
+  background: url(../images/one1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.quesWarp .one2{
+  background: url(../images/one2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.quesWarp .one3{
+  background: url(../images/one3.png) no-repeat;
+  background-size: 100% 100%;
+}
+.quesWarp .one4{
+  background: url(../images/one4.png) no-repeat;
+  background-size: 100% 100%;
+}
+.quesWarp .two1{
+  background: url(../images/two1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.quesWarp .two2{
+  background: url(../images/two2.png) no-repeat;
+  background-size: 100% 100%;
+}
+/* Q2 */
+.slide2{
+  background: #fff;
+}
+.qest2{
+  width: 13.275rem;
+  height: 2.15rem;
+  background: url(../images/q2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.slide2-gif{
+  width: 15.2rem;
+  height: 10.375rem;
+  margin:0 auto;
+  margin-top: 2rem;
+  background: url(../images/slide2-title.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.slide2-gif img{
+  position: absolute;
+  display: block;
+  width: 5.575rem;
+  height: 3.925rem;
+  right: 1.25rem;
+  bottom: .5rem;
+}
+/* Q3 */
+.slide3-gif{
+  width: 15.575rem;
+  height: 10.375rem;
+  margin:0 auto;
+  margin-top: 2rem;
+  position: relative;
+  background: url(../images/slide3-title.png) no-repeat;
+  background-size: 100% 100%;
+}
+.slide3-gif img{
+  position: absolute;
+  display: block;
+  width: 9.5rem;
+  height: 7.5rem;
+  right: 1.25rem;
+  bottom: -0.5rem;
+}
+.qest3{
+  width: 14.9rem;
+  height: 2.15rem;
+  background: url(../images/q3.png) no-repeat;
+  background-size: 100% 100%;
+}
+.three1{
+  background: url(../images/three1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.three2{
+  background: url(../images/three2.png) no-repeat;
+  background-size: 100% 100%;
+}
+/* Q4 */
+.slide4-gif{
+  display: block;
+  width: 10.25rem;
+  height: 9.775rem;
+  margin:0 auto;
+  margin-top: 2rem;
+}
+.qest4{
+  width: 9.05rem;
+  height: .825rem;
+  background: url(../images/q4.png) no-repeat;
+  background-size: 100% 100%;
+}
+.four1{
+  background: url(../images/four1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.four2{
+  background: url(../images/four2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.four3{
+  background: url(../images/four3.png) no-repeat;
+  background-size: 100% 100%;
+}
+.four4{
+  background: url(../images/four4.png) no-repeat;
+  background-size: 100% 100%;
+}
+/* Q5 */
+.slide5-gif{
+  display: block;
+  width: 15.95rem;
+  height: 10.375rem;
+  margin:0 auto;
+  margin-top: 2rem;
+}
+.qest5{
+  width: 15.8rem;
+  height: .825rem;
+  background: url(../images/q5.png) no-repeat;
+  background-size: 100% 100%;
+}
+.five1{
+  background: url(../images/five1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.five2{
+  background: url(../images/five2.png) no-repeat;
+  background-size: 100% 100%;
+}
+/* ans */
+.slide6{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(../images/ansbg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.resbg{
+  display:block;
+  width: 18.75rem;
+  height: 35.575rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.resimg{
+  display: block;
+  width: 16.55rem;
+  height: 28.075rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -8.275rem;
+  top: 3rem;
+}
+.ansname{
+  padding-top: .65rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  z-index: 99;
+}
+.btn-warp{
+  width: 8.825rem;
+  height: 8rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -4.4125rem;
+  top: 21.9rem;
+  z-index: 99;
+  background: url(../images/btn-warp.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.ans-btn{
+  width: 8.825rem;
+  height: 1.775rem;
+  margin:0 auto;
+  /* margin-top: 2.5rem; */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  background: url(../images/ans-link.png) no-repeat;
+  background-size: 100% 100%;
+}
+.ans-btn2{
+  margin-top: .75rem;
+  background: url(../images/ans-friend.png) no-repeat;
+  background-size: 100% 100%;
+}
+.save{
+  width: 100%;
+  text-align: center;
+  font-size: .675rem;
+  color: #616161;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  margin-top: 0.6rem;
+}
+.opa{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: rgba(0,0,0,0.8);
+}
+.share{
+  width: 9.7rem;
+  height: 4.95rem;
+  position: absolute;
+  top: 0;
+  right:1rem;
+  background: url(../images/ans-share.png) no-repeat;
+  background-size: 100% 100%;
+}
+#myCanvas{
+  display: block;
+  width: 100%;
+  height:35.575rem;
+  position: absolute;
+  top: -1.8rem;
+  left: 0;
+  z-index: 9;
+  border: none;
+}
+
+/* music */
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#music {
+  position: absolute;
+  top: .875rem;
+  left: 1.125rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  z-index: 999;
+}
+
+#music #btn {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+#music .on {
+  position: relative;
+  background: url("../images/music_off1.png") no-repeat 0 0;
+  background-size: 100% 100%;
+  -webkit-animation: rotating 1.2s linear infinite;
+  animation: rotating 1.2s linear infinite;
+}
+
+#music .on .gif {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+  -webkit-animation: rotating 1.5s linear 0.2s infinite;
+  animation: rotating 1.5s linear 0.9s infinite;
+}
+
+#music .off {
+  background: url("../images/music_off1.png") no-repeat 0 0;
+  background-size: 100% 100%;
+}

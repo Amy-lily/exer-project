@@ -1,0 +1,408 @@
+div,body{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+.min1200 {
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+.w1024{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*head nav*/
+
+.header{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    min-width: 1200px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(198,198,198,0.5);
+    -moz-box-shadow: 0 2px 5px rgba(198,198,198,0.5);
+    -webkit-box-shadow: 0 2px 5px rgba(198,198,198,0.5);
+    position: relative;
+    z-index: 2;
+}
+.header-con{
+    width: 1024px;
+    height: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.head-logo{
+    float: left;
+    width: 88px;
+    height: 80px;
+    margin-left: 0;
+    margin-top: 20px;
+    background: url(../images/sbp-logo.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.header-con ul{
+    float: left;
+    width: 813px;
+    margin-left: 122px;
+    overflow: hidden;
+}
+
+.header-con ul li{
+    display: block;
+    width: 97px;
+    height: 27px;
+    float: left;
+    margin-left: 22px;
+    cursor: pointer;
+    margin-top: 66.5px;
+    box-sizing: border-box;
+}
+.header-con ul li.nav-list1{
+    margin-left: 0;
+}
+.header-con ul li a{
+    width: 97px;
+    height: 27px;
+    display: inline-block;
+    font-size: 16px;
+    color:#000; 
+    letter-spacing: 1px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 27px;
+}
+
+.header-con ul li a:hover{
+    background: #e5f7ff;
+    border-radius: 15px;
+}
+
+.header-con ul li a.active{
+    background: #e5f7ff;
+    border-radius: 15px;
+}
+
+/*footer*/
+
+.footer{
+    width: 100%;
+    height: 205px;
+    background: #fff;
+}
+
+.footer ul{
+    width: 100%;
+    height: 94px;
+    margin:31px 0;
+}
+
+.footer ul li{
+    float: left;
+    padding-left: 38px;
+}
+
+.footer ul li.fot-icon-4{
+    padding-left: 59px;
+}
+
+.footer ul li img{
+    margin-bottom:9px;
+    display: inline-block;
+}
+
+.footer ul li.fot-icon-4 img{
+    margin-bottom:unset;
+}
+
+.footer ul li::after{
+    content: '';
+    width: 22px;
+    height: 78px;
+    background: url(../images/fot-line.png) no-repeat center center;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 37px;
+}
+
+.footer ul li.fot-icon-4::after{
+    content: '';
+    margin-left: 59px;
+}
+
+
+/*定位 location 加盟享优惠 */
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+
+/*ul ol 下面li浮动*/
+
+.f-li li {
+    float: left;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+.location {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 68px;
+    width: 100%;
+    min-width: 1200px;
+    background:rgba(0,0,0,0.6);
+    z-index: 99;
+}
+
+.location-re {
+    width: 100%;
+    height: 100%;
+    -position: relative;
+    border-top: 1px solid #fff;
+}
+
+.location-ab {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.location-ab a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/delete.png) no-repeat;
+}
+
+.location .location-con {
+    width: 900px;
+    margin: 17px auto;
+}
+
+.location-con p {
+    float: left;
+    font-size: 22px;
+    color: #fff;
+    line-height: 35px;
+    margin-right: 142px;
+    clear: both;
+    height: 35px;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: "微软雅黑";
+}
+
+.location-con .form {
+    height: 35px;
+}
+
+.location-con .form input {
+    line-height: 35px;
+    padding: 0 15px;
+    color: #666;
+    border: 0;
+    height: 35px;
+    background: #fff;
+    font-family: "微软雅黑";
+}
+
+.location-con .form .a2 {
+    display: inline-block;
+    margin-left: 22px;
+    line-height: 33px;
+    width: 155px;
+    color: #fff!important;
+    font-size: 18px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 45px;
+    float: right;
+    font-family: "微软雅黑";
+}
+
+.location-con .form .button {
+    display: inline-block;
+    margin-left: 13px;
+    line-height: 33px;
+    width: 130px;
+    color: #fff!important;
+    font-size: 17px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 43px;
+    float: right;
+}
+
+.location-con .form .a1 {
+    background: #db4c8b url(../images/location-a1.png) no-repeat 15px center;
+    cursor: pointer;
+}
+
+.location-con .form .a1:hover {
+    background: #cfa29d url(../images/location-a1.png) no-repeat 15px center;
+}
+
+.location-con .form .a2 {
+    background: #E74A00 url(../images/location-a2.png) no-repeat 15px center;
+}
+
+.location-con .form .a2:hover {
+    background: #e20707 url(../images/location-a2.png) no-repeat 15px center;
+}
+
+input.tel-03 {
+    width: 100px;
+    margin-right: 9px;
+}
+
+input.tel-02 {
+    width: 130px;
+}
+
+/*返回顶部*/
+.r-top {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    right: 110px;
+    bottom: 80px;
+    background: url("../images/r-top.png") no-repeat center center;
+    background-size: 100% 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.r-top.active {
+    opacity: 1;
+    transition: 2s;
+    -moz-transition: 2s;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+}
+@media screen and (max-width: 1418px) {
+    .r-top{
+        right: 0;
+    }
+}
+
+
+/*TQ*/
+.popUps{
+    -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.tq{
+    width: 130px;
+    height: auto;
+    position: fixed;
+    top: 146px;
+    right: 50px;
+    z-index: 999;
+}
+.tq.active {
+    top: 40px;
+    transition: 2s;
+    -moz-transition: 2s;
+    /* Firefox 4 */
+    -webkit-transition: 2s;
+    /* Safari 和 Chrome */
+    -o-transition: 2s;
+}
+.tq-box1{
+    width: 130px;
+    height: auto;
+}
+.tq-list1{
+    width: 130px;
+    height: 113px;
+    background: url("../images/tq-img1.png") no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.tq-list2{
+    width: 130px;
+    height: auto;
+    background: url("../images/tq-bg.png") repeat-y center center;
+    padding: 10px 0 20px 0;
+}
+
+.tp-zs{
+    margin: 0 15px;
+    width: 100px;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    padding: 10px 0;
+}
+
+.tq-zx{
+    width: 130px;
+    height: 24px;
+}
+.tq-zx span,.tq-qq span{
+    position: absolute;
+}
+.tq-p1{
+    padding-top:7px;
+}
+.tq-zx i,.tq-qq i{
+    margin-left: 20px;
+    margin-right: 6px;
+}
+.tq-p2{
+    margin-top: 10px;
+    height: 20px;
+}
+.tq-p3{
+    width: 130px;
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+.tq-p4,.tq-p5{
+    width: 100px;
+    text-align: center;
+    color: #000;
+}
+.tq-p4{
+    font-size: 16px;
+}
+.tq-p5{
+    font-size: 14px;
+}
+.tq-list3{
+    width: 64px;
+    height: 86px;
+    background: url("../images/tq-img5.png") repeat center center;
+    background-size: 100% 100%;
+    margin: 15px auto 0;
+}
+@media screen and (max-width: 1418px) {
+    /*当屏幕尺寸小于1366px时，应用下面的CSS样式*/
+    .r-top{
+        right: 0;
+    }
+}

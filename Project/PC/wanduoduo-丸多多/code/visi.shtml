@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>丸多多-VISI</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="keywords" content="城市丸酷茶，搞怪潮流来袭！">
+    <meta name="description" content="丸出色，饮出彩！8色手作茶丸，高颜值！3好精选原料，高品质！">
+    <link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/visi.css">
+</head>
+
+<body>
+    <!--#include file="inc/head.html" -->
+    <!--#include file="inc/msgBox.html" -->
+    <!-- banner -->
+    <div class="sbp-ban-box min1200">
+        <div class="sbp-bbg wow scale-small"></div>
+        <div class="w1200">
+            <div class="sbp-word1 wow vanishIn"></div>
+            <div class="sbp-word2-wrap wow fadeIn" data-wow-delay="0.5s">
+                <div class="sbp-word2 wow fadeIn" data-wow-duration="2s"></div>
+            </div>
+            <div class="sbp-gif wow fadeIn"></div>
+        </div>
+    </div>
+    <!-- content 玩转logo -->
+    <div class="con-box-1 min1200">
+        <div class="w1200">
+            <div class="wzlg-lg wow fadeIn"></div>
+            <div class="wzlg-yw wow fadeIn"></div>
+            <div class="wzlg-wz1 wow jump loop" data-wow-duration="2s" data-wow-delay="0s"></div>
+            <div class="wzlg-wz2 wow jump loop" data-wow-duration="2s" data-wow-delay="0.4s"></div>
+            <div class="wzlg-wz3 wow jump loop" data-wow-duration="2s" data-wow-delay="0.8s"></div>
+            <div class="wzlg-wz4 wow jump loop" data-wow-duration="2s" data-wow-delay="1.2s"></div>
+            <div class="wzlg-wz5 wow jump loop" data-wow-duration="2s" data-wow-delay="1.6s"></div>
+            <div class="wzlg-wz6 wow jump loop" data-wow-duration="2s" data-wow-delay="2s"></div>
+            <div class="wzlg-lc wow fadeIn"></div>
+        </div>
+    </div>
+    <!-- content 玩转SI -->
+    <div class="con-box-2 min1200">
+        <div class="w1200">
+            <div class="wzlg-yw wzsi-yw wow fadeIn"></div>
+            <div class="wzlg-wz1 wzsi-wz1 wow jump loop" data-wow-duration="2s" data-wow-delay="0s"></div>
+            <div class="wzlg-wz2 wzsi-wz2 wow jump loop" data-wow-duration="2s" data-wow-delay="0.4s"></div>
+            <div class="wzlg-wz3 wzsi-wz3 wow jump loop" data-wow-duration="2s" data-wow-delay="0.8s"></div>
+            <div class="wzlg-wz4 wzsi-wz4 wow jump loop" data-wow-duration="2s" data-wow-delay="1.2s"></div>
+            <div class="wzlg-wz5 wzsi-wz5 wow fadeIn"></div>
+            <div class="wzsi-img1 wow fadeIn"></div>
+        </div>
+    </div>
+    <!-- content 玩转VI -->
+    <div class="con-box-3 min1200">
+        <div class="w1200">
+            <div class="wzlg-yw wzsi-yw wow fadeIn"></div>
+            <div class="wzlg-wz1 wzsi-wz1 wow jump loop" data-wow-duration="2s" data-wow-delay="0s"></div>
+            <div class="wzlg-wz2 wzsi-wz2 wow jump loop" data-wow-duration="2s" data-wow-delay="0.4s"></div>
+            <div class="wzlg-wz3 wzvi-wz3 wow jump loop" data-wow-duration="2s" data-wow-delay="0.8s"></div>
+            <div class="wzlg-wz4 wzvi-wz4 wow jump loop" data-wow-duration="2s" data-wow-delay="1.2s"></div>
+            <div class="wzlg-wz5 wzvi-wz5 wow fadeIn"></div>
+            <div class="wzvi-cj wow fadeIn"></div>
+            <div class="wzvi-fz wow fadeIn"></div>
+            <div class="wzvi-zb wow fadeIn"></div>
+            <div class="wzvi-xc wow fadeIn"></div>
+            <div class="wzvi-db wow fadeIn"></div>
+        </div>
+    </div>
+    <!--#include file="inc/foot.html" -->
+    <script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+    <!--[if !IE]><!-->
+    <script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/wow.js" charset="UTF-8"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="js/global.js" charset="UTF-8"></script>
+    <!--#include file="inc/cnzz.html" -->
+    <!--#include file="inc/bot_floor.html"-->
+</body>
+
+</html>

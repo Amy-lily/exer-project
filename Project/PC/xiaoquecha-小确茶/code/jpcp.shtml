@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<title>小确茶金牌产品</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta name="keywords" content="小确茶金牌产品">
+<meta name="description" content="小确茶金牌产品展示,三大不同投资方式,全系列产品区分,更精准经营,扩大盈收.">
+<link rel="stylesheet" type="text/css" href="libs/css/reset.css">
+<link rel="stylesheet" type="text/css" href="libs/css/user-animate.css">
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/page-jpcp.css">
+<script type="text/javascript" src="js/mobileClient.js"></script>
+</head>
+
+<body>
+
+<!--#include file="inc/head.html" --> 
+<!--#include file="inc/msgBox.html" --> 
+
+<!-- banner -->
+<div class="jpcp-ban-box min1200">
+  <div class="w1024">
+    <div class="jpcp-word wow fadeIn" data-wow-duration="1s"></div>
+    <div class="jpcp-word1 wow puffIn-sma" data-wow-duration="1s" data-wow-delay="0.3s"></div>
+    <div class="jpcp-word2 wow flipInX" data-wow-duration="1s" data-wow-delay="0.5s"></div>
+  </div>
+</div>
+<!-- content jpcp -->
+<div class="con-box-1 min1200">
+  <div class="w1024">
+    <div class="con-title"></div>
+    <!--轮播开始-->
+    <div id="focus_Box"> <span class="prev">&nbsp;</span> <span class="next">&nbsp;</span>
+      <ul class="focus-wrapper">
+        <li> <img class="1" width="400" height="600" src="images/jpcp-img1.jpg" /> </li>
+        <li> <img class="2" width="400" height="600" src="images/jpcp-img2.jpg" /> </li>
+        <li> <img class="3" width="400" height="600" src="images/jpcp-img3.jpg" /> </li>
+        <li> <img class="4" width="400" height="600" src="images/jpcp-img4.jpg" /> </li>
+        <li> <img class="5" width="400" height="600" src="images/jpcp-img5.jpg" /> </li>
+        <li> <img class="6" width="400" height="600" src="images/jpcp-img6.jpg" /> </li>
+        <li> <img class="7" width="400" height="600" src="images/jpcp-img7.jpg" /> </li>
+        <li> <img class="8" width="400" height="600" src="images/jpcp-img8.jpg" /> </li>
+        <li> <img class="9" width="400" height="600" src="images/jpcp-img9.jpg" /> </li>
+        <li> <img class="10" width="400" height="600" src="images/jpcp-img10.jpg" /> </li>
+      </ul>
+      <div class="indicator-list"> <a class="indicator selected" href="javascript:void(0);" data-slide-index="0"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="1"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="2"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="3"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="4"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="5"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="6"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="7"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="8"></a> <a class="indicator selected"  href="javascript:void(0);" data-slide-index="9"></a> </div>
+    </div>
+    <!--轮播结束--> 
+  </div>
+  <a class="down wow topGuide" data-wow-duration="1s"></a> </div>
+
+<!-- content two -->
+<div class="con-box-2 min1200" id="con-box-2">
+  <div class="con-bg-left"></div>
+  <div class="con-bg-right"></div>
+  <div class="w1024 cont-two">
+    <div class="con-title jpcp-dycpx wow zoomIn" data-wow-duration="1s"></div>
+    <div class="con-box2-title wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-cyimg con-box2-dm1 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-cyimg con-box2-dm2 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-cyimg con-box2-dm3 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-cyimg con-box2-dm4 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-cyimg con-box2-dm5 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-title1 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm6 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm7 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm8 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm9 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm10 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm11 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm12 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm13 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-bzimg con-box2-dm14 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-title2 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm15 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm16 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm17 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm18 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm19 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm20 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm21 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm22 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm23 wow fadeIn" data-wow-duration="1s"></div>
+    <div class="con-box2-qjimg con-box2-dm24 wow fadeIn" data-wow-duration="1s"></div>
+  </div>
+</div>
+
+<!--#include file="inc/foot.html" --> 
+<script type="text/javascript" src="libs/js/jquery-1.10.1.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/wow.min.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="libs/js/ZoomPic.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/global.js" charset="UTF-8"></script> 
+<!--#include file="inc/cnzz.html" --> 
+<!--#include file="inc/bot_floor.html"-->
+</body>
+</html>
