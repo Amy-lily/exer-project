@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+        .wrapper {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            background: #fff;
+            border: 1px solid #000;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .box {
+            width: 90px;
+            height: 90px;
+            background: orange;
+            /* flex: 1; */
+            /* flex-grow:2; */
+            margin-left: 5px;
+            margin-top: 5px;
+            text-align: center;
+            flex-shrink: 0;
+            line-height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box">0</div>
+        <div class="box">1</div>
+        <!-- <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>  -->
+        <div class="box">8</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".box").map(item => {
+                $(".box")
+                    .eq(item)
+                    .css("order", 8 - item);
+            });
+            var len = $(".box").length;
+            switch (len) {
+                case 1:
+                    $(".box").css({
+                        'width': "90%",
+                        'height': '90%'
+                    });
+                    break;
+                case 2:
+                    $(".box").css({
+                        'width': "45%",
+                        'height': '45%'
+                    });
+                    break;
+                default:
+                    $(".box").css({
+                        'width': "33%",
+                        'height': '33%'
+                    });
+                    break;
+            }
+        });
+    </script>
+</body>
+
+</html>
