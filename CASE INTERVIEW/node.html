@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p1">text1</p>
+    <p id="p2">
+        text1
+    </p>
+    <div id="box" name="123">
+        第一行
+        <!-- 我是一个注释 
+         -->
+         第二行
+    </div>
+
+    <script>
+        var box = document.getElementById('box');
+        var p1 = document.getElementById('p1');
+        var p2 = document.getElementById('p2');
+        console.log(p1.childNodes)
+        console.log(p2.childNodes)
+
+
+        // var p = document.getElementsByTagName('p')[0];
+        // console.log(p)
+        // var name = box.getAttribute('name');
+        // console.log(name)
+        // console.log(box.innerText)
+        // console.log(box.childNodes)
+        // console.log('attribute ' +　box.getAttribute('name'))
+        // console.log('name '+name.nodeType)
+
+        // console.log(Array.from(document.getElementsByTagName('div')[0].childNodes)
+        //     .filter(v => v.nodeType == 3)
+        //     .map(v => v.nodeValue)
+        //     .join('')) 
+    </script>
+</body>
+
+</html>

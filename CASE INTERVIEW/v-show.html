@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .show{
+        display: inline-block;
+    }
+    </style>
+</head>
+<body>
+    
+    <div id="app">
+        <div class="show" v-show="isshow">我是文字</div>
+        <div class="button" @click="show">点击</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var vm = new Vue({
+            el:"#app",
+            data:{
+                isshow:true
+            },
+            method:{
+                show(){
+                    this.isshow = !this.isshow;
+                }
+            }
+        })
+    </script>
+</body>
+</html>

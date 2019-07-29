@@ -1,0 +1,35 @@
+
+1. 表单修饰符 - 表单输入绑定
+	.lazy
+
+	.number
+
+	.trim
+
+2. 事件修饰符 - 事件处理
+
+	.stop
+
+	.prevent
+
+	.capture
+
+	.self
+	
+	.once
+
+	.passive
+
+3. 按键修饰符
+
+	允许为v-on监听键盘事件
+
+	v-on:keyup.enter="submit"
+
+4. 系统修饰符
+
+	.exact
+
+	鼠标按钮修饰符
+
+5.  .sync修饰符 - 自定义事件
