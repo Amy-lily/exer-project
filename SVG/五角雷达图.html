@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>五角雷达图</title>
+    <style>
+        #svgbox {
+            width: 200px;
+            height: 200px;
+            background: coral;
+        }
+
+        #start {
+            position: absolute;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <svg id="svgbox">
+        <polygon id="start" points="0,0 0,100 100,0 50,100" style="fill:#fff;"></polygon>
+    </svg>
+
+    <script>
+        window.onload = function(){
+            var r = 100;
+            var point = {
+                x: 100,
+                y: 100
+            };
+
+            function getPoint(angle, r = 100) {
+                var x1 = point.x + r * Math.cos(angle * Math.PI / 180)
+                //x1=x0+r*cos(ao*3.14/180)
+                var y1 = point.y + r * Math.sin(angle * Math.PI / 180)
+                //y1=y0+r*sin(ao*3.14/180)
+                return `${x1},${y1}`
+            }
+            console.log(getPoint(90))
+            console.log(getPoint(180))
+            // app.children[0].points.clear()
+            showImg = function () {
+                app.children[0].setAttribute('points',
+                    `${getPoint(72*0 - 90, +point1.value)} ${getPoint(72*1 - 90, +point2.value)} ${getPoint(72*2 - 90, +point3.value)} ${getPoint(72*3 - 90, +point4.value)} ${getPoint(72*4 - 90, +point5.value)}`
+                    )
+            }
+            showImg();
+            point1.addEventListener('input', showImg);
+            point2.addEventListener('input', showImg);
+            point3.addEventListener('input', showImg);
+            point4.addEventListener('input', showImg);
+            point5.addEventListener('input', showImg);
+        }
+    </script>
+</body>
+
+</html>
