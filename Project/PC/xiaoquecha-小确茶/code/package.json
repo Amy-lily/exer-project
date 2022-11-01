@@ -9,7 +9,7 @@
   "author": "tinhan",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean": "^0.3.2",
     "gulp-clean-css": "^3.0.3",
     "gulp-concat": "^2.6.1",
